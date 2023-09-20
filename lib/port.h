@@ -8,9 +8,8 @@
 extern "C" {
 #endif
 
-static inline void *port_alloc(size_t size)
-{
-	return port_alloc_x(size, PORT_DEFAULT_ALLOC_FLAG);
+static inline void *port_alloc(size_t size) {
+  return port_alloc_x(size, PORT_DEFAULT_ALLOC_FLAG);
 }
 
 #ifdef __cplusplus

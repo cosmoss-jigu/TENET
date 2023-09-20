@@ -9,7 +9,7 @@ extern "C" {
 
 int nvlog_init(ts_nvm_root_obj_t *);
 int nvlog_create(ts_thread_struct_t *, ts_nvlog_t *, unsigned long,
-		 unsigned short, unsigned short, bool);
+                 unsigned short, unsigned short, bool);
 void nvlog_load(ts_nvlog_store_t *, ts_nvlog_t *);
 void nvlog_destroy(ts_nvlog_t *);
 ts_nvlog_entry_hdr_t *nvlog_enq(ts_nvlog_t *, unsigned int);
@@ -22,9 +22,8 @@ unsigned long nvlog_get_last_ckpt_clk(void);
 void nvlog_truncate_tail(ts_nvlog_t *, unsigned long);
 void nvlog_truncate_head(ts_nvlog_t *, unsigned long);
 
-static inline unsigned long nvlog_used(ts_nvlog_t *nvlog)
-{
-	return nvlog->tail_cnt - nvlog->head_cnt;
+static inline unsigned long nvlog_used(ts_nvlog_t *nvlog) {
+  return nvlog->tail_cnt - nvlog->head_cnt;
 }
 
 #ifdef __cplusplus

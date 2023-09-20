@@ -1,8 +1,8 @@
 #ifndef _RECOVERY_H
 #define _RECOVERY_H
 
-#include "timestone_i.h"
 #include "nvlog.h"
+#include "timestone_i.h"
 #include "util.h"
 
 #ifdef __cplusplus

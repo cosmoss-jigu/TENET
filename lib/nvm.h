@@ -21,21 +21,19 @@ void nvm_free(void *ptr);
 uint64_t get_pool_offset(void *ptr);
 int get_pool_id(const void *ptr);
 
-static inline void flush_to_nvm(void *dst, unsigned int size)
-{
-	unsigned int i;
+static inline void flush_to_nvm(void *dst, unsigned int size) {
+  unsigned int i;
 
-	for (i = 0; i < size; i += TS_CACHE_LINE_SIZE) {
-		clwb(((char *)dst) + i);
-	}
+  for (i = 0; i < size; i += TS_CACHE_LINE_SIZE) {
+    clwb(((char *)dst) + i);
+  }
 }
 
-static inline void memcpy_to_nvm(void *dst, void *src, unsigned int size)
-{
-	ts_assert(dst && src && size);
+static inline void memcpy_to_nvm(void *dst, void *src, unsigned int size) {
+  ts_assert(dst && src && size);
 
-	memcpy(dst, src, size);
-	flush_to_nvm(dst, size);
+  memcpy(dst, src, size);
+  flush_to_nvm(dst, size);
 }
 
 #ifdef __cplusplus

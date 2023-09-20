@@ -25,17 +25,17 @@
 #define TS_TVLOG_SIZE (1ul << 23) /* 8MB */
 #define TS_TVLOG_MASK (~(TS_TVLOG_SIZE - 1))
 #define TS_TVLOG_HIGH_MARK (TS_TVLOG_SIZE - (TS_TVLOG_SIZE >> 2)) /* 75% */
-#define TS_TVLOG_LOW_MARK (TS_TVLOG_SIZE >> 1) /* 50% */
+#define TS_TVLOG_LOW_MARK (TS_TVLOG_SIZE >> 1)                    /* 50% */
 
-#define TS_OPLOG_SIZE (1ul << 23) /* 8MB */
+#define TS_OPLOG_SIZE (1ul << 23)                                 /* 8MB */
 #define TS_OPLOG_HIGH_MARK (TS_OPLOG_SIZE - (TS_OPLOG_SIZE >> 2)) /* 75% */
 
 #define TS_CKPTLOG_SIZE                                                        \
-	(1ul << 25) /* 32MB */ /* TODO: should be 10x TVLOG_SIZE */
+  (1ul << 25) /* 32MB */ /* TODO: should be 10x TVLOG_SIZE */
 #define TS_CKPTLOG_HIGH_MARK                                                   \
-	(TS_CKPTLOG_SIZE - (TS_CKPTLOG_SIZE >> 2)) /* 75% */
+  (TS_CKPTLOG_SIZE - (TS_CKPTLOG_SIZE >> 2)) /* 75% */
 #define TS_CKPTLOG_LOW_MARK                                                    \
-	(TS_CKPTLOG_HIGH_MARK - (TS_CKPTLOG_SIZE >> 3)) /* 62.5% */
+  (TS_CKPTLOG_HIGH_MARK - (TS_CKPTLOG_SIZE >> 3)) /* 62.5% */
 
 #define TS_PTR_SIZE 8
 #define TS_PTR_MASK (~(TS_PTR_SIZE - 1))
