@@ -3,7 +3,7 @@ CUR_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 include $(CUR_DIR)/Makefile.inc
 
 PHONY := all
-all: lib-nv-jemalloc unittest benchmark
+all: lib-nv-jemalloc lib benchmark
 
 PHONY += clean
 clean:
