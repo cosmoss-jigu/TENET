@@ -3,7 +3,7 @@ CUR_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 include $(CUR_DIR)/Makefile.inc
 
 PHONY := all
-all: lib-nv-jemalloc lib lib++ unittest benchmark
+all: lib-nv-jemalloc unittest benchmark
 
 PHONY += clean
 clean:
@@ -26,8 +26,8 @@ distclean: clean
 PHONY += format
 format: git-hooks
 	@echo -e "\033[0;32m# Running clang-format...\033[0m"
-	@clang-format -i $(INC_DIR)/*.[ch] $(LIB_DIR)/*.[ch] $(UT_DIR)/*.cc
-	@clang-format -style=Google -i $(INC_DIR)/*.hpp $(LIB++_DIR)/*.cpp
+	@clang-format -i $(INC_DIR)/*.[ch] $(LIB_DIR)/*.[ch] 
+	@clang-format -style=Google -i $(INC_DIR)/*.hpp 
 
 git-hooks: $(GIT_DIR)/hooks/pre-commit
 
