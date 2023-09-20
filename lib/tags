@@ -1,0 +1,988 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/madhav/workspace/timestone-internal/lib/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(DEPS_DIR)	Makefile	/^$(DEPS_DIR):$/;"	t
+$(INC_DIR)/numa-config.h	Makefile	/^$(INC_DIR)\/numa-config.h:$/;"	t
+$(OBJS_DIR)	Makefile	/^$(OBJS_DIR):$/;"	t
+$(OBJS_DIR)/%.o	Makefile	/^$(OBJS_DIR)\/%.o: %.c $(DEPS_DIR) $(OBJS_DIR)$/;"	t
+BITMAP_SIZE	port-user.h	/^#define BITMAP_SIZE /;"	d
+CANARY_SIZE	timestone_i.h	/^#define CANARY_SIZE /;"	d
+CHECKSUM_SIZE	timestone_i.h	/^#define CHECKSUM_SIZE /;"	d
+CHUNK_SIZE	timestone_i.h	/^#define CHUNK_SIZE /;"	d
+CKPT_REP_REQ_DONE	timestone_i.h	/^	CKPT_REP_REQ_DONE,$/;"	e	enum:__anona2aded3b0603
+CKPT_REP_REQ_READY	timestone_i.h	/^	CKPT_REP_REQ_READY,$/;"	e	enum:__anona2aded3b0603
+CUR_DIR	Makefile	/^CUR_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))$/;"	m
+DEPCFLAGS	Makefile	/^DEPCFLAGS = -MD -MF $(DEPS_DIR)\/$*.d -MP$/;"	m
+DEPS_DIR	Makefile	/^DEPS_DIR  := $(CUR_DIR)\/.deps$(LIB_SUFFIX)$/;"	m
+DISK_FILE_PATH_1	disk.h	/^#define DISK_FILE_PATH_1 /;"	d
+DISK_FILE_PATH_1000	disk.h	/^#define DISK_FILE_PATH_1000 /;"	d
+DISK_FILE_PATH_1001	disk.h	/^#define DISK_FILE_PATH_1001 /;"	d
+DISK_FILE_PATH_1010	disk.h	/^#define DISK_FILE_PATH_1010 /;"	d
+DISK_FILE_PATH_1011	disk.h	/^#define DISK_FILE_PATH_1011 /;"	d
+DISK_FILE_PATH_1100	disk.h	/^#define DISK_FILE_PATH_1100 /;"	d
+DISK_FILE_PATH_1101	disk.h	/^#define DISK_FILE_PATH_1101 /;"	d
+DISK_FILE_PATH_1110	disk.h	/^#define DISK_FILE_PATH_1110 /;"	d
+DISK_FILE_PATH_1111	disk.h	/^#define DISK_FILE_PATH_1111 /;"	d
+DISK_FILE_PATH_2	disk.h	/^#define DISK_FILE_PATH_2 /;"	d
+DISK_FILE_SIZE	disk.h	/^#define DISK_FILE_SIZE /;"	d
+ESPATIAL	timestone_i.h	/^#define ESPATIAL /;"	d
+ETEMPORAL	timestone_i.h	/^#define ETEMPORAL /;"	d
+EXPORT_SYMBOL	port-user.h	/^#define EXPORT_SYMBOL(/;"	d
+FILESIZE	nvm-makalu.c	/^static size_t FILESIZE;$/;"	v	typeref:typename:size_t	file:
+FULLY_ALLOCATED	port-user.h	/^#define FULLY_ALLOCATED /;"	d
+INVALID_CHECKSUM	timestone_i.h	/^#define INVALID_CHECKSUM /;"	d
+INVALID_GEN_ID	timestone_i.h	/^#define INVALID_GEN_ID /;"	d
+INVALID_PTR_TAG	timestone_i.h	/^#define INVALID_PTR_TAG /;"	d
+IO_URING_IDLE	timestone_i.h	/^#define IO_URING_IDLE /;"	d
+LIB_SUFFIX	Makefile	/^  LIB_SUFFIX = -gtest$/;"	m
+LOCAL_SOCKET	nvm-pmdk.c	/^#define LOCAL_SOCKET /;"	d	file:
+LOCAL_SOCKET	replica.c	/^#define LOCAL_SOCKET /;"	d	file:
+MASK	util.h	/^#define MASK /;"	d
+MAX_COMM_QUEUE_SIZE	timestone_i.h	/^#define MAX_COMM_QUEUE_SIZE /;"	d
+MAX_OBJ_SIZE	timestone_i.h	/^#define MAX_OBJ_SIZE /;"	d
+MAX_SET_SIZE	timestone_i.h	/^#define MAX_SET_SIZE /;"	d
+MAX_VERSION	timestone_i.h	/^#define MAX_VERSION /;"	d
+MIN_VERSION	timestone_i.h	/^#define MIN_VERSION /;"	d
+NUMA_SOCKET	nvm-pmdk.c	/^#define NUMA_SOCKET /;"	d	file:
+NUMA_SOCKET	replica.c	/^#define NUMA_SOCKET /;"	d	file:
+NVPOOL_MAGIC	timestone_i.h	/^#define NVPOOL_MAGIC /;"	d
+N_IO_URING_ENTRIES	timestone_i.h	/^#define N_IO_URING_ENTRIES /;"	d
+N_IO_URING_INST_MAX	timestone_i.h	/^#define N_IO_URING_INST_MAX /;"	d
+N_SOCKET	timestone_i.h	/^#define N_SOCKET /;"	d
+N_WORKERS_MAX	timestone_i.h	/^#define N_WORKERS_MAX /;"	d
+OBJS_DIR	Makefile	/^OBJS_DIR  = $(CUR_DIR)\/.objs$(LIB_SUFFIX)$/;"	m
+OBJ_CANARY_MASK	timestone_i.h	/^#define OBJ_CANARY_MASK /;"	d
+OBJ_FILES	Makefile	/^OBJ_FILES = $(addprefix $(OBJS_DIR)\/, $(SRC_FILES:.c=.o))$/;"	m
+OHDR_CANARY_MASK	timestone_i.h	/^#define OHDR_CANARY_MASK /;"	d
+OPLOG_REPLAY_TYPE_COMMIT	timestone_i.h	/^enum { OPLOG_REPLAY_TYPE_EXEC, OPLOG_REPLAY_TYPE_COMMIT };$/;"	e	enum:__anona2aded3b1003
+OPLOG_REPLAY_TYPE_EXEC	timestone_i.h	/^enum { OPLOG_REPLAY_TYPE_EXEC, OPLOG_REPLAY_TYPE_COMMIT };$/;"	e	enum:__anona2aded3b1003
+OP_REP_REQ_DONE	timestone_i.h	/^	OP_REP_REQ_DONE,$/;"	e	enum:__anona2aded3b0603
+OP_REP_REQ_READY	timestone_i.h	/^	OP_REP_REQ_READY = 0,$/;"	e	enum:__anona2aded3b0603
+POOL_PATH	nvm-pmdk.c	/^#define POOL_PATH /;"	d	file:
+POOL_PATH_MASTER	nvm-pmdk.c	/^#define POOL_PATH_MASTER /;"	d	file:
+POOL_PATH_MASTER_NUMA	nvm-pmdk.c	/^#define POOL_PATH_MASTER_NUMA /;"	d	file:
+POOL_PATH_NUMA	nvm-pmdk.c	/^#define POOL_PATH_NUMA /;"	d	file:
+POOL_SIZE	nvm-pmdk.c	/^#define POOL_SIZE /;"	d	file:
+POOL_SIZE_MASTER	nvm-pmdk.c	/^#define POOL_SIZE_MASTER /;"	d	file:
+PORT_DEFAULT_ALLOC_FLAG	port-user.h	/^#define PORT_DEFAULT_ALLOC_FLAG /;"	d
+QP_EXIT	qp.h	/^#define QP_EXIT /;"	d
+QP_POLL_DONE	qp.h	/^#define QP_POLL_DONE /;"	d
+QP_POLL_READY	qp.h	/^#define QP_POLL_READY /;"	d
+QP_POLL_STOP	qp.h	/^#define QP_POLL_STOP /;"	d
+RECLAIM_CKPTLOG_BEST_EFFORT	timestone_i.h	/^	RECLAIM_CKPTLOG_BEST_EFFORT = 0x20,$/;"	e	enum:__anona2aded3b0503
+RECLAIM_CKPTLOG_WRITEBACK	timestone_i.h	/^	RECLAIM_CKPTLOG_WRITEBACK = 0x21,$/;"	e	enum:__anona2aded3b0503
+RECLAIM_CKPTLOG_WRITEBACK_ALL	timestone_i.h	/^	RECLAIM_CKPTLOG_WRITEBACK_ALL = 0x22,$/;"	e	enum:__anona2aded3b0503
+RECLAIM_OPLOG_FORCE	timestone_i.h	/^	RECLAIM_OPLOG_FORCE = 0x31,$/;"	e	enum:__anona2aded3b0503
+RECLAIM_OPLOG_NORMAL	timestone_i.h	/^	RECLAIM_OPLOG_NORMAL = 0x30,$/;"	e	enum:__anona2aded3b0503
+RECLAIM_TVLOG_BEST_EFFORT	timestone_i.h	/^	RECLAIM_TVLOG_BEST_EFFORT = 0x10,$/;"	e	enum:__anona2aded3b0503
+RECLAIM_TVLOG_CKPT	timestone_i.h	/^	RECLAIM_TVLOG_CKPT = 0x11,$/;"	e	enum:__anona2aded3b0503
+S	debug.c	/^#define S(/;"	d	file:
+S	timestone_i.h	/^#define S(/;"	d
+SRC_FILES	Makefile	/^SRC_FILES = $(wildcard *.c)$/;"	m
+STATUS_DETACHED	timestone_i.h	/^	STATUS_DETACHED,$/;"	e	enum:__anona2aded3b0303
+STATUS_NONE	timestone_i.h	/^	STATUS_NONE = 0,$/;"	e	enum:__anona2aded3b0303
+STATUS_NVLOG_NORMAL	timestone_i.h	/^	STATUS_NVLOG_NORMAL, \/* for normal thread execution *\/$/;"	e	enum:__anona2aded3b0903
+STATUS_NVLOG_RECOVERY	timestone_i.h	/^	STATUS_NVLOG_RECOVERY, \/* for recovery *\/$/;"	e	enum:__anona2aded3b0903
+STATUS_TOMBSTONE_MARKED	timestone_i.h	/^	STATUS_TOMBSTONE_MARKED, \/* chs is already tombstone-marked *\/$/;"	e	enum:__anona2aded3b0303
+STAT_NAMES	timestone_i.h	/^#define STAT_NAMES /;"	d
+STAT_NAMES	timestone_i.h	/^enum { STAT_NAMES };$/;"	e	enum:__anona2aded3b0103
+THREAD_DEAD_ZOMBIE	timestone_i.h	/^	THREAD_DEAD_ZOMBIE, \/* zombie thread that is requested to be reclaimed *\/$/;"	e	enum:__anona2aded3b0403
+THREAD_LIVE	timestone_i.h	/^	THREAD_LIVE = 0, \/* live thread *\/$/;"	e	enum:__anona2aded3b0403
+THREAD_LIVE_ZOMBIE	timestone_i.h	/^	THREAD_LIVE_ZOMBIE, \/* finished but not-yet-recalimed thread *\/$/;"	e	enum:__anona2aded3b0403
+TN_FILES	timestone_i.h	/^#define TN_FILES /;"	d
+TS_ATTACH_GDB_ASSERT_FAIL	config.h	/^#define TS_ATTACH_GDB_ASSERT_FAIL /;"	d
+TS_CACHE_LINE_MASK	config.h	/^#define TS_CACHE_LINE_MASK /;"	d
+TS_CACHE_LINE_SIZE	config.h	/^#define TS_CACHE_LINE_SIZE /;"	d
+TS_CKPTLOG	debug.h	/^	TS_CKPTLOG,$/;"	e	enum:__anon0847a6820103
+TS_CKPTLOG_HIGH_MARK	config.h	/^#define TS_CKPTLOG_HIGH_MARK /;"	d
+TS_CKPTLOG_LOW_MARK	config.h	/^#define TS_CKPTLOG_LOW_MARK /;"	d
+TS_CKPTLOG_REPLICA_SIZE	config.h	/^#define TS_CKPTLOG_REPLICA_SIZE /;"	d
+TS_CKPTLOG_SIZE	config.h	/^#define TS_CKPTLOG_SIZE /;"	d
+TS_COLOR_BLUE	debug.c	/^#define TS_COLOR_BLUE /;"	d	file:
+TS_COLOR_CYAN	debug.c	/^#define TS_COLOR_CYAN /;"	d	file:
+TS_COLOR_GREEN	debug.c	/^#define TS_COLOR_GREEN /;"	d	file:
+TS_COLOR_MAGENTA	debug.c	/^#define TS_COLOR_MAGENTA /;"	d	file:
+TS_COLOR_RED	debug.c	/^#define TS_COLOR_RED /;"	d	file:
+TS_COLOR_RESET	debug.c	/^#define TS_COLOR_RESET /;"	d	file:
+TS_COLOR_YELLOW	debug.c	/^#define TS_COLOR_YELLOW /;"	d	file:
+TS_DEBUG	debug.h	/^	TS_DEBUG,$/;"	e	enum:__anon0847a6820103
+TS_DEFAULT_PADDING	config.h	/^#define TS_DEFAULT_PADDING /;"	d
+TS_DUMP	debug.h	/^	TS_DUMP,$/;"	e	enum:__anon0847a6820103
+TS_ENABLE_ASYNC_LOG_REPLICATION	config.h	/^#define TS_ENABLE_ASYNC_LOG_REPLICATION$/;"	d
+TS_ENABLE_HELP_RECLAIM	config.h	/^#define TS_ENABLE_HELP_RECLAIM$/;"	d
+TS_ENABLE_STATS	config.h	/^#define TS_ENABLE_STATS$/;"	d
+TS_ERROR	debug.h	/^	TS_ERROR,$/;"	e	enum:__anon0847a6820103
+TS_FP	debug.h	/^	TS_FP,$/;"	e	enum:__anon0847a6820103
+TS_FREE_POSION	tvlog.c	/^#define TS_FREE_POSION /;"	d	file:
+TS_INFO	debug.h	/^	TS_INFO,$/;"	e	enum:__anon0847a6820103
+TS_INIT_PTR_SET_SIZE	config.h	/^#define TS_INIT_PTR_SET_SIZE /;"	d
+TS_ISOLATION	debug.h	/^	TS_ISOLATION,$/;"	e	enum:__anon0847a6820103
+TS_MAX_OPERAND_SIZE	timestone_i.h	/^#define TS_MAX_OPERAND_SIZE /;"	d
+TS_MAX_THREAD_NUM	config.h	/^#define TS_MAX_THREAD_NUM /;"	d
+TS_NVMFREE	debug.h	/^	TS_NVMFREE,$/;"	e	enum:__anon0847a6820103
+TS_N_READ_SET_ENTRIES	config.h	/^#define TS_N_READ_SET_ENTRIES /;"	d
+TS_N_WRITE_SET_ENTRIES	config.h	/^#define TS_N_WRITE_SET_ENTRIES /;"	d
+TS_OPLOG	debug.h	/^	TS_OPLOG,$/;"	e	enum:__anon0847a6820103
+TS_OPLOG_HIGH_MARK	config.h	/^#define TS_OPLOG_HIGH_MARK /;"	d
+TS_OPLOG_REPLICA_SIZE	config.h	/^#define TS_OPLOG_REPLICA_SIZE /;"	d
+TS_OPLOG_SIZE	config.h	/^#define TS_OPLOG_SIZE /;"	d
+TS_ORDO_TIMESTAMPING	config.h	/^#define TS_ORDO_TIMESTAMPING /;"	d
+TS_PMEM_PAGE_MASK	config.h	/^#define TS_PMEM_PAGE_MASK /;"	d
+TS_PMEM_PAGE_SIZE	config.h	/^#define TS_PMEM_PAGE_SIZE /;"	d
+TS_PTR_MASK	config.h	/^#define TS_PTR_MASK /;"	d
+TS_PTR_SIZE	config.h	/^#define TS_PTR_SIZE /;"	d
+TS_QP	debug.h	/^	TS_QP,$/;"	e	enum:__anon0847a6820103
+TS_QP_INTERVAL_USEC	config.h	/^#define TS_QP_INTERVAL_USEC /;"	d
+TS_TRACE_LEVEL	debug.h	/^#define TS_TRACE_LEVEL /;"	d
+TS_TVLOG	debug.h	/^	TS_TVLOG,$/;"	e	enum:__anon0847a6820103
+TS_TVLOG_HIGH_MARK	config.h	/^#define TS_TVLOG_HIGH_MARK /;"	d
+TS_TVLOG_LOW_MARK	config.h	/^#define TS_TVLOG_LOW_MARK /;"	d
+TS_TVLOG_MASK	config.h	/^#define TS_TVLOG_MASK /;"	d
+TS_TVLOG_SIZE	config.h	/^#define TS_TVLOG_SIZE /;"	d
+TS_WARNING	debug.h	/^	TS_WARNING,$/;"	e	enum:__anon0847a6820103
+TYPE_ACTUAL	timestone_i.h	/^	TYPE_ACTUAL = 0, \/* actual object that is committed*\/$/;"	e	enum:__anona2aded3b0203
+TYPE_BOGUS	timestone_i.h	/^	TYPE_BOGUS, \/* log: bogus to skip the end of a log *\/$/;"	e	enum:__anona2aded3b0203
+TYPE_CKPTLOG	timestone_i.h	/^	TYPE_CKPTLOG, \/* ckptlog *\/$/;"	e	enum:__anona2aded3b0803
+TYPE_CKPTLOG_REPLICA	timestone_i.h	/^	TYPE_CKPTLOG_REPLICA,$/;"	e	enum:__anona2aded3b0203
+TYPE_COPY	timestone_i.h	/^	TYPE_COPY, \/* log: copied version *\/$/;"	e	enum:__anona2aded3b0203
+TYPE_FREE	timestone_i.h	/^	TYPE_FREE, \/* log: copy whose actual object is requested to free *\/$/;"	e	enum:__anona2aded3b0203
+TYPE_NEW	timestone_i.h	/^	TYPE_NEW, \/* master obj allocated but not commited*\/$/;"	e	enum:__anona2aded3b0203
+TYPE_NVLOG	timestone_i.h	/^	TYPE_NVLOG, \/* nvlog: a specific-type is not decided yet *\/$/;"	e	enum:__anona2aded3b0803
+TYPE_NVLOG_ENTRY	timestone_i.h	/^	TYPE_NVLOG_ENTRY, \/* nvlog: entry on nvm log *\/$/;"	e	enum:__anona2aded3b0203
+TYPE_OPLOG	timestone_i.h	/^	TYPE_OPLOG, \/* oplog *\/$/;"	e	enum:__anona2aded3b0803
+TYPE_OPLOG_REPLICA	timestone_i.h	/^	TYPE_OPLOG_REPLICA,$/;"	e	enum:__anona2aded3b0203
+TYPE_WRT_SET	timestone_i.h	/^	TYPE_WRT_SET, \/* log: write set header *\/$/;"	e	enum:__anona2aded3b0203
+_CKPTLOG_H	ckptlog.h	/^#define _CKPTLOG_H$/;"	d
+_CLOCK_H	clock.h	/^#define _CLOCK_H$/;"	d
+_CONFIG_H	config.h	/^#define _CONFIG_H$/;"	d
+_CRC32_H	crc32.c	/^#define _CRC32_H$/;"	d	file:
+_CRC32_H	crc32.h	/^#define _CRC32_H$/;"	d
+_DEBUG_H	debug.h	/^#define _DEBUG_H$/;"	d
+_DISK_H	disk.h	/^#define _DISK_H$/;"	d
+_GNU_SOURCE	disk.c	/^#define _GNU_SOURCE$/;"	d	file:
+_GNU_SOURCE	nvm-makalu.c	/^#define _GNU_SOURCE$/;"	d	file:
+_GNU_SOURCE	nvm-nv-jemalloc.c	/^#define _GNU_SOURCE$/;"	d	file:
+_ISOLATION_H	isolation.h	/^#define _ISOLATION_H$/;"	d
+_NVLOG_H	nvlog.h	/^#define _NVLOG_H$/;"	d
+_NVMEM_H	nvm.h	/^#define _NVMEM_H$/;"	d
+_N_DISK_FILES	timestone_i.h	/^#define _N_DISK_FILES /;"	d
+_OPLOG_H	oplog.h	/^#define _OPLOG_H$/;"	d
+_PORT_H	port.h	/^#define _PORT_H$/;"	d
+_PORT_USER_H	port-user.h	/^#define _PORT_USER_H$/;"	d
+_QP_H	qp.h	/^#define _QP_H$/;"	d
+_RECOVERY_H	recovery.h	/^#define _RECOVERY_H$/;"	d
+_RECYCLE_H	recycle.h	/^#define _RECYCLE_H$/;"	d
+_REPLICA_H	replica.h	/^#define _REPLICA_H$/;"	d
+_TIMESTONE_I_H	timestone_i.h	/^#define _TIMESTONE_I_H$/;"	d
+_TVLOG_H	tvlog.h	/^#define _TVLOG_H$/;"	d
+_UTIL_H	util.h	/^#define _UTIL_H$/;"	d
+__TS_TRACE_LEVEL_DEFAULT__	debug.h	/^	__TS_TRACE_LEVEL_DEFAULT__,$/;"	e	enum:__anon0847a6820103
+____cacheline_aligned2	debug.c	/^ts_stat_t g_stat ____cacheline_aligned2;$/;"	v	typeref:typename:ts_stat_t g_stat
+____cacheline_aligned2	qp.c	/^static ts_qp_thread_t g_qp_thread ____cacheline_aligned2;$/;"	v	typeref:typename:ts_qp_thread_t g_qp_thread	file:
+____cacheline_aligned2	qp.c	/^static ts_thread_list_t g_live_threads ____cacheline_aligned2;$/;"	v	typeref:typename:ts_thread_list_t g_live_threads	file:
+____cacheline_aligned2	qp.c	/^static ts_thread_list_t g_zombie_threads ____cacheline_aligned2;$/;"	v	typeref:typename:ts_thread_list_t g_zombie_threads	file:
+__anon0847a6820103	debug.h	/^enum {$/;"	g
+__anona2aded3b0103	timestone_i.h	/^enum { STAT_NAMES };$/;"	g
+__anona2aded3b0203	timestone_i.h	/^enum {$/;"	g
+__anona2aded3b0303	timestone_i.h	/^enum {$/;"	g
+__anona2aded3b0403	timestone_i.h	/^enum {$/;"	g
+__anona2aded3b0503	timestone_i.h	/^enum {$/;"	g
+__anona2aded3b0603	timestone_i.h	/^enum {$/;"	g
+__anona2aded3b0708	timestone_i.h	/^	struct {$/;"	s	union:ts_reclaim
+__anona2aded3b0803	timestone_i.h	/^enum {$/;"	g
+__anona2aded3b0903	timestone_i.h	/^enum {$/;"	g
+__anona2aded3b0a0a	timestone_i.h	/^	union{$/;"	u	struct:ts_replica_queue_entry
+__anona2aded3b0b0a	timestone_i.h	/^	union{$/;"	u	struct:ts_log_replica_thread
+__anona2aded3b0c0a	timestone_i.h	/^	union{$/;"	u	struct:ts_log_replica_thread
+__anona2aded3b0d0a	timestone_i.h	/^	union{$/;"	u	struct:ts_log_replica_thread
+__anona2aded3b0e0a	timestone_i.h	/^	union{$/;"	u	struct:ts_log_replica_thread
+__anona2aded3b0f0a	timestone_i.h	/^	union {$/;"	u	struct:ts_op_info
+__anona2aded3b1003	timestone_i.h	/^enum { OPLOG_REPLAY_TYPE_EXEC, OPLOG_REPLAY_TYPE_COMMIT };$/;"	g
+__fd	disk.c	/^int __fd[N_SOCKET * _N_DISK_FILES];$/;"	v	typeref:typename:int[]
+__g_gen_id	timestone.c	/^static unsigned long __g_gen_id;$/;"	v	typeref:typename:unsigned long	file:
+__g_master_pool	nvm-pmdk.c	/^static PMEMobjpool *__g_master_pool, *__g_master_pool_numa;$/;"	v	typeref:typename:PMEMobjpool *	file:
+__g_master_pool_numa	nvm-pmdk.c	/^static PMEMobjpool *__g_master_pool, *__g_master_pool_numa;$/;"	v	typeref:typename:PMEMobjpool *	file:
+__g_pop	nvm-pmdk.c	/^static PMEMobjpool *__g_pop, *__g_pop_numa;$/;"	v	typeref:typename:PMEMobjpool *	file:
+__g_pop_numa	nvm-pmdk.c	/^static PMEMobjpool *__g_pop, *__g_pop_numa;$/;"	v	typeref:typename:PMEMobjpool *	file:
+__g_recovery	timestone.c	/^static ts_recovery_t __g_recovery;$/;"	v	typeref:typename:ts_recovery_t	file:
+__g_root_obj	nvm.c	/^static ts_nvm_root_obj_t *__g_root_obj, *__g_root_obj_numa;$/;"	v	typeref:typename:ts_nvm_root_obj_t *	file:
+__g_root_obj_numa	nvm.c	/^static ts_nvm_root_obj_t *__g_root_obj, *__g_root_obj_numa;$/;"	v	typeref:typename:ts_nvm_root_obj_t *	file:
+__g_wrt_clk	clock.h	/^	__g_wrt_clk[2 * CACHE_DEFAULT_PADDING] ____cacheline_aligned2;$/;"	v	typeref:typename:volatile unsigned long[2* CACHE_DEFAULT_PADDING]____cacheline_aligned2
+__init	port-user.h	/^#define __init$/;"	d
+__last_ckpt	timestone_i.h	/^	volatile unsigned long __last_ckpt; \/* last checkpoint *\/$/;"	m	struct:ts_sys_clks	typeref:typename:volatile unsigned long
+__min_ckpt_reclaimed	timestone_i.h	/^		__min_ckpt_reclaimed; \/* min checkpoint reclaimed *\/$/;"	m	struct:ts_sys_clks	typeref:typename:volatile unsigned long
+__nvm	timestone_i.h	/^#define __nvm /;"	d
+__padding	timestone_i.h	/^		volatile unsigned char __padding[2];$/;"	m	struct:ts_reclaim::__anona2aded3b0708	typeref:typename:volatile unsigned char[2]
+__padding_0	timestone_i.h	/^	long __padding_0[TS_DEFAULT_PADDING];$/;"	m	struct:ts_thread_list	typeref:typename:long[]
+__padding_0	timestone_i.h	/^	long __padding_0[TS_DEFAULT_PADDING];$/;"	m	struct:ts_thread_struct	typeref:typename:long[]
+__padding_2	timestone_i.h	/^	long __padding_2[TS_DEFAULT_PADDING];$/;"	m	struct:ts_thread_struct	typeref:typename:long[]
+__qp0	timestone_i.h	/^	volatile unsigned long __qp0; \/* current qp *\/$/;"	m	struct:ts_sys_clks	typeref:typename:volatile unsigned long
+__qp1	timestone_i.h	/^	volatile unsigned long __qp1; \/* one grace period ago *\/$/;"	m	struct:ts_sys_clks	typeref:typename:volatile unsigned long
+__qp2	timestone_i.h	/^	volatile unsigned long __qp2; \/* two grace periods ago *\/$/;"	m	struct:ts_sys_clks	typeref:typename:volatile unsigned long
+__qp_thread_main	qp.c	/^static void __qp_thread_main(void *arg)$/;"	f	typeref:typename:void	file:
+__read_mostly	tvlog.c	/^void *g_end_addr __read_mostly;$/;"	v	typeref:typename:void * g_end_addr
+__read_mostly	tvlog.c	/^void *g_start_addr __read_mostly;$/;"	v	typeref:typename:void * g_start_addr
+__reserved	timestone_i.h	/^		unsigned char __reserved[TS_MAX_OPERAND_SIZE +$/;"	m	union:ts_op_info::__anona2aded3b0f0a	typeref:typename:unsigned char[]
+__ts_finish	timestone.c	/^void __ts_finish(void)$/;"	f	typeref:typename:void
+__ts_unload_nvm	timestone.c	/^void __ts_unload_nvm(void)$/;"	f	typeref:typename:void
+__wrt_clk	timestone_i.h	/^	volatile unsigned long __wrt_clk;$/;"	m	struct:ts_cpy_hdr	typeref:typename:volatile unsigned long
+_buffer	timestone_i.h	/^	volatile unsigned char *_buffer; \/* allocated ptr *\/$/;"	m	struct:ts_nvlog_store	typeref:typename:volatile unsigned char *
+_ckptlog_enq	ckptlog.c	/^static ts_ckpt_entry_t *_ckptlog_enq(ts_ckptlog_t *ckptlog,$/;"	f	typeref:typename:ts_ckpt_entry_t *	file:
+_dbg_assert_chs_copy	timestone.c	/^void _dbg_assert_chs_copy(const char *f, const int l, ts_cpy_hdr_struct_t *chs)$/;"	f	typeref:typename:void
+_dbg_assert_is_at_borderline	tvlog.c	/^static void _dbg_assert_is_at_borderline(const char *f, const int l,$/;"	f	typeref:typename:void	file:
+_dbg_assert_is_latest_copy	tvlog.c	/^static void _dbg_assert_is_latest_copy(ts_cpy_hdr_struct_t *chs,$/;"	f	typeref:typename:void	file:
+_dbg_poision_wrt_set	tvlog.c	/^static void _dbg_poision_wrt_set(ts_tvlog_t *tvlog, unsigned long start_cnt)$/;"	f	typeref:typename:void	file:
+_flush_new_act	timestone.c	/^static void _flush_new_act(ts_thread_struct_t *self)$/;"	f	typeref:typename:void	file:
+_nvlog_store_create	nvlog.c	/^static ts_nvlog_store_t *_nvlog_store_create(unsigned long size,$/;"	f	typeref:typename:ts_nvlog_store_t *	file:
+_nvlog_store_destroy	nvlog.c	/^static void _nvlog_store_destroy(ts_nvlog_store_t *nvlog_store)$/;"	f	typeref:typename:void	file:
+_obj_to_chs_unsafe	util.h	/^static inline ts_cpy_hdr_struct_t *_obj_to_chs_unsafe(void *obj)$/;"	f	typeref:typename:ts_cpy_hdr_struct_t *
+_ptrset_push	util.h	/^static inline int _ptrset_push(ts_ptr_set_t *ptrset, void *p)$/;"	f	typeref:typename:int
+_qp_cleanup_ckptlogs	qp.c	/^static void _qp_cleanup_ckptlogs(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:void	file:
+_request_reclaim	qp.c	/^static int _request_reclaim(volatile unsigned char *p_old_req,$/;"	f	typeref:typename:int	file:
+_ts_assign_pointer	timestone.c	/^void _ts_assign_pointer(ts_thread_struct_t *self, void **p_ptr, void *obj)$/;"	f	typeref:typename:void
+_ts_assign_pointer_unsafe	timestone.c	/^void _ts_assign_pointer_unsafe(void **p_ptr, void *obj)$/;"	f	typeref:typename:void
+_ts_try_lock	timestone.c	/^int _ts_try_lock(ts_thread_struct_t *self, void **pp_obj, size_t size)$/;"	f	typeref:typename:int
+_ts_try_lock_const	timestone.c	/^int _ts_try_lock_const(ts_thread_struct_t *self, void *obj, size_t size)$/;"	f	typeref:typename:int
+acquire_thread	recovery.c	/^static int acquire_thread(ts_ptr_set_t *threads, ts_replay_entry_t *re_ent)$/;"	f	typeref:typename:int	file:
+act_nvhdr	timestone_i.h	/^	ts_act_nvhdr_t act_nvhdr;$/;"	m	struct:ts_act_hdr_struct	typeref:typename:ts_act_nvhdr_t
+add_extra_padding	tvlog.c	/^static inline unsigned int add_extra_padding(ts_tvlog_t *tvlog,$/;"	f	typeref:typename:unsigned int	file:
+add_op_replay	recovery.c	/^static void add_op_replay(ts_replay_entry_t *replay, ts_op_context_t *context,$/;"	f	typeref:typename:void	file:
+advance_clock	clock.h	/^#define advance_clock(/;"	d
+advance_qp_clock	qp.c	/^static inline void advance_qp_clock(ts_sys_clks_t *clks, unsigned long qp0_clk)$/;"	f	typeref:typename:void	file:
+align_ptr_to_cacheline	util.h	/^static inline void *align_ptr_to_cacheline(void *p)$/;"	f	typeref:typename:void *
+align_size_t_to_pmem_page	util.h	/^static inline size_t align_size_t_to_pmem_page(size_t sz)$/;"	f	typeref:typename:size_t
+align_uint_to_cacheline	util.h	/^static inline unsigned int align_uint_to_cacheline(unsigned int unum)$/;"	f	typeref:typename:unsigned int
+all	Makefile	/^all: $(INC_DIR)\/numa-config.h libts$(LIB_SUFFIX).a$/;"	t
+alloc_act_vhdr	util.h	/^static inline ts_act_vhdr_t *alloc_act_vhdr(void *np_org_act)$/;"	f	typeref:typename:ts_act_vhdr_t *
+alloc_index	timestone_i.h	/^	int alloc_index;$/;"	m	struct:ts_assign_ptr_entry	typeref:typename:int
+alloc_op_rep_buffer	replica.c	/^void *alloc_op_rep_buffer(ts_replica_thread_t *thread, size_t size)$/;"	f	typeref:typename:void *
+alloc_replay_array	recovery.c	/^static int alloc_replay_array(ts_nvm_root_obj_t *root,$/;"	f	typeref:typename:int	file:
+allocate_nv_orig_obj	timestone.c	/^static int allocate_nv_orig_obj(ts_thread_struct_t *self)$/;"	f	typeref:typename:int	file:
+array	timestone_i.h	/^	ts_assign_ptr_entry_t *array;$/;"	m	struct:ts_assign_ptr_set	typeref:typename:ts_assign_ptr_entry_t *
+assert_chs_type	util.h	/^static inline void assert_chs_type(const ts_cpy_hdr_struct_t *chs)$/;"	f	typeref:typename:void
+assign_nv_orig_obj	timestone.c	/^static void assign_nv_orig_obj(ts_thread_struct_t *self)$/;"	f	typeref:typename:void	file:
+assign_ptrset_deinit	util.h	/^static inline void assign_ptrset_deinit(ts_assign_ptr_set_t *ptrset)$/;"	f	typeref:typename:void
+assign_ptrset_expand	util.h	/^static inline int assign_ptrset_expand(ts_assign_ptr_set_t *ptrset)$/;"	f	typeref:typename:int
+assign_ptrset_get	util.h	/^	assign_ptrset_get(ts_assign_ptr_set_t *ptrset, unsigned int pos)$/;"	f	typeref:typename:ts_assign_ptr_entry_t *
+assign_ptrset_init	util.h	/^static inline int assign_ptrset_init(ts_assign_ptr_set_t *ptrset)$/;"	f	typeref:typename:int
+assign_ptrset_push	util.h	/^static inline int assign_ptrset_push(ts_assign_ptr_set_t *ptrset, void **p,$/;"	f	typeref:typename:int
+assign_ptrset_reset	util.h	/^static inline void assign_ptrset_reset(ts_assign_ptr_set_t *ptrset)$/;"	f	typeref:typename:void
+base_addr	nvm-makalu.c	/^static char *base_addr;$/;"	v	typeref:typename:char *	file:
+bitmap	port-user.h	/^	volatile unsigned long bitmap[BITMAP_SIZE]; \/* 2**16 *\/$/;"	m	struct:tvlog_region_allocator	typeref:typename:volatile unsigned long[]
+buff	timestone_i.h	/^	void *buff;$/;"	m	struct:ts_log_replica	typeref:typename:void *
+buffer	timestone_i.h	/^	volatile unsigned char *buffer; \/* cache aligned ptr *\/$/;"	m	struct:ts_nvlog_store	typeref:typename:volatile unsigned char *
+buffer	timestone_i.h	/^	volatile unsigned char *buffer;$/;"	m	struct:ts_nvlog	typeref:typename:volatile unsigned char *
+buffer	timestone_i.h	/^	volatile unsigned char *buffer;$/;"	m	struct:ts_tvlog	typeref:typename:volatile unsigned char *
+canary	timestone_i.h	/^	uint64_t canary;$/;"	m	struct:ts_cpy_hdr	typeref:typename:uint64_t
+canary	timestone_i.h	/^	uint64_t canary;$/;"	m	struct:ts_obj_hdr	typeref:typename:uint64_t
+canary	timestone_i.h	/^	volatile uint64_t canary;$/;"	m	struct:ts_act_nvhdr	typeref:typename:volatile uint64_t
+check_for_drain_req	qp.c	/^static void check_for_drain_req(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:void	file:
+check_op_entry_status	replica.c	/^bool check_op_entry_status(int index) {$/;"	f	typeref:typename:bool
+checksum	timestone_i.h	/^	uint32_t checksum;$/;"	m	struct:ts_nvlog_entry_hdr	typeref:typename:uint32_t
+checksum	timestone_i.h	/^	volatile uint32_t checksum;$/;"	m	struct:ts_act_nvhdr	typeref:typename:volatile uint32_t
+chs	timestone_i.h	/^	ts_cpy_hdr_struct_t chs;$/;"	m	struct:ts_wrt_set_struct	typeref:typename:ts_cpy_hdr_struct_t
+chs_obj_to_ws	util.h	/^static inline ts_wrt_set_t *chs_obj_to_ws(void *obj)$/;"	f	typeref:typename:ts_wrt_set_t *
+ckpt_entry	timestone_i.h	/^		ts_ckpt_entry_t ckpt_entry;$/;"	m	union:ts_replica_queue_entry::__anona2aded3b0a0a	typeref:typename:ts_ckpt_entry_t
+ckpt_free_set	timestone_i.h	/^	ts_ptr_set_t ckpt_free_set;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_ptr_set_t
+ckpt_queue_lock	replica.c	/^pthread_spinlock_t ckpt_queue_lock;$/;"	v	typeref:typename:pthread_spinlock_t
+ckpt_s_clk	timestone_i.h	/^	volatile unsigned long ckpt_s_clk; \/* checkpoint start timestamp *\/$/;"	m	struct:ts_ckpt_entry_hdr	typeref:typename:volatile unsigned long
+ckpt_wait	timestone_i.h	/^	rw_data_t ckpt_wait;$/;"	m	struct:ts_thread_struct	typeref:typename:rw_data_t
+ckptlog	timestone_i.h	/^		volatile unsigned char ckptlog;$/;"	m	struct:ts_reclaim::__anona2aded3b0708	typeref:typename:volatile unsigned char
+ckptlog	timestone_i.h	/^	ts_ckptlog_t ckptlog;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_ckptlog_t
+ckptlog_cleanup	ckptlog.c	/^void ckptlog_cleanup(ts_ckptlog_t *ckptlog, unsigned long until_clk)$/;"	f	typeref:typename:void
+ckptlog_create	ckptlog.c	/^int ckptlog_create(ts_thread_struct_t *self, ts_ckptlog_t *ckptlog,$/;"	f	typeref:typename:int
+ckptlog_deq	ckptlog.c	/^ts_ckpt_entry_t *ckptlog_deq(ts_ckptlog_t *ckptlog)$/;"	f	typeref:typename:ts_ckpt_entry_t *
+ckptlog_deq_persist	ckptlog.c	/^void ckptlog_deq_persist(ts_ckptlog_t *ckptlog)$/;"	f	typeref:typename:void
+ckptlog_destroy	ckptlog.c	/^void ckptlog_destroy(ts_ckptlog_t *ckptlog, ts_ckptlog_t *ckptlog_replica)$/;"	f	typeref:typename:void
+ckptlog_enq	ckptlog.c	/^ts_ckpt_entry_t *ckptlog_enq(ts_ckptlog_t *ckptlog, unsigned long wrt_clk,$/;"	f	typeref:typename:ts_ckpt_entry_t *
+ckptlog_enq_persist	ckptlog.c	/^void ckptlog_enq_persist(ts_ckptlog_t *ckptlog)$/;"	f	typeref:typename:void
+ckptlog_enq_tombstone	ckptlog.c	/^ts_ckpt_entry_t *ckptlog_enq_tombstone(ts_ckptlog_t *ckptlog,$/;"	f	typeref:typename:ts_ckpt_entry_t *
+ckptlog_flush	ckptlog.c	/^void ckptlog_flush(ts_ckptlog_t *ckptlog, ts_ckptlog_t *ckptlog_replica)$/;"	f	typeref:typename:void
+ckptlog_hdr	timestone_i.h	/^	ts_ckpt_entry_hdr_t ckptlog_hdr;$/;"	m	struct:ts_ckpt_entry	typeref:typename:ts_ckpt_entry_hdr_t
+ckptlog_nr	timestone_i.h	/^		ts_log_replica_t *ckptlog_nr;$/;"	m	union:ts_log_replica_thread::__anona2aded3b0c0a	typeref:typename:ts_log_replica_t *
+ckptlog_peek_head	ckptlog.c	/^ts_ckpt_entry_t *ckptlog_peek_head(ts_ckptlog_t *ckptlog)$/;"	f	typeref:typename:ts_ckpt_entry_t *
+ckptlog_r	timestone_i.h	/^		ts_log_replica_t *ckptlog_r;$/;"	m	union:ts_log_replica_thread::__anona2aded3b0b0a	typeref:typename:ts_log_replica_t *
+ckptlog_reclaim	ckptlog.c	/^void ckptlog_reclaim(ts_ckptlog_t *ckptlog, ts_ckptlog_t *ckptlog_replica)$/;"	f	typeref:typename:void
+ckptlog_reclaim_x	ckptlog.c	/^static int ckptlog_reclaim_x(ts_ckptlog_t *ckptlog, unsigned long watermark,$/;"	f	typeref:typename:int	file:
+ckptlog_recovery	recovery.c	/^int ckptlog_recovery(ts_recovery_t *recovery)$/;"	f	typeref:typename:int
+ckptlog_replica	timestone_i.h	/^	ts_ckptlog_t ckptlog_replica;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_ckptlog_t
+ckptlog_replication_main	replica.c	/^void *ckptlog_replication_main(void *arg)$/;"	f	typeref:typename:void *
+ckptlog_try_request_reclaim_if_needed	ckptlog.c	/^static void ckptlog_try_request_reclaim_if_needed(ts_ckptlog_t *ckptlog)$/;"	f	typeref:typename:void	file:
+ckptlog_used	ckptlog.h	/^static inline unsigned long ckptlog_used(ts_ckptlog_t *ckptlog)$/;"	f	typeref:typename:unsigned long
+ckptq	timestone_i.h	/^		ts_replica_queue_t *ckptq;$/;"	m	union:ts_log_replica_thread::__anona2aded3b0d0a	typeref:typename:ts_replica_queue_t *
+clean	Makefile	/^clean:$/;"	t
+clks	timestone_i.h	/^	ts_sys_clks_t *clks; \/* clks in ts_thread_struct_t *\/$/;"	m	struct:ts_nvlog	typeref:typename:ts_sys_clks_t *
+clks	timestone_i.h	/^	ts_sys_clks_t *clks; \/* clks in ts_thread_struct_t *\/$/;"	m	struct:ts_tvlog	typeref:typename:ts_sys_clks_t *
+clks	timestone_i.h	/^	ts_sys_clks_t clks; \/* per-thread replication of$/;"	m	struct:ts_thread_struct	typeref:typename:ts_sys_clks_t
+clks	timestone_i.h	/^	ts_sys_clks_t clks; \/* the global system-wide clocks$/;"	m	struct:ts_qp_thread	typeref:typename:ts_sys_clks_t
+close_disk_files	disk.c	/^void close_disk_files()$/;"	f	typeref:typename:void
+close_io_uring_instances	disk.c	/^void close_io_uring_instances(struct io_uring *ring)$/;"	f	typeref:typename:void
+cnt	timestone_i.h	/^	unsigned long cnt[stat_max__];$/;"	m	struct:ts_stat	typeref:typename:unsigned long[]
+collect_replay_entries	recovery.c	/^static int collect_replay_entries(ts_nvm_root_obj_t *root,$/;"	f	typeref:typename:int	file:
+commit_clk	timestone_i.h	/^	unsigned long commit_clk;$/;"	m	struct:ts_disk_entry	typeref:typename:unsigned long
+comp_replay_entries	recovery.c	/^static int comp_replay_entries(const void *op1, const void *op2)$/;"	f	typeref:typename:int	file:
+completion	timestone_i.h	/^	intptr_t completion;$/;"	m	struct:ts_qp_thread	typeref:typename:intptr_t
+cond	timestone_i.h	/^	pthread_cond_t cond;$/;"	m	struct:ts_qp_thread	typeref:typename:pthread_cond_t
+cond_mutex	timestone_i.h	/^	pthread_mutex_t cond_mutex;$/;"	m	struct:ts_qp_thread	typeref:typename:pthread_mutex_t
+context	timestone_i.h	/^	ts_op_context_t *context;$/;"	m	struct:ts_replay_entry	typeref:typename:ts_op_context_t *
+correct_qp_clock	clock.h	/^#define correct_qp_clock(/;"	d
+cpy_hdr	timestone_i.h	/^	ts_cpy_hdr_t cpy_hdr;$/;"	m	struct:ts_cpy_hdr_struct	typeref:typename:ts_cpy_hdr_t
+crc32	crc32.c	/^uint32_t crc32(const void *buf, size_t size)$/;"	f	typeref:typename:uint32_t
+crc32_raw	crc32.c	/^uint32_t crc32_raw(const void *buf, size_t size, uint32_t crc)$/;"	f	typeref:typename:uint32_t
+crc32_tab	crc32.c	/^const uint32_t crc32_tab[] = {$/;"	v	typeref:typename:const uint32_t[]
+create_io_workers	qp.c	/^static void create_io_workers(ts_qp_thread_t *qp_thread, unsigned long qp_clk)$/;"	f	typeref:typename:void	file:
+cur_tid	timestone_i.h	/^	unsigned int cur_tid;$/;"	m	struct:ts_thread_list	typeref:typename:unsigned int
+cur_wrt_set	timestone_i.h	/^	ts_wrt_set_t *cur_wrt_set;$/;"	m	struct:ts_tvlog	typeref:typename:ts_wrt_set_t *
+curr	timestone_i.h	/^	unsigned int curr;$/;"	m	struct:ts_op_info	typeref:typename:unsigned int
+curr_addr	nvm-makalu.c	/^static char *curr_addr;$/;"	v	typeref:typename:char *	file:
+deinit_qp	qp.c	/^void deinit_qp(void)$/;"	f	typeref:typename:void
+deinit_threads	recovery.c	/^static void deinit_threads(ts_ptr_set_t *threads, ts_thread_struct_t *thread)$/;"	f	typeref:typename:void	file:
+deregister_thread	qp.c	/^void deregister_thread(ts_thread_struct_t *self)$/;"	f	typeref:typename:void
+early_initcall	port-user.h	/^#define early_initcall(/;"	d
+encode_ptr	util.h	/^static inline void *encode_ptr(void *obj, uint64_t tag)$/;"	f	typeref:typename:void *
+encode_tag_to_ptr	util.h	/^static inline void *encode_tag_to_ptr(void *obj, uint64_t tag)$/;"	f	typeref:typename:void *
+enq_op_entry	replica.c	/^int enq_op_entry(unsigned long local_clk, unsigned long wrt_clk, $/;"	f	typeref:typename:int
+execute_op	recovery.c	/^static int execute_op(ts_op_exec_fn_t op_exec, ts_replay_entry_t *re_ent)$/;"	f	typeref:typename:int	file:
+extract_tag	util.h	/^static inline uint64_t extract_tag(void *obj)$/;"	f	typeref:typename:uint64_t
+fd	timestone_i.h	/^	int fd[TN_FILES];$/;"	m	struct:io_work_data_struct	typeref:typename:int[]
+fd	timestone_i.h	/^	int fd[TN_FILES];$/;"	m	struct:ts_qp_thread	typeref:typename:int[]
+finish_qp_thread	qp.c	/^static void finish_qp_thread(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:void	file:
+flush_disk_cache_wrk	qp.c	/^static void flush_disk_cache_wrk(io_work *wrk)$/;"	f	typeref:typename:void	file:
+flush_fd	timestone_i.h	/^	bool flush_fd[TN_FILES];$/;"	m	struct:io_work_data_struct	typeref:typename:bool[]
+flush_fd	timestone_i.h	/^	bool flush_fd[TN_FILES];$/;"	m	struct:ts_qp_thread	typeref:typename:bool[]
+flush_new_act	timestone.c	/^static void flush_new_act(ts_thread_struct_t *self)$/;"	f	typeref:typename:void	file:
+flush_to_disk	qp.c	/^static void flush_to_disk(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:void	file:
+flush_to_nvm	nvm.h	/^static inline void flush_to_nvm(void *dst, unsigned int size)$/;"	f	typeref:typename:void
+free_act_vhdr	util.h	/^static inline void free_act_vhdr(ts_act_vhdr_t *p_act_vhdr)$/;"	f	typeref:typename:void
+free_new_act	timestone.c	/^static void free_new_act(ts_thread_struct_t *self)$/;"	f	typeref:typename:void	file:
+free_new_vact	timestone.c	/^static void free_new_vact(ts_thread_struct_t *self)$/;"	f	typeref:typename:void	file:
+free_set	timestone_i.h	/^	ts_ptr_set_t *free_set;$/;"	m	struct:ts_nvlog	typeref:typename:ts_ptr_set_t *
+g_ckpt_thread	replica.c	/^static ts_replica_thread_t g_ckpt_thread;$/;"	v	typeref:typename:ts_replica_thread_t	file:
+g_fd	disk.c	/^int *g_fd[N_SOCKET];$/;"	v	typeref:typename:int * []
+g_fd_flush_list	qp.c	/^static bool g_fd_flush_list[TN_FILES];$/;"	v	typeref:typename:bool[]	file:
+g_lr	tvlog.c	/^tvlog_region_allocator_t g_lr;$/;"	v	typeref:typename:tvlog_region_allocator_t
+g_n_io_uring_inst	disk.c	/^static int g_n_io_uring_inst;$/;"	v	typeref:typename:int	file:
+g_n_io_uring_inst	qp.c	/^static int g_n_io_uring_inst;$/;"	v	typeref:typename:int	file:
+g_n_threads	qp.c	/^static int g_n_threads;$/;"	v	typeref:typename:int	file:
+g_n_workers	qp.c	/^static int g_n_workers;$/;"	v	typeref:typename:int	file:
+g_op_thread	replica.c	/^static ts_replica_thread_t  g_op_thread;$/;"	v	typeref:typename:ts_replica_thread_t	file:
+g_th_per_worker	qp.c	/^static int g_th_per_worker;$/;"	v	typeref:typename:int	file:
+g_wrt_clk	clock.h	/^#define g_wrt_clk /;"	d
+gen_id	timestone_i.h	/^	unsigned long gen_id;$/;"	m	struct:ts_nvm_root_obj	typeref:typename:unsigned long
+gen_id	timestone_i.h	/^	volatile unsigned long gen_id;$/;"	m	struct:ts_act_nvhdr	typeref:typename:volatile unsigned long
+generate_obj_checksum	util.h	/^static inline uint32_t generate_obj_checksum(void *obj, unsigned char type)$/;"	f	typeref:typename:uint32_t
+generate_ptr_checksum	util.h	/^static inline uint32_t generate_ptr_checksum(ts_act_nvhdr_t *p_act_nvhdr)$/;"	f	typeref:typename:uint32_t
+generate_tag	util.h	/^static inline uint64_t generate_tag()$/;"	f	typeref:typename:uint64_t
+get_act_nvhdr	util.h	/^static inline ts_act_nvhdr_t *get_act_nvhdr(volatile void *obj)$/;"	f	typeref:typename:ts_act_nvhdr_t *
+get_act_vhdr	util.h	/^static inline ts_act_vhdr_t *get_act_vhdr(void *obj)$/;"	f	typeref:typename:ts_act_vhdr_t *
+get_addr_mask	util.h	/^static inline uint64_t get_addr_mask()$/;"	f	typeref:typename:uint64_t
+get_ahs_offset	util.h	/^static inline void *get_ahs_offset(ts_act_hdr_struct_t *ahs)$/;"	f	typeref:typename:void *
+get_canary_16	util.h	/^static inline uint16_t get_canary_16()$/;"	f	typeref:typename:uint16_t
+get_canary_32	util.h	/^static inline uint32_t get_canary_32()$/;"	f	typeref:typename:uint32_t
+get_canary_64	util.h	/^static inline uint64_t get_canary_64()$/;"	f	typeref:typename:uint64_t
+get_checksum_size	util.h	/^static inline size_t get_checksum_size(void *obj, unsigned char type)$/;"	f	typeref:typename:size_t
+get_ckpt_chs	tvlog.c	/^static ts_cpy_hdr_struct_t *get_ckpt_chs(ts_cpy_hdr_struct_t *chs,$/;"	f	typeref:typename:ts_cpy_hdr_struct_t *	file:
+get_ckpt_offset	util.h	/^static inline void *get_ckpt_offset(void *data)$/;"	f	typeref:typename:void *
+get_clock	clock.h	/^#define get_clock(/;"	d
+get_clock_relaxed	clock.h	/^#define get_clock_relaxed(/;"	d
+get_cur_act_obj	util.h	/^static inline void *get_cur_act_obj(void *obj)$/;"	f	typeref:typename:void *
+get_disk_fds	disk.c	/^void get_disk_fds(int *fd)$/;"	f	typeref:typename:void
+get_disk_file_id	util.h	/^static inline int get_disk_file_id(uint64_t nvm_offset)$/;"	f	typeref:typename:int
+get_disk_offset	util.h	/^static inline uint64_t get_disk_offset(uint64_t nvm_offset)$/;"	f	typeref:typename:uint64_t
+get_drain_ptr	qp.c	/^bool *get_drain_ptr(void)$/;"	f	typeref:typename:bool *
+get_entry_size	util.h	/^static inline unsigned int get_entry_size(const ts_cpy_hdr_struct_t *chs)$/;"	f	typeref:typename:unsigned int
+get_fd_index	util.h	/^static inline int get_fd_index(int socket_id, int file_id)$/;"	f	typeref:typename:int
+get_gen_id	timestone.c	/^static inline unsigned long get_gen_id(void)$/;"	f	typeref:typename:unsigned long	file:
+get_org_act_obj	util.h	/^static inline void *get_org_act_obj(void *obj)$/;"	f	typeref:typename:void *
+get_org_act_obj_from_act_nvhdr	util.h	/^	get_org_act_obj_from_act_nvhdr(volatile ts_act_nvhdr_t *p_act_nvhdr)$/;"	f	typeref:typename:void *
+get_org_ahs	util.h	/^	get_org_ahs(volatile ts_act_vhdr_t *p_act_vhdr)$/;"	f	typeref:typename:ts_act_hdr_struct_t *
+get_pool_id	nvm-pmdk.c	/^int get_pool_id(const void *ptr)$/;"	f	typeref:typename:int
+get_pool_offset	nvm-pmdk.c	/^uint64_t get_pool_offset(void *ptr)$/;"	f	typeref:typename:uint64_t
+get_raw_wrt_clk	clock.h	/^static inline unsigned long get_raw_wrt_clk(const ts_cpy_hdr_struct_t *chs)$/;"	f	typeref:typename:unsigned long
+get_tag_mask	util.h	/^static inline uint64_t get_tag_mask()$/;"	f	typeref:typename:uint64_t
+get_vact_vhdr	util.h	/^static inline ts_act_vhdr_t *get_vact_vhdr(volatile void *obj)$/;"	f	typeref:typename:ts_act_vhdr_t *
+get_wrt_clk	clock.h	/^static inline unsigned long get_wrt_clk(const ts_cpy_hdr_struct_t *chs,$/;"	f	typeref:typename:unsigned long
+gt_clock	clock.h	/^#define gt_clock(/;"	d
+gte_clock	clock.h	/^#define gte_clock(/;"	d
+head	timestone_i.h	/^	int head;$/;"	m	struct:ts_replica_queue	typeref:typename:int
+head_cnt	timestone_i.h	/^	unsigned long head_cnt;$/;"	m	struct:ts_log_replica	typeref:typename:unsigned long
+head_cnt	timestone_i.h	/^	volatile unsigned long head_cnt;$/;"	m	struct:ts_nvlog	typeref:typename:volatile unsigned long
+head_cnt	timestone_i.h	/^	volatile unsigned long head_cnt;$/;"	m	struct:ts_nvlog_store	typeref:typename:volatile unsigned long
+head_cnt	timestone_i.h	/^	volatile unsigned long head_cnt;$/;"	m	struct:ts_tvlog	typeref:typename:volatile unsigned long
+in_recovery_mode	timestone_i.h	/^	int in_recovery_mode;$/;"	m	struct:ts_thread_struct	typeref:typename:int
+index	timestone_i.h	/^	volatile int index;$/;"	m	struct:ts_act_nvhdr	typeref:typename:volatile int
+init_ckptlog_replica	replica.c	/^ts_replica_thread_t init_ckptlog_replica()$/;"	f	typeref:typename:ts_replica_thread_t
+init_disk_files	disk.c	/^int init_disk_files()$/;"	f	typeref:typename:int
+init_io_uring_queue	disk.c	/^void init_io_uring_queue(struct io_uring *ring, struct io_uring_params *params)$/;"	f	typeref:typename:void
+init_lock	clock.h	/^#define init_lock(/;"	d
+init_oplog_replica	replica.c	/^ts_replica_thread_t init_oplog_replica()$/;"	f	typeref:typename:ts_replica_thread_t
+init_qp	qp.c	/^int init_qp(int n_threads)$/;"	f	typeref:typename:int
+init_qp_thread	qp.c	/^static int init_qp_thread(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:int	file:
+init_thread_list	qp.c	/^static inline void init_thread_list(ts_thread_list_t *tl)$/;"	f	typeref:typename:void	file:
+init_threads	recovery.c	/^static void init_threads(ts_ptr_set_t *threads)$/;"	f	typeref:typename:void	file:
+init_ts_list	util.h	/^static inline void init_ts_list(ts_list_t *list)$/;"	f	typeref:typename:void
+init_work_data	qp.c	/^static bool init_work_data(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:bool	file:
+io_uring_main	qp.c	/^static void *io_uring_main(void *arg)$/;"	f	typeref:typename:void *	file:
+io_work	timestone_i.h	/^} io_work;$/;"	t	typeref:struct:io_work_data_struct
+io_work_data_struct	timestone_i.h	/^typedef struct io_work_data_struct {$/;"	s
+is_at_borderline	tvlog.c	/^static inline int is_at_borderline(ts_cpy_hdr_struct_t *chs,$/;"	f	typeref:typename:int	file:
+is_copy_latest	tvlog.c	/^static int is_copy_latest(ts_cpy_hdr_struct_t *chs)$/;"	f	typeref:typename:int	file:
+is_obj_actual	util.h	/^static inline int is_obj_actual(ts_obj_hdr_t *obj_hdr)$/;"	f	typeref:typename:int
+is_obj_new	util.h	/^static inline int is_obj_new(ts_obj_hdr_t *obj_hdr)$/;"	f	typeref:typename:int
+is_op_entry_valid	recovery.c	/^static inline int is_op_entry_valid(ts_op_entry_t *op_entry,$/;"	f	typeref:typename:int	file:
+is_power_of_2	nvlog.c	/^static inline unsigned long is_power_of_2(unsigned int x)$/;"	f	typeref:typename:unsigned long	file:
+is_ptr_cacheline_aligned	util.h	/^static inline int is_ptr_cacheline_aligned(void *p)$/;"	f	typeref:typename:int
+is_ptr_valid	timestone.c	/^int is_ptr_valid(ts_act_vhdr_t *p_act_vhdr, unsigned long local_clk)$/;"	f	typeref:typename:int
+is_replication_done	timestone.c	/^static int is_replication_done(ts_thread_struct_t *thread)$/;"	f	typeref:typename:int	file:
+is_stop_requested_op	replica.c	/^bool is_stop_requested_op(ts_replica_thread_t *thread) $/;"	f	typeref:typename:bool
+is_write_detected	timestone_i.h	/^	int is_write_detected;$/;"	m	struct:ts_thread_struct	typeref:typename:int
+isolation	timestone_i.h	/^	ts_isolation_info_t isolation;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_isolation_info_t
+isolation_deinit	isolation.h	/^static inline void isolation_deinit(ts_isolation_info_t *isolation)$/;"	f	typeref:typename:void
+isolation_init	isolation.h	/^static inline int isolation_init(ts_isolation_info_t *isolation)$/;"	f	typeref:typename:int
+isolation_reset	isolation.h	/^static inline void isolation_reset(ts_isolation_info_t *isolation, int level)$/;"	f	typeref:typename:void
+last_ckpt_clk	timestone_i.h	/^	unsigned long last_ckpt_clk;$/;"	m	struct:ts_nvm_root_obj	typeref:typename:unsigned long
+len	timestone_i.h	/^	size_t len;$/;"	m	struct:ts_disk_entry	typeref:typename:size_t
+level	timestone_i.h	/^	int level;$/;"	m	struct:ts_isolation_info	typeref:typename:int
+libts$(LIB_SUFFIX).a	Makefile	/^libts$(LIB_SUFFIX).a: $(OBJ_FILES)$/;"	t
+list	timestone_i.h	/^	ts_list_t list;$/;"	m	struct:ts_thread_list	typeref:typename:ts_list_t
+list	timestone_i.h	/^	ts_list_t list;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_list_t
+list_to_thread	qp.c	/^#define list_to_thread(/;"	d	file:
+live_status	timestone_i.h	/^	volatile int live_status;$/;"	m	struct:ts_thread_struct	typeref:typename:volatile int
+load_master_obj_numa_pool	nvm-pmdk.c	/^ts_nvm_root_obj_t *load_master_obj_numa_pool(const char *path, size_t sz)$/;"	f	typeref:typename:ts_nvm_root_obj_t *
+load_master_obj_pool	nvm-pmdk.c	/^ts_nvm_root_obj_t *load_master_obj_pool(const char *path, size_t sz)$/;"	f	typeref:typename:ts_nvm_root_obj_t *
+local_clk	timestone_i.h	/^	volatile unsigned long local_clk;$/;"	m	struct:ts_op_entry_hdr	typeref:typename:volatile unsigned long
+local_clk	timestone_i.h	/^	volatile unsigned long local_clk;$/;"	m	struct:ts_thread_struct	typeref:typename:volatile unsigned long
+lock	timestone_i.h	/^	pthread_spinlock_t lock;$/;"	m	struct:ts_thread_list	typeref:typename:pthread_spinlock_t
+log_size	timestone_i.h	/^	unsigned long log_size; \/* nvlog size *\/$/;"	m	struct:ts_nvlog	typeref:typename:unsigned long
+log_size	timestone_i.h	/^	unsigned long log_size; \/* size should be power of 2 *\/$/;"	m	struct:ts_nvlog_store	typeref:typename:unsigned long
+lt_clock	clock.h	/^#define lt_clock(/;"	d
+lte_clock	clock.h	/^#define lte_clock(/;"	d
+magic	timestone_i.h	/^	unsigned long magic;$/;"	m	struct:ts_nvm_root_obj	typeref:typename:unsigned long
+map_persistent_region	nvm-makalu.c	/^static void map_persistent_region(const char *path, size_t sz, int *is_created)$/;"	f	typeref:typename:void	file:
+mask	timestone_i.h	/^	unsigned long mask;$/;"	m	struct:ts_nvlog	typeref:typename:unsigned long
+mask	timestone_i.h	/^	unsigned long mask;$/;"	m	struct:ts_nvlog_store	typeref:typename:unsigned long
+memcpy_to_nvm	nvm.h	/^static inline void memcpy_to_nvm(void *dst, void *src, unsigned int size)$/;"	f	typeref:typename:void
+n_ckpt_bytes_replicated	timestone_i.h	/^		unsigned long n_ckpt_bytes_replicated;$/;"	m	union:ts_log_replica_thread::__anona2aded3b0e0a	typeref:typename:unsigned long
+n_disk_entries	timestone_i.h	/^	unsigned int *n_disk_entries;$/;"	m	struct:io_work_data_struct	typeref:typename:unsigned int *
+n_disk_entries	timestone_i.h	/^	unsigned int n_disk_entries[N_IO_URING_INST_MAX];$/;"	m	struct:ts_qp_thread	typeref:typename:unsigned int[]
+n_disk_writes	timestone_i.h	/^	unsigned int n_disk_writes;$/;"	m	struct:ts_qp_thread	typeref:typename:unsigned int
+n_ent_per_q	qp.c	/^static int n_ent_per_q[N_IO_URING_INST_MAX];$/;"	v	typeref:typename:int[]	file:
+n_entries	timestone_i.h	/^	unsigned int n_entries;$/;"	m	struct:replica_wait_data	typeref:typename:unsigned int
+n_file_writes	timestone_i.h	/^	unsigned int *n_file_writes;$/;"	m	struct:io_work_data_struct	typeref:typename:unsigned int *
+n_file_writes	timestone_i.h	/^	unsigned int n_file_writes[TN_FILES];$/;"	m	struct:ts_qp_thread	typeref:typename:unsigned int[]
+n_op_bytes_replicated	timestone_i.h	/^		unsigned long n_op_bytes_replicated;$/;"	m	union:ts_log_replica_thread::__anona2aded3b0e0a	typeref:typename:unsigned long
+n_req_comp	timestone_i.h	/^	unsigned int n_req_comp;$/;"	m	struct:io_work_data_struct	typeref:typename:unsigned int
+n_ring_entries	timestone_i.h	/^	unsigned int n_ring_entries[N_IO_URING_INST_MAX];$/;"	m	struct:ts_qp_thread	typeref:typename:unsigned int[]
+n_skip	timestone_i.h	/^	unsigned int n_skip;$/;"	m	struct:io_work_data_struct	typeref:typename:unsigned int
+n_skip	timestone_i.h	/^	unsigned int n_skip;$/;"	m	struct:ts_qp_thread	typeref:typename:unsigned int
+n_sync	timestone_i.h	/^	unsigned int n_sync;$/;"	m	struct:io_work_data_struct	typeref:typename:unsigned int
+need_reclaim	timestone_i.h	/^	volatile unsigned char *need_reclaim; \/* reclaim in ts_thread_struct_t *\/$/;"	m	struct:ts_nvlog	typeref:typename:volatile unsigned char *
+need_reclaim	timestone_i.h	/^	volatile unsigned char *need_reclaim; \/* reclaim in ts_thread_struct_t *\/$/;"	m	struct:ts_tvlog	typeref:typename:volatile unsigned char *
+need_th_data_init	timestone_i.h	/^	bool need_th_data_init;$/;"	m	struct:ts_qp_thread	typeref:typename:bool
+need_wait	timestone_i.h	/^	unsigned int need_wait;$/;"	m	struct:ts_qp_info	typeref:typename:unsigned int
+new_clock	clock.h	/^#define new_clock(/;"	d
+next	timestone_i.h	/^	struct ts_list *next, *prev;$/;"	m	struct:ts_list	typeref:struct:ts_list *
+next	timestone_i.h	/^	struct ts_nvlog_store *next;$/;"	m	struct:ts_nvlog_store	typeref:struct:ts_nvlog_store *
+next	timestone_i.h	/^	ts_nvlog_store_t *next;$/;"	m	struct:ts_nvm_root_obj	typeref:typename:ts_nvlog_store_t *
+np_cur_act	timestone_i.h	/^	volatile void __nvm *np_cur_act; \/* the original or the newer in log *\/$/;"	m	struct:ts_act_vhdr	typeref:typename:volatile void __nvm *
+np_org_act	timestone_i.h	/^	volatile void __nvm *np_org_act; \/* the original actual object *\/$/;"	m	struct:ts_act_vhdr	typeref:typename:volatile void __nvm *
+np_org_act	timestone_i.h	/^	volatile void __nvm *np_org_act; \/* the original actual object *\/$/;"	m	struct:ts_ckpt_entry_hdr	typeref:typename:volatile void __nvm *
+num	port-user.h	/^	int num;$/;"	m	struct:tvlog_region_allocator	typeref:typename:int
+num	timestone_i.h	/^	unsigned int num;$/;"	m	struct:ts_thread_list	typeref:typename:unsigned int
+num_max_ptrs	timestone_i.h	/^	unsigned int num_max_ptrs;$/;"	m	struct:ts_assign_ptr_set	typeref:typename:unsigned int
+num_max_ptrs	timestone_i.h	/^	unsigned int num_max_ptrs;$/;"	m	struct:ts_ptr_set	typeref:typename:unsigned int
+num_objs	timestone_i.h	/^	volatile unsigned int num_objs;$/;"	m	struct:ts_wrt_set	typeref:typename:volatile unsigned int
+num_ptrs	timestone_i.h	/^	unsigned int num_ptrs;$/;"	m	struct:ts_assign_ptr_set	typeref:typename:unsigned int
+num_ptrs	timestone_i.h	/^	unsigned int num_ptrs;$/;"	m	struct:ts_ptr_set	typeref:typename:unsigned int
+nvlog_at	nvlog.c	/^static inline void *nvlog_at(ts_nvlog_t *nvlog, unsigned long cnt)$/;"	f	typeref:typename:void *	file:
+nvlog_create	nvlog.c	/^int nvlog_create(ts_thread_struct_t *self, ts_nvlog_t *nvlog,$/;"	f	typeref:typename:int
+nvlog_deq	nvlog.c	/^ts_nvlog_entry_hdr_t *nvlog_deq(ts_nvlog_t *nvlog)$/;"	f	typeref:typename:ts_nvlog_entry_hdr_t *
+nvlog_deq_persist	nvlog.c	/^void nvlog_deq_persist(ts_nvlog_t *nvlog)$/;"	f	typeref:typename:void
+nvlog_destroy	nvlog.c	/^void nvlog_destroy(ts_nvlog_t *nvlog)$/;"	f	typeref:typename:void
+nvlog_enq	nvlog.c	/^ts_nvlog_entry_hdr_t *nvlog_enq(ts_nvlog_t *nvlog, unsigned int obj_size)$/;"	f	typeref:typename:ts_nvlog_entry_hdr_t *
+nvlog_enq_persist	nvlog.c	/^void nvlog_enq_persist(ts_nvlog_t *nvlog)$/;"	f	typeref:typename:void
+nvlog_get_last_ckpt_clk	nvlog.c	/^unsigned long nvlog_get_last_ckpt_clk(void)$/;"	f	typeref:typename:unsigned long
+nvlog_hdr	timestone_i.h	/^	ts_nvlog_entry_hdr_t nvlog_hdr;$/;"	m	struct:ts_ckpt_entry	typeref:typename:ts_nvlog_entry_hdr_t
+nvlog_hdr	timestone_i.h	/^	ts_nvlog_entry_hdr_t nvlog_hdr;$/;"	m	struct:ts_op_entry	typeref:typename:ts_nvlog_entry_hdr_t
+nvlog_index	nvlog.c	/^static inline unsigned int nvlog_index(ts_nvlog_t *nvlog, unsigned long cnt)$/;"	f	typeref:typename:unsigned int	file:
+nvlog_init	nvlog.c	/^int nvlog_init(ts_nvm_root_obj_t *root_obj)$/;"	f	typeref:typename:int
+nvlog_load	nvlog.c	/^void nvlog_load(ts_nvlog_store_t *nvlog_store, ts_nvlog_t *nvlog)$/;"	f	typeref:typename:void
+nvlog_lock	nvlog.c	/^static pthread_mutex_t nvlog_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	typeref:typename:pthread_mutex_t	file:
+nvlog_peek_head	nvlog.c	/^ts_nvlog_entry_hdr_t *nvlog_peek_head(ts_nvlog_t *nvlog)$/;"	f	typeref:typename:ts_nvlog_entry_hdr_t *
+nvlog_set_last_ckpt_clk	nvlog.c	/^void nvlog_set_last_ckpt_clk(unsigned long last_ckpt_clk)$/;"	f	typeref:typename:void
+nvlog_store	timestone_i.h	/^	ts_nvlog_store_t *nvlog_store;$/;"	m	struct:ts_nvlog	typeref:typename:ts_nvlog_store_t *
+nvlog_truncate_head	nvlog.c	/^void nvlog_truncate_head(ts_nvlog_t *nvlog, unsigned long head_cnt)$/;"	f	typeref:typename:void
+nvlog_truncate_tail	nvlog.c	/^void nvlog_truncate_tail(ts_nvlog_t *nvlog, unsigned long tail_cnt)$/;"	f	typeref:typename:void
+nvlog_used	nvlog.h	/^static inline unsigned long nvlog_used(ts_nvlog_t *nvlog)$/;"	f	typeref:typename:unsigned long
+nvm_aligned_alloc	nvm-makalu.c	/^void *nvm_aligned_alloc(size_t alignment, size_t size)$/;"	f	typeref:typename:void *
+nvm_aligned_alloc	nvm-nv-jemalloc.c	/^void *nvm_aligned_alloc(size_t alignment, size_t size)$/;"	f	typeref:typename:void *
+nvm_aligned_alloc	nvm-pmdk.c	/^void *nvm_aligned_alloc(size_t alignment, size_t size)$/;"	f	typeref:typename:void *
+nvm_aligned_alloc	nvm.c	/^void *nvm_aligned_alloc(size_t alignment, size_t size)$/;"	f	typeref:typename:void *
+nvm_alloc	nvm-makalu.c	/^void *nvm_alloc(size_t size)$/;"	f	typeref:typename:void *
+nvm_alloc	nvm-nv-jemalloc.c	/^void *nvm_alloc(size_t size)$/;"	f	typeref:typename:void *
+nvm_alloc	nvm-pmdk.c	/^void *nvm_alloc(size_t size)$/;"	f	typeref:typename:void *
+nvm_alloc	nvm.c	/^void *nvm_alloc(size_t size)$/;"	f	typeref:typename:void *
+nvm_alloc_master_obj	nvm-pmdk.c	/^void *nvm_alloc_master_obj(size_t alignment, size_t size)$/;"	f	typeref:typename:void *
+nvm_alloc_numa	nvm-nv-jemalloc.c	/^void *nvm_alloc_numa(size_t size)$/;"	f	typeref:typename:void *
+nvm_alloc_numa	nvm-pmdk.c	/^void *nvm_alloc_numa(size_t size)$/;"	f	typeref:typename:void *
+nvm_alloc_replica	nvm-pmdk.c	/^void *nvm_alloc_replica(size_t size, int socket)$/;"	f	typeref:typename:void *
+nvm_free	nvm-makalu.c	/^void nvm_free(void *ptr)$/;"	f	typeref:typename:void
+nvm_free	nvm-nv-jemalloc.c	/^void nvm_free(void *ptr)$/;"	f	typeref:typename:void
+nvm_free	nvm-pmdk.c	/^void nvm_free(void *ptr)$/;"	f	typeref:typename:void
+nvm_free	nvm.c	/^void nvm_free(void *ptr)$/;"	f	typeref:typename:void
+nvm_get_gen_id	nvm.c	/^unsigned long nvm_get_gen_id(void)$/;"	f	typeref:typename:unsigned long
+nvm_heap_destroy	nvm-makalu.c	/^void nvm_heap_destroy(void)$/;"	f	typeref:typename:void
+nvm_heap_destroy	nvm-nv-jemalloc.c	/^void nvm_heap_destroy(void)$/;"	f	typeref:typename:void
+nvm_heap_destroy	nvm-pmdk.c	/^void nvm_heap_destroy(void)$/;"	f	typeref:typename:void
+nvm_heap_destroy	nvm.c	/^void nvm_heap_destroy(void)$/;"	f	typeref:typename:void
+nvm_init_heap	nvm.c	/^ts_nvm_root_obj_t *nvm_init_heap(const char *path, size_t sz,$/;"	f	typeref:typename:ts_nvm_root_obj_t *
+nvm_init_numa_heap	nvm.c	/^ts_nvm_root_obj_t *nvm_init_numa_heap(const char *path, size_t sz,$/;"	f	typeref:typename:ts_nvm_root_obj_t *
+nvm_load_heap	nvm-makalu.c	/^ts_nvm_root_obj_t *nvm_load_heap(const char *path, size_t sz, int *is_created)$/;"	f	typeref:typename:ts_nvm_root_obj_t *
+nvm_load_heap	nvm-nv-jemalloc.c	/^ts_nvm_root_obj_t *nvm_load_heap(const char *path, size_t sz, int *is_created)$/;"	f	typeref:typename:ts_nvm_root_obj_t *
+nvm_load_heap	nvm-pmdk.c	/^ts_nvm_root_obj_t *nvm_load_heap(const char *path, size_t sz, int *is_created)$/;"	f	typeref:typename:ts_nvm_root_obj_t *
+nvm_load_numa_heap	nvm-nv-jemalloc.c	/^ts_nvm_root_obj_t *nvm_load_numa_heap(const char *path, size_t sz,$/;"	f	typeref:typename:ts_nvm_root_obj_t *
+nvm_load_numa_heap	nvm-pmdk.c	/^ts_nvm_root_obj_t *nvm_load_numa_heap(const char *path, size_t sz,$/;"	f	typeref:typename:ts_nvm_root_obj_t *
+nvm_region_allocator	nvm-makalu.c	/^static int nvm_region_allocator(void **memptr, size_t alignment, size_t size)$/;"	f	typeref:typename:int	file:
+nvm_root_obj	nvlog.c	/^static ts_nvm_root_obj_t *nvm_root_obj;$/;"	v	typeref:typename:ts_nvm_root_obj_t *	file:
+nvoff_t	timestone_i.h	/^typedef signed long nvoff_t; \/* offset from the root object in nvm *\/$/;"	t	typeref:typename:signed long
+obj	timestone_i.h	/^	char obj[MAX_OBJ_SIZE];$/;"	m	struct:ts_replica_queue_entry	typeref:typename:char[]
+obj	timestone_i.h	/^	unsigned char obj[0]; \/* start address of a real object *\/$/;"	m	struct:ts_obj_hdr	typeref:typename:unsigned char[0]
+obj	timestone_i.h	/^	unsigned char obj[0]; \/* start address of an entry *\/$/;"	m	struct:ts_nvlog_entry_hdr	typeref:typename:unsigned char[0]
+obj_canary_from_ahs	util.h	/^static inline void *obj_canary_from_ahs(ts_act_hdr_struct_t *ahs)$/;"	f	typeref:typename:void *
+obj_canary_from_chs	util.h	/^static inline void *obj_canary_from_chs(ts_cpy_hdr_struct_t *chs)$/;"	f	typeref:typename:void *
+obj_hdr	timestone_i.h	/^	ts_obj_hdr_t obj_hdr;$/;"	m	struct:ts_act_hdr_struct	typeref:typename:ts_obj_hdr_t
+obj_hdr	timestone_i.h	/^	ts_obj_hdr_t obj_hdr;$/;"	m	struct:ts_ckpt_entry	typeref:typename:ts_obj_hdr_t
+obj_hdr	timestone_i.h	/^	ts_obj_hdr_t obj_hdr;$/;"	m	struct:ts_cpy_hdr_struct	typeref:typename:ts_obj_hdr_t
+obj_size	timestone_i.h	/^	volatile unsigned int obj_size; \/* object size for copy *\/$/;"	m	struct:ts_obj_hdr	typeref:typename:volatile unsigned int
+obj_to_ahs	util.h	/^static inline ts_act_hdr_struct_t *obj_to_ahs(void *obj)$/;"	f	typeref:typename:ts_act_hdr_struct_t *
+obj_to_chs	util.h	/^static inline ts_cpy_hdr_struct_t *obj_to_chs(void *obj, int type)$/;"	f	typeref:typename:ts_cpy_hdr_struct_t *
+obj_to_ckpt_ent	util.h	/^static inline ts_ckpt_entry_t *obj_to_ckpt_ent(void *obj)$/;"	f	typeref:typename:ts_ckpt_entry_t *
+obj_to_obj_hdr	util.h	/^static inline ts_obj_hdr_t *obj_to_obj_hdr(void *obj)$/;"	f	typeref:typename:ts_obj_hdr_t *
+obj_to_vahs	util.h	/^static inline ts_act_hdr_struct_t *obj_to_vahs(void *obj)$/;"	f	typeref:typename:ts_act_hdr_struct_t *
+offset	timestone_i.h	/^	uint64_t offset;$/;"	m	struct:ts_disk_entry	typeref:typename:uint64_t
+op_entry	timestone_i.h	/^		ts_op_entry_hdr_t op_entry;$/;"	m	union:ts_op_info::__anona2aded3b0f0a	typeref:typename:ts_op_entry_hdr_t
+op_entry	timestone_i.h	/^		ts_op_entry_t op_entry;$/;"	m	union:ts_replica_queue_entry::__anona2aded3b0a0a	typeref:typename:ts_op_entry_t
+op_entry	timestone_i.h	/^	ts_op_entry_t *op_entry;$/;"	m	struct:ts_op_context	typeref:typename:ts_op_entry_t *
+op_exec	timestone_i.h	/^	ts_op_exec_fn_t op_exec;$/;"	m	struct:ts_recovery	typeref:typename:ts_op_exec_fn_t
+op_info	timestone_i.h	/^	ts_op_info_t op_info;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_op_info_t
+op_queue_lock	replica.c	/^pthread_spinlock_t op_queue_lock;$/;"	v	typeref:typename:pthread_spinlock_t
+op_type	timestone_i.h	/^	unsigned long op_type;$/;"	m	struct:ts_op_entry_hdr	typeref:typename:unsigned long
+opd	timestone_i.h	/^	unsigned char opd[0];$/;"	m	struct:ts_op_entry_hdr	typeref:typename:unsigned char[0]
+oplog	timestone_i.h	/^	ts_oplog_t oplog;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_oplog_t
+oplog_create	oplog.c	/^int oplog_create(ts_thread_struct_t *self, ts_oplog_t *oplog,$/;"	f	typeref:typename:int
+oplog_deq	oplog.c	/^ts_op_entry_t *oplog_deq(ts_oplog_t *oplog)$/;"	f	typeref:typename:ts_op_entry_t *
+oplog_deq_persist	oplog.c	/^void oplog_deq_persist(ts_oplog_t *oplog)$/;"	f	typeref:typename:void
+oplog_destroy	oplog.c	/^void oplog_destroy(ts_oplog_t *oplog, ts_oplog_t *oplog_replica)$/;"	f	typeref:typename:void
+oplog_enq	oplog.c	/^ts_op_entry_t *oplog_enq(ts_oplog_t *oplog, unsigned long local_clk,$/;"	f	typeref:typename:ts_op_entry_t *
+oplog_enq_persist	oplog.c	/^void oplog_enq_persist(ts_oplog_t *oplog)$/;"	f	typeref:typename:void
+oplog_hdr	timestone_i.h	/^	ts_op_entry_hdr_t oplog_hdr;$/;"	m	struct:ts_op_entry	typeref:typename:ts_op_entry_hdr_t
+oplog_nr	timestone_i.h	/^		ts_log_replica_t *oplog_nr;$/;"	m	union:ts_log_replica_thread::__anona2aded3b0c0a	typeref:typename:ts_log_replica_t *
+oplog_peek_head	oplog.c	/^ts_op_entry_t *oplog_peek_head(ts_oplog_t *oplog)$/;"	f	typeref:typename:ts_op_entry_t *
+oplog_r	timestone_i.h	/^		ts_log_replica_t *oplog_r;$/;"	m	union:ts_log_replica_thread::__anona2aded3b0b0a	typeref:typename:ts_log_replica_t *
+oplog_reclaim	oplog.c	/^int oplog_reclaim(ts_oplog_t *oplog, int force)$/;"	f	typeref:typename:int
+oplog_recovery	recovery.c	/^int oplog_recovery(ts_recovery_t *recovery)$/;"	f	typeref:typename:int
+oplog_replica	timestone_i.h	/^	ts_oplog_t oplog_replica;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_oplog_t
+oplog_replication_main	replica.c	/^void *oplog_replication_main(void *arg)$/;"	f	typeref:typename:void *
+oplog_try_request_ckpt_if_needed	oplog.c	/^int oplog_try_request_ckpt_if_needed(ts_oplog_t *oplog,$/;"	f	typeref:typename:int
+oplog_used	oplog.h	/^static inline unsigned long oplog_used(ts_oplog_t *oplog)$/;"	f	typeref:typename:unsigned long
+opq	timestone_i.h	/^		ts_replica_queue_t *opq;$/;"	m	union:ts_log_replica_thread::__anona2aded3b0d0a	typeref:typename:ts_replica_queue_t *
+opq_wait	timestone_i.h	/^	rw_data_t opq_wait;$/;"	m	struct:ts_thread_struct	typeref:typename:rw_data_t
+p_act_vhdr	timestone_i.h	/^	volatile ts_act_vhdr_t *p_act_vhdr;$/;"	m	struct:ts_act_nvhdr	typeref:typename:volatile ts_act_vhdr_t *
+p_act_vhdr	timestone_i.h	/^	volatile ts_act_vhdr_t *p_act_vhdr;$/;"	m	struct:ts_cpy_hdr	typeref:typename:volatile ts_act_vhdr_t *
+p_copy	timestone_i.h	/^	volatile void *p_copy;$/;"	m	struct:ts_act_vhdr	typeref:typename:volatile void *
+p_copy	timestone_i.h	/^	volatile void *p_copy;$/;"	m	struct:ts_cpy_hdr	typeref:typename:volatile void *
+p_lock	timestone_i.h	/^	volatile void *p_lock;$/;"	m	struct:ts_act_vhdr	typeref:typename:volatile void *
+p_obj	timestone_i.h	/^	void **p_obj;$/;"	m	struct:ts_assign_ptr_entry	typeref:typename:void **
+p_ws	timestone_i.h	/^	volatile ts_wrt_set_t *p_ws;$/;"	m	struct:ts_cpy_hdr	typeref:typename:volatile ts_wrt_set_t *
+padding_size	timestone_i.h	/^	volatile unsigned short padding_size; \/* passing size in log *\/$/;"	m	struct:ts_obj_hdr	typeref:typename:volatile unsigned short
+pending_wrt_clk	timestone_i.h	/^	volatile unsigned long pending_wrt_clk;$/;"	m	struct:ts_wrt_set	typeref:typename:volatile unsigned long
+perform_recovery	recovery.c	/^int perform_recovery(ts_recovery_t *recovery)$/;"	f	typeref:typename:int
+poll_io_reqs_for_completion	qp.c	/^static void poll_io_reqs_for_completion(io_work *wrk)$/;"	f	typeref:typename:void	file:
+port_addr_in_tvlog_region	port-user.h	/^static inline int port_addr_in_tvlog_region(void *addr)$/;"	f	typeref:typename:int
+port_aligned_alloc	port-user.h	/^static inline void *port_aligned_alloc(size_t alignment, size_t size)$/;"	f	typeref:typename:void *
+port_alloc	port.h	/^static inline void *port_alloc(size_t size)$/;"	f	typeref:typename:void *
+port_alloc_tvlog_mem	port-user.h	/^static inline void *port_alloc_tvlog_mem(void)$/;"	f	typeref:typename:void *
+port_alloc_x	port-user.h	/^static inline void *port_alloc_x(size_t size, unsigned int __dummy)$/;"	f	typeref:typename:void *
+port_cond_destroy	port-user.h	/^static inline void port_cond_destroy(pthread_cond_t *cond)$/;"	f	typeref:typename:void
+port_cond_init	port-user.h	/^static inline void port_cond_init(pthread_cond_t *cond)$/;"	f	typeref:typename:void
+port_cpu_relax_and_yield	port-user.h	/^#define port_cpu_relax_and_yield /;"	d
+port_create_thread	port-user.h	/^static int port_create_thread(const char *name, pthread_t *t,$/;"	f	typeref:typename:int
+port_finish_thread	port-user.h	/^static void port_finish_thread(void *x)$/;"	f	typeref:typename:void
+port_free	port-user.h	/^static inline void port_free(void *ptr)$/;"	f	typeref:typename:void
+port_free_tvlog_mem	port-user.h	/^static inline void port_free_tvlog_mem(void *addr)$/;"	f	typeref:typename:void
+port_initiate_nap	port-user.h	/^static inline void port_initiate_nap(pthread_mutex_t *mutex,$/;"	f	typeref:typename:void
+port_initiate_wakeup	port-user.h	/^static inline void port_initiate_wakeup(pthread_mutex_t *mutex,$/;"	f	typeref:typename:void
+port_mutex_destroy	port-user.h	/^static inline int port_mutex_destroy(pthread_mutex_t *mutex)$/;"	f	typeref:typename:int
+port_mutex_init	port-user.h	/^static inline int port_mutex_init(pthread_mutex_t *mutex)$/;"	f	typeref:typename:int
+port_mutex_lock	port-user.h	/^static inline int port_mutex_lock(pthread_mutex_t *mutex)$/;"	f	typeref:typename:int
+port_mutex_unlock	port-user.h	/^static inline int port_mutex_unlock(pthread_mutex_t *mutex)$/;"	f	typeref:typename:int
+port_realloc	port-user.h	/^static inline void *port_realloc(void *ptr, size_t size)$/;"	f	typeref:typename:void *
+port_spin_destroy	port-user.h	/^static inline void port_spin_destroy(pthread_spinlock_t *lock)$/;"	f	typeref:typename:void
+port_spin_init	port-user.h	/^static inline void port_spin_init(pthread_spinlock_t *lock)$/;"	f	typeref:typename:void
+port_spin_lock	port-user.h	/^static inline void port_spin_lock(pthread_spinlock_t *lock)$/;"	f	typeref:typename:void
+port_spin_trylock	port-user.h	/^static inline int port_spin_trylock(pthread_spinlock_t *lock)$/;"	f	typeref:typename:int
+port_spin_unlock	port-user.h	/^static inline void port_spin_unlock(pthread_spinlock_t *lock)$/;"	f	typeref:typename:void
+port_tvlog_region_destroy	port-user.h	/^static inline void port_tvlog_region_destroy(void)$/;"	f	typeref:typename:void
+port_tvlog_region_init	port-user.h	/^static inline int port_tvlog_region_init(unsigned long size, unsigned long num)$/;"	f	typeref:typename:int
+port_wait_for_finish	port-user.h	/^static void port_wait_for_finish(pthread_t *t, void *x)$/;"	f	typeref:typename:void
+prep_and_submit_io_reqs	qp.c	/^static void prep_and_submit_io_reqs(io_work *wrk)$/;"	f	typeref:typename:void	file:
+prep_io_uring_reqs	qp.c	/^static int prep_io_uring_reqs(ts_qp_thread_t *qp_thread,$/;"	f	typeref:typename:int	file:
+prev	timestone_i.h	/^	struct ts_list *next, *prev;$/;"	m	struct:ts_list	typeref:struct:ts_list *
+prev_head_cnt	timestone_i.h	/^	volatile unsigned long prev_head_cnt;$/;"	m	struct:ts_nvlog	typeref:typename:volatile unsigned long
+prev_head_cnt	timestone_i.h	/^	volatile unsigned long prev_head_cnt;$/;"	m	struct:ts_tvlog	typeref:typename:volatile unsigned long
+prev_tail_cnt	timestone_i.h	/^	volatile unsigned long prev_tail_cnt;$/;"	m	struct:ts_tvlog	typeref:typename:volatile unsigned long
+print_config	debug.c	/^static void print_config(void)$/;"	f	typeref:typename:void	file:
+ptr_tag	timestone_i.h	/^	uint64_t ptr_tag;$/;"	m	struct:ts_act_vhdr	typeref:typename:uint64_t
+ptr_tag	timestone_i.h	/^	uint64_t ptr_tag;$/;"	m	struct:ts_obj_hdr	typeref:typename:uint64_t
+ptrs	timestone_i.h	/^	void **ptrs;$/;"	m	struct:ts_ptr_set	typeref:typename:void **
+ptrset_deinit	util.h	/^static inline void ptrset_deinit(ts_ptr_set_t *ptrset)$/;"	f	typeref:typename:void
+ptrset_expand	util.h	/^static inline int ptrset_expand(ts_ptr_set_t *ptrset)$/;"	f	typeref:typename:int
+ptrset_get	util.h	/^static inline void *ptrset_get(ts_ptr_set_t *ptrset, unsigned int pos)$/;"	f	typeref:typename:void *
+ptrset_get_assign_num_ptrs	util.h	/^	ptrset_get_assign_num_ptrs(ts_assign_ptr_set_t *ptrset)$/;"	f	typeref:typename:unsigned int
+ptrset_get_index	util.h	/^static inline int ptrset_get_index(ts_ptr_set_t *ptrset, void *p_act)$/;"	f	typeref:typename:int
+ptrset_get_num_ptrs	util.h	/^static inline unsigned int ptrset_get_num_ptrs(ts_ptr_set_t *ptrset)$/;"	f	typeref:typename:unsigned int
+ptrset_init	util.h	/^static inline int ptrset_init(ts_ptr_set_t *ptrset)$/;"	f	typeref:typename:int
+ptrset_is_member	util.h	/^static inline int ptrset_is_member(ts_ptr_set_t *ptrset, void *p_act)$/;"	f	typeref:typename:int
+ptrset_pop	util.h	/^static inline void *ptrset_pop(ts_ptr_set_t *ptrset)$/;"	f	typeref:typename:void *
+ptrset_push	util.h	/^static inline int ptrset_push(ts_ptr_set_t *ptrset, void *p)$/;"	f	typeref:typename:int
+ptrset_put	util.h	/^static inline int ptrset_put(ts_ptr_set_t *ptrset, unsigned int pos, void *p)$/;"	f	typeref:typename:int
+ptrset_reset	util.h	/^static inline void ptrset_reset(ts_ptr_set_t *ptrset)$/;"	f	typeref:typename:void
+qp_cleanup_ckptlogs	qp.c	/^static void qp_cleanup_ckptlogs(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:void	file:
+qp_clk	timestone_i.h	/^	unsigned long qp_clk;$/;"	m	struct:io_work_data_struct	typeref:typename:unsigned long
+qp_detect	qp.c	/^static void qp_detect(ts_qp_thread_t *qp_thread, unsigned char need_free)$/;"	f	typeref:typename:void	file:
+qp_help_reclaim_log	qp.c	/^static void qp_help_reclaim_log(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:void	file:
+qp_info	timestone_i.h	/^	ts_qp_info_t qp_info;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_qp_info_t
+qp_init	qp.c	/^static void qp_init(ts_qp_thread_t *qp_thread, unsigned long qp_clk)$/;"	f	typeref:typename:void	file:
+qp_reap_zombie_threads	qp.c	/^static void qp_reap_zombie_threads(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:void	file:
+qp_reclaim_barrier	qp.c	/^static void qp_reclaim_barrier(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:void	file:
+qp_take_nap	qp.c	/^static void qp_take_nap(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:void	file:
+qp_thread_main	qp.c	/^static void *qp_thread_main(void *arg)$/;"	f	typeref:typename:void *	file:
+qp_trigger_reclaim	qp.c	/^static void qp_trigger_reclaim(ts_qp_thread_t *qp_thread, ts_reclaim_t reclaim)$/;"	f	typeref:typename:void	file:
+qp_wait	qp.c	/^static void qp_wait(ts_qp_thread_t *qp_thread, unsigned long qp_clk,$/;"	f	typeref:typename:void	file:
+r_thread	timestone_i.h	/^	pthread_t r_thread;$/;"	m	struct:ts_log_replica_thread	typeref:typename:pthread_t
+read_set	timestone_i.h	/^	ts_ptr_set_t read_set;$/;"	m	struct:ts_isolation_info	typeref:typename:ts_ptr_set_t
+read_set_add	isolation.h	/^static inline void read_set_add(ts_isolation_info_t *isolation,$/;"	f	typeref:typename:void
+reclaim	timestone_i.h	/^	ts_reclaim_t reclaim;$/;"	m	struct:ts_qp_thread	typeref:typename:ts_reclaim_t
+reclaim	timestone_i.h	/^	ts_reclaim_t reclaim;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_reclaim_t
+reclaim_lock	timestone_i.h	/^	volatile unsigned int reclaim_lock;$/;"	m	struct:ts_nvlog	typeref:typename:volatile unsigned int
+reclaim_lock	timestone_i.h	/^	volatile unsigned int reclaim_lock;$/;"	m	struct:ts_tvlog	typeref:typename:volatile unsigned int
+reclaim_tvlog_ckptlog	tvlog.c	/^static int reclaim_tvlog_ckptlog(ts_tvlog_t *tvlog, ts_ckptlog_t *ckptlog,$/;"	f	typeref:typename:int	file:
+reconstruct_volatile_header	recovery.c	/^static int reconstruct_volatile_header(ts_ckpt_entry_t *ckpt_entry,$/;"	f	typeref:typename:int	file:
+reconstruct_volatile_nvlog	recovery.c	/^static ts_nvlog_t *reconstruct_volatile_nvlog(ts_nvlog_store_t *nvlog_store)$/;"	f	typeref:typename:ts_nvlog_t *	file:
+register_files	disk.c	/^void register_files(struct io_uring *ring)$/;"	f	typeref:typename:void
+register_thread	qp.c	/^void register_thread(ts_thread_struct_t *self)$/;"	f	typeref:typename:void
+release_thread	recovery.c	/^static void release_thread(ts_ptr_set_t *threads, ts_replay_entry_t *re_ent)$/;"	f	typeref:typename:void	file:
+replay_ops	recovery.c	/^static int replay_ops(ts_recovery_t *recovery, ts_replay_entry_t *replay_array,$/;"	f	typeref:typename:int	file:
+replica_wait_data	timestone_i.h	/^typedef struct replica_wait_data$/;"	s
+replicate_mobj_to_disk	timestone.c	/^void replicate_mobj_to_disk(ts_thread_struct_t *self, ts_disk_entry_t *entries)$/;"	f	typeref:typename:void
+req	timestone_i.h	/^	ts_replica_queue_entry_t req[MAX_COMM_QUEUE_SIZE];$/;"	m	struct:ts_replica_queue	typeref:typename:ts_replica_queue_entry_t[]
+req2str	util.h	/^static inline const char *req2str(unsigned char req)$/;"	f	typeref:typename:const char *
+request_ckptlog_reclaim	qp.c	/^int request_ckptlog_reclaim(unsigned char new_req)$/;"	f	typeref:typename:int
+request_tvlog_reclaim	qp.c	/^int request_tvlog_reclaim(unsigned char new_req)$/;"	f	typeref:typename:int
+requested	timestone_i.h	/^	volatile unsigned int requested;$/;"	m	union:ts_reclaim	typeref:typename:volatile unsigned int
+reset_all_stats	qp.c	/^void reset_all_stats(void)$/;"	f	typeref:typename:void
+reset_flush	qp.c	/^static void reset_flush(io_work *wrk)$/;"	f	typeref:typename:void	file:
+restore_ptr	util.h	/^static inline void *restore_ptr(void *obj)$/;"	f	typeref:typename:void *
+ring	timestone_i.h	/^	struct io_uring *ring;$/;"	m	struct:io_work_data_struct	typeref:struct:io_uring *
+ring	timestone_i.h	/^	struct io_uring ring[N_IO_URING_INST_MAX];$/;"	m	struct:ts_qp_thread	typeref:struct:io_uring[]
+root	timestone_i.h	/^	ts_nvm_root_obj_t *root;$/;"	m	struct:ts_recovery	typeref:typename:ts_nvm_root_obj_t *
+rs_head	timestone_i.h	/^	int *rs_head;$/;"	m	struct:ts_nvlog	typeref:typename:int *
+rs_head	timestone_i.h	/^	int rs_head;$/;"	m	struct:ts_thread_struct	typeref:typename:int
+rs_tail	timestone_i.h	/^	int *rs_tail;$/;"	m	struct:ts_nvlog	typeref:typename:int *
+rs_tail	timestone_i.h	/^	int rs_tail;$/;"	m	struct:ts_thread_struct	typeref:typename:int
+run_cnt	timestone_i.h	/^	unsigned int run_cnt;$/;"	m	struct:ts_qp_info	typeref:typename:unsigned int
+run_cnt	timestone_i.h	/^	volatile unsigned int run_cnt;$/;"	m	struct:ts_thread_struct	typeref:typename:volatile unsigned int
+rw_data_t	timestone_i.h	/^}rw_data_t;$/;"	t	typeref:struct:replica_wait_data
+setup_disk_files	disk.c	/^static void setup_disk_files(int start, int end, int p_id)$/;"	f	typeref:typename:void	file:
+setup_io_uring	disk.c	/^int setup_io_uring(struct io_uring *ring, int n_io_inst)$/;"	f	typeref:typename:int
+should_stop	qp.c	/^static inline int should_stop(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:int	file:
+should_stop	timestone_i.h	/^	bool should_stop;$/;"	m	struct:ts_log_replica_thread	typeref:typename:bool
+size	port-user.h	/^	unsigned long size;$/;"	m	struct:tvlog_region_allocator	typeref:typename:unsigned long
+size	timestone_i.h	/^	volatile unsigned int size;$/;"	m	struct:ts_nvlog_entry_hdr	typeref:typename:volatile unsigned int
+sizeof_chs	util.h	/^static inline unsigned int sizeof_chs(const ts_cpy_hdr_struct_t *chs)$/;"	f	typeref:typename:unsigned int
+socket_id	timestone_i.h	/^	int socket_id;$/;"	m	struct:ts_replica_queue_entry	typeref:typename:int
+socket_id	timestone_i.h	/^	unsigned int socket_id;$/;"	m	struct:ts_thread_struct	typeref:typename:unsigned int
+sort_replay_array	recovery.c	/^static void sort_replay_array(ts_replay_entry_t *replay_array, int ops_cnt)$/;"	f	typeref:typename:void	file:
+src	timestone_i.h	/^	void *src;$/;"	m	struct:ts_disk_entry	typeref:typename:void *
+stale_read_occured	timestone_i.h	/^	int stale_read_occured;$/;"	m	struct:ts_isolation_info	typeref:typename:int
+stale_read_occurred	isolation.h	/^static inline int stale_read_occurred(ts_isolation_info_t *isolation)$/;"	f	typeref:typename:int
+start_tail_cnt	timestone_i.h	/^	unsigned long start_tail_cnt;$/;"	m	struct:ts_wrt_set	typeref:typename:unsigned long
+stat	timestone_i.h	/^	ts_stat_t stat;$/;"	m	struct:ts_qp_thread	typeref:typename:ts_stat_t
+stat	timestone_i.h	/^	ts_stat_t stat;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_stat_t
+stat_acc	debug.h	/^static inline void stat_acc(ts_stat_t *stat, int s, unsigned long v)$/;"	f	typeref:typename:void
+stat_asgn	debug.h	/^static inline void stat_asgn(ts_stat_t *stat, int s, unsigned long v)$/;"	f	typeref:typename:void
+stat_atomic_merge	debug.h	/^static inline void stat_atomic_merge(ts_stat_t *tgt, ts_stat_t *src)$/;"	f	typeref:typename:void
+stat_get_name	debug.c	/^static const char *stat_get_name(int s)$/;"	f	typeref:typename:const char *	file:
+stat_inc	debug.h	/^static inline void stat_inc(ts_stat_t *stat, int s)$/;"	f	typeref:typename:void
+stat_max	debug.h	/^static inline void stat_max(ts_stat_t *stat, int s, unsigned long v)$/;"	f	typeref:typename:void
+stat_print_cnt	debug.c	/^static void stat_print_cnt(ts_stat_t *stat)$/;"	f	typeref:typename:void	file:
+stat_qp_acc	debug.h	/^#define stat_qp_acc(/;"	d
+stat_qp_inc	debug.h	/^#define stat_qp_inc(/;"	d
+stat_qp_max	debug.h	/^#define stat_qp_max(/;"	d
+stat_qp_merge	debug.h	/^#define stat_qp_merge(/;"	d
+stat_reset	debug.h	/^static inline void stat_reset(ts_stat_t *stat)$/;"	f	typeref:typename:void
+stat_thread_acc	debug.h	/^#define stat_thread_acc(/;"	d
+stat_thread_asgn	debug.h	/^#define stat_thread_asgn(/;"	d
+stat_thread_inc	debug.h	/^#define stat_thread_inc(/;"	d
+stat_thread_max	debug.h	/^#define stat_thread_max(/;"	d
+stat_thread_merge	debug.h	/^#define stat_thread_merge(/;"	d
+status	timestone_i.h	/^	int status;$/;"	m	struct:ts_replica_queue_entry	typeref:typename:int
+status	timestone_i.h	/^	unsigned short status;$/;"	m	struct:ts_nvlog	typeref:typename:unsigned short
+status	timestone_i.h	/^	unsigned short status;$/;"	m	struct:ts_nvlog_store	typeref:typename:unsigned short
+status	timestone_i.h	/^	volatile unsigned char status;$/;"	m	struct:ts_obj_hdr	typeref:typename:volatile unsigned char
+stop_op_replica_thread	replica.c	/^void stop_op_replica_thread()$/;"	f	typeref:typename:void
+stop_requested	timestone_i.h	/^	volatile int stop_requested;$/;"	m	struct:ts_qp_thread	typeref:typename:volatile int
+tail	timestone_i.h	/^	int tail;$/;"	m	struct:ts_replica_queue	typeref:typename:int
+tail_cnt	timestone_i.h	/^	unsigned long tail_cnt;$/;"	m	struct:ts_log_replica	typeref:typename:unsigned long
+tail_cnt	timestone_i.h	/^	volatile unsigned long tail_cnt;$/;"	m	struct:ts_nvlog	typeref:typename:volatile unsigned long
+tail_cnt	timestone_i.h	/^	volatile unsigned long tail_cnt;$/;"	m	struct:ts_nvlog_store	typeref:typename:volatile unsigned long
+tail_cnt	timestone_i.h	/^	volatile unsigned long tail_cnt;$/;"	m	struct:ts_tvlog	typeref:typename:volatile unsigned long
+thread	timestone_i.h	/^	pthread_t thread;$/;"	m	struct:ts_qp_thread	typeref:typename:pthread_t
+thread	timestone_i.h	/^	ts_thread_struct_t **thread;$/;"	m	struct:io_work_data_struct	typeref:typename:ts_thread_struct_t **
+thread	timestone_i.h	/^	ts_thread_struct_t *thread;$/;"	m	struct:ts_nvlog	typeref:typename:ts_thread_struct_t *
+thread	timestone_i.h	/^	ts_thread_struct_t *thread;$/;"	m	struct:ts_op_context	typeref:typename:ts_thread_struct_t *
+thread	timestone_i.h	/^	ts_thread_struct_t *thread;$/;"	m	struct:ts_wrt_set	typeref:typename:ts_thread_struct_t *
+thread_list_add	qp.c	/^static inline void thread_list_add(ts_thread_list_t *tl,$/;"	f	typeref:typename:void	file:
+thread_list_del	qp.c	/^static inline void thread_list_del(ts_thread_list_t *tl,$/;"	f	typeref:typename:void	file:
+thread_list_del_unsafe	qp.c	/^static inline void thread_list_del_unsafe(ts_thread_list_t *tl,$/;"	f	typeref:typename:void	file:
+thread_list_destroy	qp.c	/^static inline void thread_list_destroy(ts_thread_list_t *tl)$/;"	f	typeref:typename:void	file:
+thread_list_empty	qp.c	/^static inline int thread_list_empty(ts_thread_list_t *tl)$/;"	f	typeref:typename:int	file:
+thread_list_for_each_safe	qp.c	/^#define thread_list_for_each_safe(/;"	d	file:
+thread_list_has_waiter	qp.c	/^static inline int thread_list_has_waiter(ts_thread_list_t *tl)$/;"	f	typeref:typename:int	file:
+thread_list_lock	qp.c	/^static inline void thread_list_lock(ts_thread_list_t *tl)$/;"	f	typeref:typename:void	file:
+thread_list_lock_force	qp.c	/^static inline void thread_list_lock_force(ts_thread_list_t *tl)$/;"	f	typeref:typename:void	file:
+thread_list_rotate_left_unsafe	qp.c	/^static inline void thread_list_rotate_left_unsafe(ts_thread_list_t *tl)$/;"	f	typeref:typename:void	file:
+thread_list_unlock	qp.c	/^static inline void thread_list_unlock(ts_thread_list_t *tl)$/;"	f	typeref:typename:void	file:
+thread_wait	timestone_i.h	/^	volatile int thread_wait;$/;"	m	struct:ts_thread_list	typeref:typename:volatile int
+tid	timestone_i.h	/^	unsigned int tid;$/;"	m	struct:ts_thread_struct	typeref:typename:unsigned int
+time_stamp	timestone_i.h	/^	unsigned long time_stamp;$/;"	m	struct:ts_replay_entry	typeref:typename:unsigned long
+tombstone	timestone_i.h	/^	volatile char tombstone; \/* the original master should be freed *\/$/;"	m	struct:ts_ckpt_entry_hdr	typeref:typename:volatile char
+tombstone_clk	timestone_i.h	/^		tombstone_clk; \/* when tombstone-marked in a ckptlog *\/$/;"	m	struct:ts_act_vhdr	typeref:typename:volatile unsigned long
+try_alloc_act_vhdr	timestone.c	/^static int try_alloc_act_vhdr(void *obj)$/;"	f	typeref:typename:int	file:
+try_detach_obj	tvlog.c	/^static void try_detach_obj(ts_cpy_hdr_struct_t *chs)$/;"	f	typeref:typename:void	file:
+try_lock	util.h	/^static inline int try_lock(volatile unsigned int *lock)$/;"	f	typeref:typename:int
+try_lock_obj	timestone.c	/^static inline int try_lock_obj(ts_act_vhdr_t *p_act_vhdr,$/;"	f	typeref:typename:int	file:
+try_reclaim_logs	timestone.c	/^static inline void try_reclaim_logs(ts_thread_struct_t *self)$/;"	f	typeref:typename:void	file:
+ts_abort	timestone.c	/^void ts_abort(ts_thread_struct_t *self)$/;"	f	typeref:typename:void
+ts_act_hdr_struct	timestone_i.h	/^typedef struct ts_act_hdr_struct {$/;"	s
+ts_act_hdr_struct_t	timestone_i.h	/^} ts_act_hdr_struct_t;$/;"	t	typeref:struct:ts_act_hdr_struct
+ts_act_nvhdr	timestone_i.h	/^typedef struct ts_act_nvhdr {$/;"	s
+ts_act_nvhdr_t	timestone_i.h	/^} ____ptr_aligned ts_act_nvhdr_t;$/;"	t	typeref:struct:ts_act_nvhdr ____ptr_aligned
+ts_act_vhdr	timestone_i.h	/^typedef struct ts_act_vhdr {$/;"	s
+ts_act_vhdr_t	timestone_i.h	/^} ____cacheline_aligned ts_act_vhdr_t;$/;"	t	typeref:struct:ts_act_vhdr ____cacheline_aligned
+ts_alloc	timestone.c	/^void *ts_alloc(size_t size)$/;"	f	typeref:typename:void *
+ts_alloc_internal	timestone.c	/^void *ts_alloc_internal(size_t size, ts_act_hdr_struct_t *vahs)$/;"	f	typeref:typename:void *
+ts_alloc_operand	timestone.c	/^void *ts_alloc_operand(ts_thread_struct_t *self, int size)$/;"	f	typeref:typename:void *
+ts_alloc_unsafe	timestone.c	/^void *ts_alloc_unsafe(size_t size, bool flush)$/;"	f	typeref:typename:void *
+ts_assert	debug.h	/^#define ts_assert(/;"	d
+ts_assert_fail	debug.c	/^void ts_assert_fail(void)$/;"	f	typeref:typename:void
+ts_assert_msg	debug.h	/^#define ts_assert_msg(/;"	d
+ts_assert_obj_type	util.h	/^static inline void ts_assert_obj_type(void *obj, int type)$/;"	f	typeref:typename:void
+ts_assign_ptr_entry	timestone_i.h	/^typedef struct ts_assign_ptr_entry {$/;"	s
+ts_assign_ptr_entry_t	timestone_i.h	/^} ts_assign_ptr_entry_t;$/;"	t	typeref:struct:ts_assign_ptr_entry
+ts_assign_ptr_set	timestone_i.h	/^typedef struct ts_assign_ptr_set {$/;"	s
+ts_assign_ptr_set_t	timestone_i.h	/^} ts_assign_ptr_set_t;$/;"	t	typeref:struct:ts_assign_ptr_set
+ts_attach_gdb	debug.c	/^void ts_attach_gdb(void)$/;"	f	typeref:typename:void
+ts_begin	timestone.c	/^void ts_begin(ts_thread_struct_t *self, int isolation_level)$/;"	f	typeref:typename:void
+ts_ckpt_entry	timestone_i.h	/^typedef struct ts_ckpt_entry {$/;"	s
+ts_ckpt_entry_hdr	timestone_i.h	/^typedef struct ts_ckpt_entry_hdr {$/;"	s
+ts_ckpt_entry_hdr_t	timestone_i.h	/^} __nvm ____ptr_aligned ts_ckpt_entry_hdr_t;$/;"	t	typeref:struct:ts_ckpt_entry_hdr __nvm ____ptr_aligned
+ts_ckpt_entry_t	timestone_i.h	/^} __nvm ts_ckpt_entry_t;$/;"	t	typeref:struct:ts_ckpt_entry __nvm
+ts_ckptlog_t	timestone_i.h	/^typedef ts_nvlog_t ts_ckptlog_t;$/;"	t	typeref:typename:ts_nvlog_t
+ts_cmp_ptrs	timestone.c	/^int ts_cmp_ptrs(void *obj1, void *obj2)$/;"	f	typeref:typename:int
+ts_cpy_hdr	timestone_i.h	/^typedef struct ts_cpy_hdr {$/;"	s
+ts_cpy_hdr_struct	timestone_i.h	/^typedef struct ts_cpy_hdr_struct {$/;"	s
+ts_cpy_hdr_struct_t	timestone_i.h	/^} ts_cpy_hdr_struct_t;$/;"	t	typeref:struct:ts_cpy_hdr_struct
+ts_cpy_hdr_t	timestone_i.h	/^} ____ptr_aligned ts_cpy_hdr_t;$/;"	t	typeref:struct:ts_cpy_hdr ____ptr_aligned
+ts_dbg_dump_act_vhdr	debug.c	/^void ts_dbg_dump_act_vhdr(const char *f, const int l, ts_act_vhdr_t *p_act_vhdr)$/;"	f	typeref:typename:void
+ts_dbg_dump_act_vhdr	debug.h	/^#define ts_dbg_dump_act_vhdr(/;"	d
+ts_dbg_dump_all_version_chain_act_hdr	debug.c	/^void ts_dbg_dump_all_version_chain_act_hdr(const char *f, const int l,$/;"	f	typeref:typename:void
+ts_dbg_dump_all_version_chain_act_hdr	debug.h	/^#define ts_dbg_dump_all_version_chain_act_hdr(/;"	d
+ts_dbg_dump_all_version_chain_chs	debug.c	/^void ts_dbg_dump_all_version_chain_chs(const char *f, const int l,$/;"	f	typeref:typename:void
+ts_dbg_dump_all_version_chain_chs	debug.h	/^#define ts_dbg_dump_all_version_chain_chs(/;"	d
+ts_dbg_dump_cpy_hdr	debug.c	/^void ts_dbg_dump_cpy_hdr(const char *f, const int l, ts_cpy_hdr_t *ch)$/;"	f	typeref:typename:void
+ts_dbg_dump_cpy_hdr	debug.h	/^#define ts_dbg_dump_cpy_hdr(/;"	d
+ts_dbg_dump_cpy_hdr_struct	debug.c	/^void ts_dbg_dump_cpy_hdr_struct(const char *f, const int l,$/;"	f	typeref:typename:void
+ts_dbg_dump_cpy_hdr_struct	debug.h	/^#define ts_dbg_dump_cpy_hdr_struct(/;"	d
+ts_dbg_dump_obj_hdr	debug.c	/^void ts_dbg_dump_obj_hdr(const char *f, const int l, ts_obj_hdr_t *oh)$/;"	f	typeref:typename:void
+ts_dbg_dump_obj_hdr	debug.h	/^#define ts_dbg_dump_obj_hdr(/;"	d
+ts_dbg_dump_version_chain	debug.c	/^void ts_dbg_dump_version_chain(const char *f, const int l,$/;"	f	typeref:typename:void
+ts_dbg_dump_version_chain	debug.h	/^#define ts_dbg_dump_version_chain(/;"	d
+ts_deref	timestone.c	/^void *ts_deref(ts_thread_struct_t *self, void *obj)$/;"	f	typeref:typename:void *
+ts_disk_entry	timestone_i.h	/^typedef struct ts_disk_entry {$/;"	s
+ts_disk_entry_t	timestone_i.h	/^} ts_disk_entry_t;$/;"	t	typeref:struct:ts_disk_entry
+ts_drain_replica_set	timestone.c	/^void ts_drain_replica_set(ts_thread_struct_t *thread)$/;"	f	typeref:typename:void
+ts_dump_stack	debug.c	/^void ts_dump_stack(void)$/;"	f	typeref:typename:void
+ts_end	timestone.c	/^int ts_end(ts_thread_struct_t *self)$/;"	f	typeref:typename:int
+ts_finish	timestone.c	/^void ts_finish(void)$/;"	f	typeref:typename:void
+ts_flush_log	timestone.c	/^void ts_flush_log(ts_thread_struct_t *self)$/;"	f	typeref:typename:void
+ts_free	timestone.c	/^void ts_free(ts_thread_struct_t *self, void *obj)$/;"	f	typeref:typename:void
+ts_get_base_addr	timestone.c	/^volatile char *ts_get_base_addr(volatile void *obj)$/;"	f	typeref:typename:volatile char *
+ts_get_index	timestone.c	/^int ts_get_index(void *obj)$/;"	f	typeref:typename:int
+ts_get_offset	timestone.c	/^volatile void *ts_get_offset(void *obj, int index)$/;"	f	typeref:typename:volatile void *
+ts_init	timestone.c	/^int __init ts_init(ts_conf_t *conf)$/;"	f	typeref:typename:int __init
+ts_isolation_info	timestone_i.h	/^typedef struct ts_isolation_info {$/;"	s
+ts_isolation_info_t	timestone_i.h	/^} ts_isolation_info_t;$/;"	t	typeref:struct:ts_isolation_info
+ts_isolation_supported	timestone.c	/^int ts_isolation_supported(int isolation)$/;"	f	typeref:typename:int
+ts_list	timestone_i.h	/^typedef struct ts_list {$/;"	s
+ts_list_add	util.h	/^static inline void ts_list_add(ts_list_t *_new, ts_list_t *head)$/;"	f	typeref:typename:void
+ts_list_del	util.h	/^static inline void ts_list_del(ts_list_t *entry)$/;"	f	typeref:typename:void
+ts_list_empty	util.h	/^static inline int ts_list_empty(const ts_list_t *head)$/;"	f	typeref:typename:int
+ts_list_rotate_left	util.h	/^static inline void ts_list_rotate_left(ts_list_t *head)$/;"	f	typeref:typename:void
+ts_list_t	timestone_i.h	/^} ts_list_t;$/;"	t	typeref:struct:ts_list
+ts_log_replica	timestone_i.h	/^typedef struct ts_log_replica$/;"	s
+ts_log_replica_t	timestone_i.h	/^}ts_log_replica_t;$/;"	t	typeref:struct:ts_log_replica
+ts_log_replica_thread	timestone_i.h	/^typedef struct ts_log_replica_thread$/;"	s
+ts_memcpy_operand	timestone.c	/^void ts_memcpy_operand(ts_thread_struct_t *self, void *opd, int size)$/;"	f	typeref:typename:void
+ts_nvlog	timestone_i.h	/^typedef struct ts_nvlog {$/;"	s
+ts_nvlog_entry_hdr	timestone_i.h	/^typedef struct ts_nvlog_entry_hdr {$/;"	s
+ts_nvlog_entry_hdr_t	timestone_i.h	/^} __nvm ____ptr_aligned ts_nvlog_entry_hdr_t;$/;"	t	typeref:struct:ts_nvlog_entry_hdr __nvm ____ptr_aligned
+ts_nvlog_store	timestone_i.h	/^typedef struct ts_nvlog_store {$/;"	s
+ts_nvlog_store_t	timestone_i.h	/^} __nvm ts_nvlog_store_t;$/;"	t	typeref:struct:ts_nvlog_store __nvm
+ts_nvlog_t	timestone_i.h	/^} ts_nvlog_t;$/;"	t	typeref:struct:ts_nvlog
+ts_nvm_root_obj	timestone_i.h	/^typedef struct ts_nvm_root_obj {$/;"	s
+ts_nvm_root_obj_t	timestone_i.h	/^} ts_nvm_root_obj_t;$/;"	t	typeref:struct:ts_nvm_root_obj
+ts_obj_hdr	timestone_i.h	/^typedef struct ts_obj_hdr {$/;"	s
+ts_obj_hdr_t	timestone_i.h	/^} ____ptr_aligned ts_obj_hdr_t;$/;"	t	typeref:struct:ts_obj_hdr ____ptr_aligned
+ts_op_context	timestone_i.h	/^typedef struct ts_op_context {$/;"	s
+ts_op_context_t	timestone_i.h	/^} ts_op_context_t;$/;"	t	typeref:struct:ts_op_context
+ts_op_entry	timestone_i.h	/^typedef struct ts_op_entry {$/;"	s
+ts_op_entry_hdr	timestone_i.h	/^typedef struct ts_op_entry_hdr {$/;"	s
+ts_op_entry_hdr_t	timestone_i.h	/^} __nvm ____ptr_aligned ts_op_entry_hdr_t;$/;"	t	typeref:struct:ts_op_entry_hdr __nvm ____ptr_aligned
+ts_op_entry_t	timestone_i.h	/^} __nvm __packed ts_op_entry_t;$/;"	t	typeref:struct:ts_op_entry __nvm __packed
+ts_op_info	timestone_i.h	/^typedef struct ts_op_info {$/;"	s
+ts_op_info_t	timestone_i.h	/^} ts_op_info_t;$/;"	t	typeref:struct:ts_op_info
+ts_oplog_t	timestone_i.h	/^typedef ts_nvlog_t ts_oplog_t;$/;"	t	typeref:typename:ts_nvlog_t
+ts_print_stats	debug.c	/^void ts_print_stats(void)$/;"	f	typeref:typename:void
+ts_ptr_set	timestone_i.h	/^typedef struct ts_ptr_set {$/;"	s
+ts_ptr_set_t	timestone_i.h	/^} ts_ptr_set_t;$/;"	t	typeref:struct:ts_ptr_set
+ts_qp_info	timestone_i.h	/^typedef struct ts_qp_info {$/;"	s
+ts_qp_info_t	timestone_i.h	/^} ts_qp_info_t;$/;"	t	typeref:struct:ts_qp_info
+ts_qp_thread	timestone_i.h	/^typedef struct ts_qp_thread {$/;"	s
+ts_qp_thread_t	timestone_i.h	/^} ts_qp_thread_t;$/;"	t	typeref:struct:ts_qp_thread
+ts_reclaim	timestone_i.h	/^typedef union ts_reclaim {$/;"	u
+ts_reclaim_t	timestone_i.h	/^} ts_reclaim_t;$/;"	t	typeref:union:ts_reclaim
+ts_recovery	timestone_i.h	/^typedef struct ts_recovery {$/;"	s
+ts_recovery_t	timestone_i.h	/^} ts_recovery_t;$/;"	t	typeref:struct:ts_recovery
+ts_replay_entry	timestone_i.h	/^typedef struct ts_replay_entry {$/;"	s
+ts_replay_entry_t	timestone_i.h	/^} ts_replay_entry_t;$/;"	t	typeref:struct:ts_replay_entry
+ts_replica_queue	timestone_i.h	/^typedef struct ts_replica_queue$/;"	s
+ts_replica_queue_entry	timestone_i.h	/^typedef struct ts_replica_queue_entry$/;"	s
+ts_replica_queue_entry_t	timestone_i.h	/^}ts_replica_queue_entry_t;$/;"	t	typeref:struct:ts_replica_queue_entry
+ts_replica_queue_t	timestone_i.h	/^}ts_replica_queue_t;$/;"	t	typeref:struct:ts_replica_queue
+ts_replica_thread_t	timestone_i.h	/^}ts_replica_thread_t;$/;"	t	typeref:struct:ts_log_replica_thread
+ts_reset_stats	debug.c	/^void ts_reset_stats(void)$/;"	f	typeref:typename:void
+ts_set_op	timestone.c	/^void ts_set_op(ts_thread_struct_t *self, unsigned long op_type)$/;"	f	typeref:typename:void
+ts_start_timer	debug.h	/^#define ts_start_timer(/;"	d
+ts_stat	timestone_i.h	/^typedef struct ts_stat {$/;"	s
+ts_stat_alloc_act_obj	timestone.c	/^void ts_stat_alloc_act_obj(ts_thread_struct_t *self, size_t size)$/;"	f	typeref:typename:void
+ts_stat_t	timestone_i.h	/^} ts_stat_t;$/;"	t	typeref:struct:ts_stat
+ts_stop_timer	debug.h	/^#define ts_stop_timer(/;"	d
+ts_sys_clks	timestone_i.h	/^typedef struct ts_sys_clks {$/;"	s
+ts_sys_clks_t	timestone_i.h	/^} ts_sys_clks_t;$/;"	t	typeref:struct:ts_sys_clks
+ts_thread_alloc	timestone.c	/^ts_thread_struct_t *ts_thread_alloc(void)$/;"	f	typeref:typename:ts_thread_struct_t *
+ts_thread_finish	timestone.c	/^void ts_thread_finish(ts_thread_struct_t *self)$/;"	f	typeref:typename:void
+ts_thread_free	timestone.c	/^void ts_thread_free(ts_thread_struct_t *self)$/;"	f	typeref:typename:void
+ts_thread_init	timestone.c	/^void ts_thread_init(ts_thread_struct_t *self)$/;"	f	typeref:typename:void
+ts_thread_init_x	timestone.c	/^void ts_thread_init_x(ts_thread_struct_t *self, unsigned short flags)$/;"	f	typeref:typename:void
+ts_thread_list	timestone_i.h	/^typedef struct ts_thread_list {$/;"	s
+ts_thread_list_t	timestone_i.h	/^} ts_thread_list_t;$/;"	t	typeref:struct:ts_thread_list
+ts_thread_struct	timestone_i.h	/^typedef struct ts_thread_struct {$/;"	s
+ts_thread_struct_t	timestone_i.h	/^typedef struct ts_thread_struct ts_thread_struct_t;$/;"	t	typeref:struct:ts_thread_struct
+ts_thread_struct_t	timestone_i.h	/^} ts_thread_struct_t;$/;"	t	typeref:struct:ts_thread_struct
+ts_trace	debug.h	/^#define ts_trace(/;"	d
+ts_tvlog	timestone_i.h	/^typedef struct ts_tvlog {$/;"	s
+ts_tvlog_t	timestone_i.h	/^} ts_tvlog_t;$/;"	t	typeref:struct:ts_tvlog
+ts_update_index	timestone.c	/^void ts_update_index(void *obj, int index)$/;"	f	typeref:typename:void
+ts_warning	debug.h	/^#define ts_warning(/;"	d
+ts_warning_msg	debug.h	/^#define ts_warning_msg(/;"	d
+ts_wrt_set	timestone_i.h	/^typedef struct ts_wrt_set {$/;"	s
+ts_wrt_set_struct	timestone_i.h	/^typedef struct ts_wrt_set_struct {$/;"	s
+ts_wrt_set_struct_t	timestone_i.h	/^} ts_wrt_set_struct_t;$/;"	t	typeref:struct:ts_wrt_set_struct
+ts_wrt_set_t	timestone_i.h	/^typedef struct ts_wrt_set ts_wrt_set_t;$/;"	t	typeref:struct:ts_wrt_set
+ts_wrt_set_t	timestone_i.h	/^} ____ptr_aligned ts_wrt_set_t;$/;"	t	typeref:struct:ts_wrt_set ____ptr_aligned
+tss_copy_canary_act	timestone.c	/^void tss_copy_canary_act(ts_act_hdr_struct_t *ahs, ts_act_hdr_struct_t *vahs)$/;"	f	typeref:typename:void
+tss_insert_canary_act	timestone.c	/^void tss_insert_canary_act(ts_act_hdr_struct_t *ahs)$/;"	f	typeref:typename:void
+tss_insert_canary_cpy	tvlog.c	/^void tss_insert_canary_cpy(ts_cpy_hdr_struct_t *chs)$/;"	f	typeref:typename:void
+tvlog	timestone_i.h	/^		volatile unsigned char tvlog;$/;"	m	struct:ts_reclaim::__anona2aded3b0708	typeref:typename:volatile unsigned char
+tvlog	timestone_i.h	/^	ts_tvlog_t tvlog;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_tvlog_t
+tvlog_abort	tvlog.c	/^void tvlog_abort(ts_tvlog_t *tvlog, ts_ptr_set_t *free_set)$/;"	f	typeref:typename:void
+tvlog_alloc	tvlog.c	/^static ts_cpy_hdr_struct_t *tvlog_alloc(ts_tvlog_t *tvlog,$/;"	f	typeref:typename:ts_cpy_hdr_struct_t *	file:
+tvlog_append_abort	tvlog.h	/^static inline void tvlog_append_abort(ts_tvlog_t *tvlog,$/;"	f	typeref:typename:void
+tvlog_append_begin	tvlog.c	/^ts_cpy_hdr_struct_t *tvlog_append_begin(ts_tvlog_t *tvlog,$/;"	f	typeref:typename:ts_cpy_hdr_struct_t *
+tvlog_append_end	tvlog.h	/^static inline void tvlog_append_end(ts_tvlog_t *tvlog, ts_cpy_hdr_struct_t *chs,$/;"	f	typeref:typename:void
+tvlog_at	tvlog.c	/^static inline void *tvlog_at(ts_tvlog_t *log, unsigned long cnt)$/;"	f	typeref:typename:void *	file:
+tvlog_at_chs	tvlog.c	/^static inline ts_cpy_hdr_struct_t *tvlog_at_chs(ts_tvlog_t *tvlog,$/;"	f	typeref:typename:ts_cpy_hdr_struct_t *	file:
+tvlog_at_wss	tvlog.c	/^static inline ts_wrt_set_struct_t *tvlog_at_wss(ts_tvlog_t *log,$/;"	f	typeref:typename:ts_wrt_set_struct_t *	file:
+tvlog_commit	tvlog.c	/^int tvlog_commit(ts_tvlog_t *tvlog, ts_oplog_t *oplog,$/;"	f	typeref:typename:int
+tvlog_create	tvlog.c	/^int tvlog_create(ts_thread_struct_t *self, ts_tvlog_t *tvlog)$/;"	f	typeref:typename:int
+tvlog_flush	tvlog.c	/^void tvlog_flush(ts_tvlog_t *tvlog, ts_ckptlog_t *ckptlog,$/;"	f	typeref:typename:void
+tvlog_index	tvlog.c	/^static inline unsigned int tvlog_index(unsigned long cnt)$/;"	f	typeref:typename:unsigned int	file:
+tvlog_reclaim	tvlog.c	/^void tvlog_reclaim(ts_tvlog_t *tvlog, ts_ckptlog_t *ckptlog,$/;"	f	typeref:typename:void
+tvlog_reclaim_below_high_watermark	tvlog.c	/^void tvlog_reclaim_below_high_watermark(ts_tvlog_t *tvlog,$/;"	f	typeref:typename:void
+tvlog_reclaim_x	tvlog.c	/^static int tvlog_reclaim_x(ts_tvlog_t *tvlog, ts_ckptlog_t *ckptlog,$/;"	f	typeref:typename:int	file:
+tvlog_region_allocator	port-user.h	/^typedef struct tvlog_region_allocator {$/;"	s
+tvlog_region_allocator_t	port-user.h	/^} tvlog_region_allocator_t;$/;"	t	typeref:struct:tvlog_region_allocator
+tvlog_to_thread	debug.h	/^#define tvlog_to_thread(/;"	d
+tvlog_try_request_reclaim_if_needed	tvlog.c	/^static void tvlog_try_request_reclaim_if_needed(ts_tvlog_t *tvlog)$/;"	f	typeref:typename:void	file:
+tvlog_used	tvlog.h	/^static inline unsigned long tvlog_used(ts_tvlog_t *log)$/;"	f	typeref:typename:unsigned long
+tvtlog_destroy	tvlog.c	/^void tvtlog_destroy(ts_tvlog_t *tvlog)$/;"	f	typeref:typename:void
+tx_alloc_set	timestone_i.h	/^	ts_ptr_set_t tx_alloc_set;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_ptr_set_t
+tx_assign_set	timestone_i.h	/^	ts_assign_ptr_set_t tx_assign_set;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_assign_ptr_set_t
+tx_free_set	timestone_i.h	/^	ts_ptr_set_t tx_free_set;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_ptr_set_t
+tx_nv_alloc_set	timestone_i.h	/^	ts_ptr_set_t tx_nv_alloc_set;$/;"	m	struct:ts_thread_struct	typeref:typename:ts_ptr_set_t
+tx_replica_set	timestone_i.h	/^	ts_disk_entry_t *tx_replica_set;$/;"	m	struct:ts_nvlog	typeref:typename:ts_disk_entry_t *
+tx_replica_set	timestone_i.h	/^	ts_disk_entry_t tx_replica_set[MAX_SET_SIZE];$/;"	m	struct:ts_thread_struct	typeref:typename:ts_disk_entry_t[]
+type	timestone_i.h	/^	int type;$/;"	m	struct:ts_log_replica	typeref:typename:int
+type	timestone_i.h	/^	int type;$/;"	m	struct:ts_replay_entry	typeref:typename:int
+type	timestone_i.h	/^	unsigned short type;$/;"	m	struct:ts_nvlog	typeref:typename:unsigned short
+type	timestone_i.h	/^	unsigned short type;$/;"	m	struct:ts_nvlog_store	typeref:typename:unsigned short
+type	timestone_i.h	/^	volatile unsigned char type;$/;"	m	struct:ts_obj_hdr	typeref:typename:volatile unsigned char
+type	timestone_i.h	/^	volatile unsigned short type; \/* {TYPE_NVLOG_ENTRY | TYPE_BOGUS} *\/$/;"	m	struct:ts_nvlog_entry_hdr	typeref:typename:volatile unsigned short
+unlock	util.h	/^static inline void unlock(volatile unsigned int *lock)$/;"	f	typeref:typename:void
+update_nv_orig_obj	timestone.c	/^static void update_nv_orig_obj(ts_thread_struct_t *self)$/;"	f	typeref:typename:void	file:
+update_thread_count	qp.c	/^static void update_thread_count(int n_threads)$/;"	f	typeref:typename:void	file:
+validate_copy_obj	tvlog.c	/^static int validate_copy_obj(ts_cpy_hdr_struct_t *chs)$/;"	f	typeref:typename:int	file:
+validate_master_obj	timestone.c	/^static int validate_master_obj(ts_act_hdr_struct_t *ahs)$/;"	f	typeref:typename:int	file:
+validate_obj_checksum	util.h	/^static inline int validate_obj_checksum(void *obj, unsigned char type)$/;"	f	typeref:typename:int
+validate_ptr	timestone.c	/^int validate_ptr(void *obj)$/;"	f	typeref:typename:int
+validate_ptr_checksum	util.h	/^static inline int validate_ptr_checksum(ts_act_nvhdr_t *p_act_nvhdr)$/;"	f	typeref:typename:int
+validate_read_set	isolation.h	/^static inline int validate_read_set(ts_isolation_info_t *isolation)$/;"	f	typeref:typename:int
+vchs_obj_to_ws	util.h	/^static inline ts_wrt_set_t *vchs_obj_to_ws(volatile void *obj)$/;"	f	typeref:typename:ts_wrt_set_t *
+vobj_to_ahs	util.h	/^static inline ts_act_hdr_struct_t *vobj_to_ahs(volatile void *vobj)$/;"	f	typeref:typename:ts_act_hdr_struct_t *
+vobj_to_chs	util.h	/^static inline ts_cpy_hdr_struct_t *vobj_to_chs(volatile void *vobj, int type)$/;"	f	typeref:typename:ts_cpy_hdr_struct_t *
+vobj_to_ckpt_ent	util.h	/^static inline ts_ckpt_entry_t *vobj_to_ckpt_ent(volatile void *vobj)$/;"	f	typeref:typename:ts_ckpt_entry_t *
+vobj_to_obj_hdr	util.h	/^static inline ts_obj_hdr_t *vobj_to_obj_hdr(volatile void *vobj)$/;"	f	typeref:typename:ts_obj_hdr_t *
+vobj_to_vahs	util.h	/^static inline ts_act_hdr_struct_t *vobj_to_vahs(volatile void *vobj)$/;"	f	typeref:typename:ts_act_hdr_struct_t *
+vptr_checksum	timestone_i.h	/^	volatile uint32_t vptr_checksum;$/;"	m	struct:ts_act_nvhdr	typeref:typename:volatile uint32_t
+w_id	timestone_i.h	/^	int w_id;$/;"	m	struct:io_work_data_struct	typeref:typename:int
+wait_for_disk_writes	qp.c	/^static int wait_for_disk_writes(void *arg)$/;"	f	typeref:typename:int	file:
+wait_for_drain	timestone_i.h	/^	volatile bool wait_for_drain;$/;"	m	struct:ts_qp_thread	typeref:typename:volatile bool
+wait_for_io_workers	qp.c	/^static void wait_for_io_workers(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:void	file:
+wait_index	timestone_i.h	/^	unsigned int wait_index[100];$/;"	m	struct:replica_wait_data	typeref:typename:unsigned int[100]
+wakeup_qp_thread	qp.c	/^static inline void wakeup_qp_thread(ts_qp_thread_t *qp_thread)$/;"	f	typeref:typename:void	file:
+work_data	timestone_i.h	/^	io_work *work_data;$/;"	m	struct:ts_qp_thread	typeref:typename:io_work *
+workers	timestone_i.h	/^	pthread_t *workers;$/;"	m	struct:ts_qp_thread	typeref:typename:pthread_t *
+write_set_add	isolation.h	/^static inline void write_set_add(ts_isolation_info_t *isolation, void *p_lock)$/;"	f	typeref:typename:void
+write_to_disk_async	qp.c	/^static bool write_to_disk_async(ts_qp_thread_t *qp_thread,$/;"	f	typeref:typename:bool	file:
+wrt_clk	timestone_i.h	/^	volatile unsigned long wrt_clk;$/;"	m	struct:ts_nvlog_entry_hdr	typeref:typename:volatile unsigned long
+wrt_clk	timestone_i.h	/^	volatile unsigned long wrt_clk;$/;"	m	struct:ts_wrt_set	typeref:typename:volatile unsigned long
+wrt_clk_next	timestone_i.h	/^	volatile unsigned long wrt_clk_next;$/;"	m	struct:ts_cpy_hdr	typeref:typename:volatile unsigned long
+wrt_clk_prev	timestone_i.h	/^	volatile unsigned long wrt_clk_prev;$/;"	m	struct:ts_cpy_hdr	typeref:typename:volatile unsigned long
+wrt_set	timestone_i.h	/^	ts_wrt_set_t wrt_set;$/;"	m	struct:ts_wrt_set_struct	typeref:typename:ts_wrt_set_t
+ws_for_each	tvlog.c	/^#define ws_for_each(/;"	d	file:
+ws_for_each_safe	tvlog.c	/^#define ws_for_each_safe(/;"	d	file:
+ws_iter_begin	tvlog.c	/^static inline unsigned long ws_iter_begin(ts_wrt_set_t *ws)$/;"	f	typeref:typename:unsigned long	file:
+ws_iter_next	tvlog.c	/^static inline unsigned long ws_iter_next(unsigned long iter,$/;"	f	typeref:typename:unsigned long	file:
+ws_move_lock_to_copy	tvlog.c	/^static int ws_move_lock_to_copy(ts_tvlog_t *tvlog, ts_ptr_set_t *free_set)$/;"	f	typeref:typename:int	file:
+ws_unlock_abort	tvlog.c	/^static void ws_unlock_abort(ts_tvlog_t *tvlog)$/;"	f	typeref:typename:void	file:
+ws_unlock_commit	tvlog.c	/^static void ws_unlock_commit(ts_tvlog_t *tvlog)$/;"	f	typeref:typename:void	file:
+zombinize_thread	qp.c	/^void zombinize_thread(ts_thread_struct_t *self)$/;"	f	typeref:typename:void

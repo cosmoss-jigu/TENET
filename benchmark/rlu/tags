@@ -1,0 +1,741 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/madhav/workspace/timestone-internal/benchmark/rlu/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ALIGN_MASK	rlu.c	/^#define ALIGN_MASK /;"	d	file:
+ALIGN_NUMBER	rlu.c	/^#define ALIGN_NUMBER /;"	d	file:
+ALIGN_OBJ_SIZE	rlu.c	/^#define ALIGN_OBJ_SIZE(/;"	d	file:
+Authors	README-BENCH-HT.md	/^Authors$/;"	s	chapter:Read-Log-Update: A Lightweight Synchronization Mechanism for Concurrent Programming
+Authors	README-RLU.md	/^Authors$/;"	s	chapter:Read-Log-Update: A Lightweight Synchronization Mechanism for Concurrent Programming
+BENCH_ASSERT	bench.c	/^#define BENCH_ASSERT(/;"	d	file:
+BINS	Makefile	/^BINS = bench-harris bench-hp-harris bench-rcu bench-rlu bench-rlu bench-version bench-timestone$/;"	m
+BITS_PER_LONG	zipf/rand.h	/^#define BITS_PER_LONG /;"	d
+Brief Tutorial	README-RLU.md	/^Brief Tutorial$/;"	s	chapter:RLU v1.0 (08/23/2015)
+CACHE_ALIGN	list_vlist.h	/^#define CACHE_ALIGN /;"	d
+CACHE_ALIGN	qsbr.c	/^#define CACHE_ALIGN /;"	d	file:
+CACHE_ALIGN_SIZE	list_vlist.h	/^#define CACHE_ALIGN_SIZE(/;"	d
+CAS	hash-list.c	/^#define CAS(/;"	d	file:
+CAS	rlu.c	/^#define CAS(/;"	d	file:
+CAS	util.h	/^#define CAS(/;"	d
+CC	Makefile	/^CC := gcc$/;"	m
+CPU_RELAX	hazard_ptrs.c	/^#define CPU_RELAX(/;"	d	file:
+CPU_RELAX	rlu.c	/^#define CPU_RELAX(/;"	d	file:
+CUR_DIR	Makefile	/^CUR_DIR   := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))$/;"	m
+Code Maintainer	README-BENCH-HT.md	/^Code Maintainer$/;"	s	chapter:Read-Log-Update: A Lightweight Synchronization Mechanism for Concurrent Programming
+Code Maintainer	README-RLU.md	/^Code Maintainer$/;"	s	chapter:Read-Log-Update: A Lightweight Synchronization Mechanism for Concurrent Programming
+Compilation	README-BENCH-HT.md	/^Compilation$/;"	s	chapter:RLU-HT Benchmark
+DEFAULT_BUCKETS	bench.c	/^#define DEFAULT_BUCKETS /;"	d	file:
+DEFAULT_DURATION	bench.c	/^#define DEFAULT_DURATION /;"	d	file:
+DEFAULT_INITIAL	bench.c	/^#define DEFAULT_INITIAL /;"	d	file:
+DEFAULT_NB_THREADS	bench.c	/^#define DEFAULT_NB_THREADS /;"	d	file:
+DEFAULT_NVHEAP_POOL_PATH	bench.c	/^#define DEFAULT_NVHEAP_POOL_PATH /;"	d	file:
+DEFAULT_NVHEAP_POOL_SIZE	bench.c	/^#define DEFAULT_NVHEAP_POOL_SIZE /;"	d	file:
+DEFAULT_OP_CNT	bench.c	/^#define DEFAULT_OP_CNT /;"	d	file:
+DEFAULT_RANGE	bench.c	/^#define DEFAULT_RANGE /;"	d	file:
+DEFAULT_SEED	bench.c	/^#define DEFAULT_SEED /;"	d	file:
+DEFAULT_UPDATE	bench.c	/^#define DEFAULT_UPDATE /;"	d	file:
+DEFAULT_ZIPF_DIST_VAL	bench.c	/^#define DEFAULT_ZIPF_DIST_VAL /;"	d	file:
+DEF_NR_OUTPUT	zipf/test.c	/^#define DEF_NR_OUTPUT	/;"	d	file:
+DEF_ZIPF_VAL	zipf/test.c	/^#define DEF_ZIPF_VAL	/;"	d	file:
+ESPATIAL	hash-list.h	/^#define ESPATIAL /;"	d
+ETEMPORAL	hash-list.h	/^#define ETEMPORAL /;"	d
+Example	README-BENCH-HT.md	/^Example$/;"	s	chapter:RLU-HT Benchmark
+Execution Options	README-BENCH-HT.md	/^Execution Options$/;"	s	chapter:RLU-HT Benchmark
+FETCH_AND_ADD	rlu.c	/^#define FETCH_AND_ADD(/;"	d	file:
+FETCH_AND_ADD	util.h	/^#define FETCH_AND_ADD(/;"	d
+FIO_MIN_MAX_H	zipf/minmax.h	/^#define FIO_MIN_MAX_H$/;"	d
+FIO_RAND_H	zipf/rand.h	/^#define FIO_RAND_H$/;"	d
+FIO_TYPES_H	zipf/types.h	/^#define FIO_TYPES_H$/;"	d
+FIO_ZIPF_H	zipf/zipf.h	/^#define FIO_ZIPF_H$/;"	d
+FLIST_HEAD	zipf/flist.h	/^#define FLIST_HEAD(/;"	d
+FLIST_HEAD_INIT	zipf/flist.h	/^#define FLIST_HEAD_INIT(/;"	d
+FORCE_ACTUAL	rlu.c	/^#define FORCE_ACTUAL(/;"	d	file:
+FRAND32_MAX	zipf/rand.h	/^#define FRAND32_MAX	/;"	d
+FRAND64_MAX	zipf/rand.h	/^#define FRAND64_MAX	/;"	d
+GET_ACTUAL	rlu.c	/^#define GET_ACTUAL(/;"	d	file:
+GET_COPY	rlu.c	/^#define GET_COPY(/;"	d	file:
+GET_THREAD_ID	rlu.c	/^#define GET_THREAD_ID(/;"	d	file:
+GOLDEN_RATIO_32	zipf/hash.h	/^#define GOLDEN_RATIO_32 /;"	d
+GOLDEN_RATIO_64	zipf/hash.h	/^#define GOLDEN_RATIO_64 /;"	d
+GOLDEN_RATIO_PRIME	zipf/hash.h	/^#define GOLDEN_RATIO_PRIME /;"	d
+General	README-RLU.md	/^General$/;"	s	chapter:RLU v1.0 (08/23/2015)
+HARRIS_CAS	hash-list.c	/^#define HARRIS_CAS(/;"	d	file:
+HASH_VALUE	hash-list.c	/^#define HASH_VALUE(/;"	d	file:
+HAZARD_PTRS	hazard_ptrs.h	/^#define HAZARD_PTRS /;"	d
+HP_ALLOC	hazard_ptrs.h	/^#define HP_ALLOC(/;"	d
+HP_INIT	hazard_ptrs.h	/^#define HP_INIT(/;"	d
+HP_MAX_RECORDS	hazard_ptrs.h	/^#define HP_MAX_RECORDS /;"	d
+HP_RESET	hazard_ptrs.h	/^#define HP_RESET(/;"	d
+HP_RESTORE	hazard_ptrs.h	/^#define HP_RESTORE(/;"	d
+HP_SAVE	hazard_ptrs.h	/^#define HP_SAVE(/;"	d
+HP_alloc	hazard_ptrs.c	/^hp_record_t *HP_alloc(hp_thread_t *self) {	$/;"	f	typeref:typename:hp_record_t *
+HP_init	hazard_ptrs.c	/^void HP_init(hp_record_t *p_hp, volatile int64_t **ptr_ptr) {$/;"	f	typeref:typename:void
+HP_reset	hazard_ptrs.c	/^void HP_reset(hp_thread_t *self) {	$/;"	f	typeref:typename:void
+HP_restore	hazard_ptrs.c	/^void HP_restore(hp_thread_t *self) {$/;"	f	typeref:typename:void
+HP_save	hazard_ptrs.c	/^void HP_save(hp_thread_t *self) {$/;"	f	typeref:typename:void
+H_TO_OBJ	rlu.c	/^#define H_TO_OBJ(/;"	d	file:
+INACTIVE_EPOCH	list_vlist.h	/^#define INACTIVE_EPOCH /;"	d
+INDIRECT_EPOCH	list_vlist.h	/^#define INDIRECT_EPOCH /;"	d
+INIT_FLIST_HEAD	zipf/flist.h	/^#define INIT_FLIST_HEAD(/;"	d
+IO_FLUSH	bench.c	/^# define IO_FLUSH /;"	d	file:
+IS_COPY	rlu.c	/^#define IS_COPY(/;"	d	file:
+IS_HARRIS	Makefile	/^IS_HARRIS = -DIS_HARRIS$/;"	m
+IS_HAZARD_PTRS_HARRIS	Makefile	/^IS_HAZARD_PTRS_HARRIS = -DIS_HAZARD_PTRS_HARRIS$/;"	m
+IS_HP_ENABLED	hazard_ptrs.h	/^#define IS_HP_ENABLED$/;"	d
+IS_MVRLU	Makefile	/^IS_MVRLU = -DIS_MVRLU$/;"	m
+IS_RCU	Makefile	/^IS_RCU = -DIS_RCU$/;"	m
+IS_RLU	Makefile	/^IS_RLU = -DIS_RLU$/;"	m
+IS_UNLOCKED	rlu.c	/^#define IS_UNLOCKED(/;"	d	file:
+IS_VERSION	Makefile	/^IS_VERSION = -DIS_VERSION$/;"	m
+JHASH_INITVAL	zipf/hash.h	/^#define JHASH_INITVAL	/;"	d
+LCG	zipf/rand.c	/^#define LCG(/;"	d	file:
+LCG64	zipf/rand.c	/^#define LCG64(/;"	d	file:
+LD	Makefile	/^LD := gcc$/;"	m
+LIST_VAL_MAX	types.h	/^#define LIST_VAL_MAX /;"	d
+LIST_VAL_MIN	types.h	/^#define LIST_VAL_MIN /;"	d
+LOCK_ID	rlu.c	/^#define LOCK_ID(/;"	d	file:
+MAX_BUCKETS	types.h	/^#define MAX_BUCKETS /;"	d
+MAX_SPIN_LOCKS	new-urcu.c	/^#define MAX_SPIN_LOCKS /;"	d	file:
+MAX_VERSION	rlu.c	/^#define MAX_VERSION /;"	d	file:
+MEMBARSTLD	hash-list.c	/^#define MEMBARSTLD(/;"	d	file:
+MEMBARSTLD	hazard_ptrs.c	/^#define MEMBARSTLD(/;"	d	file:
+MEMBARSTLD	rlu.c	/^#define MEMBARSTLD(/;"	d	file:
+MEMBARSTLD	util.h	/^#define MEMBARSTLD(/;"	d
+MOVE_PTR_BACK	rlu.c	/^#define MOVE_PTR_BACK(/;"	d	file:
+MOVE_PTR_FORWARD	rlu.c	/^#define MOVE_PTR_FORWARD(/;"	d	file:
+MarsagliaXOR	bench.c	/^static inline int MarsagliaXOR (int * seed) {$/;"	f	typeref:typename:int	file:
+MarsagliaXORV	bench.c	/^static inline int MarsagliaXORV (int x) { $/;"	f	typeref:typename:int	file:
+NODE_PADDING	types.h	/^#define NODE_PADDING /;"	d
+NUM_PHYSICAL_CPU_PER_SOCKET	numa-config.h	/^    NUM_PHYSICAL_CPU_PER_SOCKET = 16,$/;"	e	enum:__anon776352cf0103
+NUM_SOCKET	numa-config.h	/^    NUM_SOCKET = 2,$/;"	e	enum:__anon776352cf0103
+Notes	README-RLU.md	/^Notes$/;"	s	chapter:RLU v1.0 (08/23/2015)
+OBJ_COPY_TO_WS_H	rlu.c	/^#define OBJ_COPY_TO_WS_H(/;"	d	file:
+OBJ_HEADER_SIZE	rlu.c	/^#define OBJ_HEADER_SIZE /;"	d	file:
+OBJ_TO_H	rlu.c	/^#define OBJ_TO_H(/;"	d	file:
+OS_CPU_ID	numa-config.h	/^const int OS_CPU_ID[NUM_SOCKET][NUM_PHYSICAL_CPU_PER_SOCKET][SMT_LEVEL] = {$/;"	v	typeref:typename:const int[][][]
+OUTPUT_CSV	zipf/test.c	/^	OUTPUT_CSV,$/;"	e	enum:__anon7286301e0203	file:
+OUTPUT_NORMAL	zipf/test.c	/^	OUTPUT_NORMAL,$/;"	e	enum:__anon7286301e0203	file:
+PERFORM_ALIGNMENT	rlu.c	/^#define PERFORM_ALIGNMENT(/;"	d	file:
+PTR_GET_WS_HEADER	rlu.c	/^#define PTR_GET_WS_HEADER(/;"	d	file:
+PTR_ID_OBJ_COPY	rlu.c	/^#define PTR_ID_OBJ_COPY /;"	d	file:
+PTR_IS_COPY	rlu.c	/^#define PTR_IS_COPY(/;"	d	file:
+PTR_IS_LOCKED	rlu.c	/^#define PTR_IS_LOCKED(/;"	d	file:
+QSBR_FREELIST_SIZE	qsbr.h	/^#define QSBR_FREELIST_SIZE /;"	d
+QSBR_MAX_THREADS	qsbr.c	/^#define QSBR_MAX_THREADS /;"	d	file:
+QSBR_N_EPOCHS	qsbr.h	/^#define QSBR_N_EPOCHS /;"	d
+QSBR_PADDING	qsbr.h	/^#define QSBR_PADDING /;"	d
+QSBR_PERIOD	list_vlist.h	/^#define QSBR_PERIOD /;"	d
+Q_ITERS_LIMIT	rlu.c	/^#define Q_ITERS_LIMIT /;"	d	file:
+RCU_ASSIGN_PTR	new-urcu.h	/^#define RCU_ASSIGN_PTR(/;"	d
+RCU_DEREF	new-urcu.h	/^#define RCU_DEREF(/;"	d
+RCU_FREE	new-urcu.h	/^#define RCU_FREE(/;"	d
+RCU_INIT	new-urcu.h	/^#define RCU_INIT(/;"	d
+RCU_PRINT_STATS	new-urcu.h	/^#define RCU_PRINT_STATS(/;"	d
+RCU_READER_LOCK	new-urcu.h	/^#define RCU_READER_LOCK(/;"	d
+RCU_READER_UNLOCK	new-urcu.h	/^#define RCU_READER_UNLOCK(/;"	d
+RCU_SYNCHRONIZE	new-urcu.h	/^#define RCU_SYNCHRONIZE(/;"	d
+RCU_THREAD_FINISH	new-urcu.h	/^#define RCU_THREAD_FINISH(/;"	d
+RCU_THREAD_INIT	new-urcu.h	/^#define RCU_THREAD_INIT(/;"	d
+RCU_WRITER_LOCK	new-urcu.h	/^#define RCU_WRITER_LOCK(/;"	d
+RCU_WRITER_UNLOCK	new-urcu.h	/^#define RCU_WRITER_UNLOCK(/;"	d
+RLU Types	README-RLU.md	/^RLU Types$/;"	s	chapter:RLU v1.0 (08/23/2015)
+RLU v1.0 (08/23/2015)	README-RLU.md	/^RLU v1.0 (08\/23\/2015) $/;"	c
+RLU-HT Benchmark	README-BENCH-HT.md	/^RLU-HT Benchmark$/;"	c
+RLU_ABORT	rlu.h	/^#define RLU_ABORT(/;"	d
+RLU_ALLOC	rlu.h	/^#define RLU_ALLOC(/;"	d
+RLU_ASSERT	rlu.c	/^#define RLU_ASSERT(/;"	d	file:
+RLU_ASSERT_MSG	rlu.c	/^#define RLU_ASSERT_MSG(/;"	d	file:
+RLU_ASSIGN_PTR	rlu.h	/^#define RLU_ASSIGN_PTR(/;"	d
+RLU_CACHE_LINE_SIZE	rlu.c	/^# define RLU_CACHE_LINE_SIZE /;"	d	file:
+RLU_DEFAULT_PADDING	rlu.h	/^#define RLU_DEFAULT_PADDING /;"	d
+RLU_DEREF	rlu.h	/^#define RLU_DEREF(/;"	d
+RLU_DEREF_INTERNAL	rlu.h	/^#define RLU_DEREF_INTERNAL(/;"	d
+RLU_DESTROY_NVM	rlu.h	/^#define RLU_DESTROY_NVM(/;"	d
+RLU_FINISH	rlu.h	/^#define RLU_FINISH(/;"	d
+RLU_FREE	rlu.h	/^#define RLU_FREE(/;"	d
+RLU_GENERAL_WRITER_LOCK	rlu.h	/^#define RLU_GENERAL_WRITER_LOCK /;"	d
+RLU_GET_COPY	rlu.h	/^#define RLU_GET_COPY(/;"	d
+RLU_H	rlu.h	/^#define RLU_H /;"	d
+RLU_INIT	rlu.h	/^#define RLU_INIT(/;"	d
+RLU_IS_SAME_PTRS	rlu.h	/^#define RLU_IS_SAME_PTRS(/;"	d
+RLU_IS_UNLOCKED	rlu.h	/^#define RLU_IS_UNLOCKED(/;"	d
+RLU_LOCK	rlu.h	/^#define RLU_LOCK(/;"	d
+RLU_MAX_FREE_NODES	rlu.h	/^#define RLU_MAX_FREE_NODES /;"	d
+RLU_MAX_NESTED_WRITER_LOCKS	rlu.h	/^#define RLU_MAX_NESTED_WRITER_LOCKS /;"	d
+RLU_MAX_THREADS	rlu.h	/^#define RLU_MAX_THREADS /;"	d
+RLU_MAX_WRITER_LOCKS	rlu.h	/^#define RLU_MAX_WRITER_LOCKS /;"	d
+RLU_MAX_WRITE_SETS	rlu.h	/^#define RLU_MAX_WRITE_SETS /;"	d
+RLU_MAX_WRITE_SET_BUFFER_SIZE	rlu.h	/^#define RLU_MAX_WRITE_SET_BUFFER_SIZE /;"	d
+RLU_MOVE_PTR_BACK	rlu.h	/^#define RLU_MOVE_PTR_BACK(/;"	d
+RLU_NUM_WS	rlu.h	/^#define RLU_NUM_WS /;"	d
+RLU_OBJ_HEADER_SIZE	rlu.h	/^#define RLU_OBJ_HEADER_SIZE /;"	d
+RLU_OBJ_TO_H	rlu.h	/^#define RLU_OBJ_TO_H(/;"	d
+RLU_PRINT_STATS	rlu.h	/^#define RLU_PRINT_STATS(/;"	d
+RLU_PTR_IS_LOCKED	rlu.h	/^#define RLU_PTR_IS_LOCKED(/;"	d
+RLU_READER_LOCK	rlu.h	/^#define RLU_READER_LOCK(/;"	d
+RLU_READER_UNLOCK	rlu.h	/^#define RLU_READER_UNLOCK(/;"	d
+RLU_THREAD_FINISH	rlu.h	/^#define RLU_THREAD_FINISH(/;"	d
+RLU_THREAD_INIT	rlu.h	/^#define RLU_THREAD_INIT(/;"	d
+RLU_TRACE	rlu.c	/^#define RLU_TRACE(/;"	d	file:
+RLU_TRACE_GLOBAL	rlu.c	/^#define RLU_TRACE_GLOBAL(/;"	d	file:
+RLU_TRY_LOCK	rlu.h	/^#define RLU_TRY_LOCK(/;"	d
+RLU_TRY_LOCK_CONST	rlu.h	/^#define RLU_TRY_LOCK_CONST(/;"	d
+RLU_TRY_WRITER_LOCK	rlu.h	/^#define RLU_TRY_WRITER_LOCK(/;"	d
+RLU_TYPE	rlu.h	/^#define RLU_TYPE /;"	d
+RLU_TYPE_COARSE_GRAINED	rlu.h	/^#define RLU_TYPE_COARSE_GRAINED /;"	d
+RLU_TYPE_FINE_GRAINED	rlu.h	/^#define RLU_TYPE_FINE_GRAINED /;"	d
+RO	bench.c	/^#define RO /;"	d	file:
+RW	bench.c	/^#define RW /;"	d	file:
+Read-Log-Update: A Lightweight Synchronization Mechanism for Concurrent Programming	README-BENCH-HT.md	/^Read-Log-Update: A Lightweight Synchronization Mechanism for Concurrent Programming$/;"	c
+Read-Log-Update: A Lightweight Synchronization Mechanism for Concurrent Programming	README-RLU.md	/^Read-Log-Update: A Lightweight Synchronization Mechanism for Concurrent Programming$/;"	c
+SMT_LEVEL	numa-config.h	/^    SMT_LEVEL = 2,$/;"	e	enum:__anon776352cf0103
+STARTING_EPOCH	list_vlist.h	/^#define STARTING_EPOCH /;"	d
+STR	bench.c	/^#define STR(/;"	d	file:
+TAUSWORTHE	zipf/rand.h	/^#define TAUSWORTHE(/;"	d
+TRACE_1	rlu.c	/^#define TRACE_1(/;"	d	file:
+TRACE_2	rlu.c	/^#define TRACE_2(/;"	d	file:
+TRACE_3	rlu.c	/^#define TRACE_3(/;"	d	file:
+TRACE_3_GLOBAL	rlu.c	/^#define TRACE_3_GLOBAL(/;"	d	file:
+TRY_CAS_PTR_OBJ_COPY	rlu.c	/^#define TRY_CAS_PTR_OBJ_COPY(/;"	d	file:
+TYPE_NONE	zipf/test.c	/^	TYPE_NONE = 0,$/;"	e	enum:__anon7286301e0103	file:
+TYPE_NORMAL	zipf/test.c	/^	TYPE_NORMAL,$/;"	e	enum:__anon7286301e0103	file:
+TYPE_PARETO	zipf/test.c	/^	TYPE_PARETO,$/;"	e	enum:__anon7286301e0103	file:
+TYPE_ZIPF	zipf/test.c	/^	TYPE_ZIPF,$/;"	e	enum:__anon7286301e0103	file:
+UNLOCK	rlu.c	/^#define UNLOCK(/;"	d	file:
+URCUDIR	Makefile	/^URCUDIR ?= \/usr\/local$/;"	m
+URCU_MAX_FREE_PTRS	new-urcu.h	/^#define URCU_MAX_FREE_PTRS /;"	d
+VLIST_ENTRIES_PER_TASK	types.h	/^#define VLIST_ENTRIES_PER_TASK /;"	d
+WS_GET_RUN_COUNTER	rlu.c	/^#define WS_GET_RUN_COUNTER(/;"	d	file:
+WS_GET_THREAD_ID	rlu.c	/^#define WS_GET_THREAD_ID(/;"	d	file:
+WS_INDEX	rlu.c	/^#define WS_INDEX(/;"	d	file:
+WS_OBJ_HEADER_SIZE	rlu.c	/^#define WS_OBJ_HEADER_SIZE /;"	d	file:
+XSTR	bench.c	/^#define XSTR(/;"	d	file:
+ZIPF_MAX_GEN	zipf/zipf.c	/^#define ZIPF_MAX_GEN	/;"	d	file:
+_GNU_SOURCE	bench.c	/^#define _GNU_SOURCE$/;"	d	file:
+_HASH_LIST_H_	hash-list.h	/^#define _HASH_LIST_H_$/;"	d
+_LINUX_FLIST_H	zipf/flist.h	/^#define _LINUX_FLIST_H$/;"	d
+_LINUX_HASH_H	zipf/hash.h	/^#define _LINUX_HASH_H$/;"	d
+_LIST_VLIST_H_	list_vlist.h	/^#define _LIST_VLIST_H_$/;"	d
+_NEW_URCU_H_	new-urcu.h	/^#define _NEW_URCU_H_$/;"	d
+_TYPES_H_	types.h	/^#define _TYPES_H_$/;"	d
+__QBSR_H	qsbr.h	/^#define __QBSR_H$/;"	d
+__UTIL_H	util.h	/^#define __UTIL_H$/;"	d
+__anon6d907ae8010a	zipf/rand.h	/^	union {$/;"	u	struct:frand_state
+__anon7286301e0103	zipf/test.c	/^enum {$/;"	g	file:
+__anon7286301e0203	zipf/test.c	/^enum {$/;"	g	file:
+__anon776352cf0103	numa-config.h	/^enum {$/;"	g
+__fill_random_buf	zipf/rand.c	/^void __fill_random_buf(void *buf, unsigned int len, unsigned long seed)$/;"	f	typeref:typename:void
+__flist_add	zipf/flist.h	/^static inline void __flist_add(struct flist_head *new_entry,$/;"	f	typeref:typename:void
+__flist_del	zipf/flist.h	/^static inline void __flist_del(struct flist_head *prev,$/;"	f	typeref:typename:void
+__flist_splice	zipf/flist.h	/^static inline void __flist_splice(const struct flist_head *list,$/;"	f	typeref:typename:void
+__frand32_copy	zipf/rand.h	/^static inline void __frand32_copy(struct taus88_state *dst,$/;"	f	typeref:typename:void
+__frand64_copy	zipf/rand.h	/^static inline void __frand64_copy(struct taus258_state *dst,$/;"	f	typeref:typename:void
+__hash_long	zipf/hash.h	/^static inline unsigned long __hash_long(uint64_t val)$/;"	f	typeref:typename:unsigned long
+__hash_u64	zipf/hash.h	/^static inline uint64_t __hash_u64(uint64_t val)$/;"	f	typeref:typename:uint64_t
+__init_rand32	zipf/rand.c	/^static void __init_rand32(struct taus88_state *state, unsigned int seed)$/;"	f	typeref:typename:void	file:
+__init_rand64	zipf/rand.c	/^static void __init_rand64(struct taus258_state *state, uint64_t seed)$/;"	f	typeref:typename:void	file:
+__jhash_final	zipf/hash.h	/^#define __jhash_final(/;"	d
+__jhash_mix	zipf/hash.h	/^#define __jhash_mix(/;"	d
+__rand	zipf/rand.h	/^static inline uint64_t __rand(struct frand_state *state)$/;"	f	typeref:typename:uint64_t
+__rand32	zipf/rand.h	/^static inline unsigned int __rand32(struct taus88_state *state)$/;"	f	typeref:typename:unsigned int
+__rand64	zipf/rand.h	/^static inline uint64_t __rand64(struct taus258_state *state)$/;"	f	typeref:typename:uint64_t
+__rand_0_1	zipf/rand.h	/^static inline double __rand_0_1(struct frand_state *state)$/;"	f	typeref:typename:double
+__read_tsc	rlu.c	/^__read_tsc(void)$/;"	f	typeref:typename:uint64_t	file:
+__seed	zipf/rand.c	/^static inline uint64_t __seed(uint64_t x, uint64_t m)$/;"	f	typeref:typename:uint64_t	file:
+_hp_record_t	hazard_ptrs.h	/^typedef struct _hp_record_t {$/;"	s
+_hp_thread_t	hazard_ptrs.h	/^typedef struct _hp_thread_t { $/;"	s
+_rlu_new_node	hash-list.c	/^node_t *_rlu_new_node(rlu_thread_data_t *self) {$/;"	f	typeref:typename:node_t *
+_times	new-urcu.c	/^__thread long* _times = NULL; $/;"	v	typeref:typename:__thread long *
+abort	rlu.c	/^static void abort(void)$/;"	f	typeref:typename:void	file:
+add_slot	list_vlist.c	/^void add_slot(node_t *node, node_t *next, vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:void
+all	Makefile	/^all: $(BINS)$/;"	t
+alternate	bench.c	/^	int alternate;	$/;"	m	struct:thread_data	typeref:typename:int	file:
+arch_random	zipf/rand.c	/^int arch_random;$/;"	v	typeref:typename:int
+barrier	bench.c	/^	struct barrier *barrier;$/;"	m	struct:thread_data	typeref:struct:barrier *	file:
+barrier	bench.c	/^typedef struct barrier {$/;"	s	file:
+barrier_cross	bench.c	/^static void barrier_cross(barrier_t *b)$/;"	f	typeref:typename:void	file:
+barrier_init	bench.c	/^static void barrier_init(barrier_t *b, int n)$/;"	f	typeref:typename:void	file:
+barrier_t	bench.c	/^} barrier_t;$/;"	t	typeref:struct:barrier	file:
+bench-harris	Makefile	/^bench-harris: rand.o zipf.o new-urcu.o hazard_ptrs.o rlu.o  hash-list.o bench-harris.o$/;"	t
+bench-harris.o	Makefile	/^bench-harris.o: bench.c numa-config.h$/;"	t
+bench-hp-harris	Makefile	/^bench-hp-harris: rand.o zipf.o new-urcu.o hazard_ptrs.o rlu.o hash-list.o bench-hp-harris.o$/;"	t
+bench-hp-harris.o	Makefile	/^bench-hp-harris.o: bench.c numa-config.h$/;"	t
+bench-mvrlu-gclk	Makefile	/^bench-mvrlu-gclk: rand.o zipf.o new-urcu.o hazard_ptrs.o hash-list-mvrlu.o bench-mvrlu-gclk.o $(/;"	t
+bench-mvrlu-gclk.o	Makefile	/^bench-mvrlu-gclk.o: bench.c numa-config.h$/;"	t
+bench-mvrlu.o	Makefile	/^bench-mvrlu.o: bench.c numa-config.h$/;"	t
+bench-rcu	Makefile	/^bench-rcu: rand.o zipf.o new-urcu.o hazard_ptrs.o rlu.o hash-list.o bench-rcu.o$/;"	t
+bench-rcu.o	Makefile	/^bench-rcu.o: bench.c numa-config.h$/;"	t
+bench-rlu	Makefile	/^bench-rlu: rand.o zipf.o new-urcu.o hazard_ptrs.o rlu.o hash-list.o bench-rlu.o$/;"	t
+bench-rlu.o	Makefile	/^bench-rlu.o: bench.c numa-config.h$/;"	t
+bench-timestone	Makefile	/^bench-timestone: rand.o zipf.o new-urcu.o hazard_ptrs.o hash-list-mvrlu.o bench-mvrlu.o $(LIB_DI/;"	t
+bench-version	Makefile	/^bench-version: rand.o zipf.o new-urcu.o hazard_ptrs.o qsbr.o rlu.o version.o hash-list-version.o/;"	t
+bench-version.o	Makefile	/^bench-version.o: bench.c numa-config.h$/;"	t
+block_size	zipf/test.c	/^static unsigned long block_size = 1;$/;"	v	typeref:typename:unsigned long	file:
+buckets	types.h	/^	list_t *buckets[MAX_BUCKETS];  $/;"	m	struct:hash_list	typeref:typename:list_t * []
+buffer	rlu.h	/^	volatile unsigned char buffer[RLU_MAX_WRITE_SET_BUFFER_SIZE];$/;"	m	struct:obj_list	typeref:typename:volatile unsigned char[]
+clean	Makefile	/^clean:$/;"	t
+cmt_add	bench.c	/^	unsigned long cmt_add;$/;"	m	struct:thread_data	typeref:typename:unsigned long	file:
+cmt_remove	bench.c	/^	unsigned long cmt_remove;$/;"	m	struct:thread_data	typeref:typename:unsigned long	file:
+complete	bench.c	/^  pthread_cond_t complete;$/;"	m	struct:barrier	typeref:typename:pthread_cond_t	file:
+container_of	zipf/flist.h	/^#define container_of(/;"	d
+count	bench.c	/^  int count;$/;"	m	struct:barrier	typeref:typename:int	file:
+count	list_vlist.h	/^	unsigned long count;$/;"	m	struct:vlist_pthread_data	typeref:typename:unsigned long
+count	types.h	/^	int count;$/;"	m	struct:vlist_record	typeref:typename:int
+cpu_set	bench.c	/^static cpu_set_t cpu_set[450];$/;"	v	typeref:typename:cpu_set_t[450]	file:
+crossing	bench.c	/^  int crossing;$/;"	m	struct:barrier	typeref:typename:int	file:
+destroy_nvm	bench.c	/^static void destroy_nvm() {$/;"	f	typeref:typename:void	file:
+diff	bench.c	/^	int diff;$/;"	m	struct:thread_data	typeref:typename:int	file:
+disable_hash	zipf/zipf.h	/^	int disable_hash;$/;"	m	struct:zipf_state	typeref:typename:int
+dist_type	zipf/test.c	/^static int dist_type = TYPE_ZIPF;$/;"	v	typeref:typename:int	file:
+dist_types	zipf/test.c	/^static const char *dist_types[] = { "None", "Zipf", "Pareto", "Normal" };$/;"	v	typeref:typename:const char * []	file:
+dist_val	zipf/test.c	/^static double dist_val;$/;"	v	typeref:typename:double	file:
+epoch	list_vlist.h	/^	unsigned long epoch;$/;"	m	struct:vlist_pthread_data	typeref:typename:unsigned long
+epoch	qsbr.h	/^	int epoch;$/;"	m	struct:qsbr_pthread_data	typeref:typename:int
+epoch	types.h	/^	unsigned long epoch;$/;"	m	struct:vlist_record	typeref:typename:unsigned long
+epoch	types.h	/^	unsigned long epoch;$/;"	m	struct:vlist_slot	typeref:typename:unsigned long
+f_size	new-urcu.h	/^	int f_size;$/;"	m	struct:rcu_node_t	typeref:typename:int
+false	zipf/types.h	/^#define false	/;"	d
+fill_random_buf	zipf/rand.c	/^unsigned long fill_random_buf(struct frand_state *fs, void *buf,$/;"	f	typeref:typename:unsigned long
+flist_add	zipf/flist.h	/^static inline void flist_add(struct flist_head *new_entry,$/;"	f	typeref:typename:void
+flist_add_tail	zipf/flist.h	/^static inline void flist_add_tail(struct flist_head *new_entry,$/;"	f	typeref:typename:void
+flist_del	zipf/flist.h	/^static inline void flist_del(struct flist_head *entry)$/;"	f	typeref:typename:void
+flist_del_init	zipf/flist.h	/^static inline void flist_del_init(struct flist_head *entry)$/;"	f	typeref:typename:void
+flist_empty	zipf/flist.h	/^static inline int flist_empty(const struct flist_head *head)$/;"	f	typeref:typename:int
+flist_entry	zipf/flist.h	/^#define flist_entry(/;"	d
+flist_first_entry	zipf/flist.h	/^#define flist_first_entry(/;"	d
+flist_for_each	zipf/flist.h	/^#define flist_for_each(/;"	d
+flist_for_each_safe	zipf/flist.h	/^#define flist_for_each_safe(/;"	d
+flist_head	zipf/flist.h	/^struct flist_head {$/;"	s
+flist_last_entry	zipf/flist.h	/^#define flist_last_entry(/;"	d
+flist_splice	zipf/flist.h	/^static inline void flist_splice(const struct flist_head *list,$/;"	f	typeref:typename:void
+flist_splice_init	zipf/flist.h	/^static inline void flist_splice_init(struct flist_head *list,$/;"	f	typeref:typename:void
+flist_splice_tail	zipf/flist.h	/^static inline void flist_splice_tail(struct flist_head *list,$/;"	f	typeref:typename:void
+flist_splice_tail_init	zipf/flist.h	/^static inline void flist_splice_tail_init(struct flist_head *list,$/;"	f	typeref:typename:void
+fprintf	rlu.c	/^# define fprintf(/;"	d	file:
+frand_copy	zipf/rand.h	/^static inline void frand_copy(struct frand_state *dst, struct frand_state *src)$/;"	f	typeref:typename:void
+frand_state	zipf/rand.h	/^struct frand_state {$/;"	s
+free	rlu.c	/^# define free(/;"	d	file:
+free_nodes	rlu.h	/^	intptr_t *free_nodes[RLU_MAX_FREE_NODES];$/;"	m	struct:rlu_thread_data	typeref:typename:intptr_t * []
+free_nodes_size	rlu.h	/^	long free_nodes_size;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+free_ptrs	new-urcu.h	/^	void *free_ptrs[URCU_MAX_FREE_PTRS];$/;"	m	struct:rcu_node_t	typeref:typename:void * []
+freelist	qsbr.h	/^	void *freelist[QSBR_N_EPOCHS][QSBR_FREELIST_SIZE];$/;"	m	struct:qsbr_pthread_data	typeref:typename:void * [][]
+freelist_count	qsbr.h	/^	size_t freelist_count[QSBR_N_EPOCHS];$/;"	m	struct:qsbr_pthread_data	typeref:typename:size_t[]
+g_committed_rec	list_vlist.c	/^static volatile struct vlist_record *g_committed_rec = NULL;$/;"	v	typeref:typename:volatile struct vlist_record *	file:
+g_epoch	qsbr.c	/^static volatile int g_epoch __attribute__ ((__aligned__ (CACHE_ALIGN)));$/;"	v	typeref:typename:volatile int	file:
+g_nr_threads	qsbr.c	/^static long g_nr_threads = 0;$/;"	v	typeref:typename:long	file:
+g_rlu_array	rlu.c	/^static volatile unsigned long g_rlu_array[RLU_CACHE_LINE_SIZE * 64] = {0,};$/;"	v	typeref:typename:volatile unsigned long[]	file:
+g_rlu_commit_version	rlu.c	/^#define g_rlu_commit_version /;"	d	file:
+g_rlu_cur_threads	rlu.c	/^static volatile long g_rlu_cur_threads = 0;$/;"	v	typeref:typename:volatile long	file:
+g_rlu_data	rlu.c	/^static volatile rlu_data_t g_rlu_data = {0,};$/;"	v	typeref:typename:volatile rlu_data_t	file:
+g_rlu_max_write_sets	rlu.c	/^static volatile int g_rlu_max_write_sets = 0;$/;"	v	typeref:typename:volatile int	file:
+g_rlu_threads	rlu.c	/^static volatile rlu_thread_data_t *g_rlu_threads[RLU_MAX_THREADS] = {0,};$/;"	v	typeref:typename:volatile rlu_thread_data_t * []	file:
+g_rlu_type	rlu.c	/^static volatile int g_rlu_type = 0;$/;"	v	typeref:typename:volatile int	file:
+g_rlu_writer_locks	rlu.c	/^static volatile long g_rlu_writer_locks[RLU_MAX_WRITER_LOCKS] = {0,};$/;"	v	typeref:typename:volatile long[]	file:
+g_rlu_writer_version	rlu.c	/^#define g_rlu_writer_version /;"	d	file:
+g_threads	qsbr.c	/^static qsbr_pthread_data_t *g_threads[QSBR_MAX_THREADS] = {0,};$/;"	v	typeref:typename:qsbr_pthread_data_t * []	file:
+g_update_lock	qsbr.c	/^static volatile pthread_spinlock_t g_update_lock __attribute__ ((__aligned__ (CACHE_ALIGN)));$/;"	v	typeref:typename:volatile pthread_spinlock_t	file:
+getCPUid	bench.c	/^int getCPUid(int index, bool reset)$/;"	f	typeref:typename:int
+get_marked_ref	hash-list.c	/^static inline long get_marked_ref(long w) {$/;"	f	typeref:typename:long	file:
+get_unmarked_ref	hash-list.c	/^static inline long get_unmarked_ref(long w) {$/;"	f	typeref:typename:long	file:
+gib_size	zipf/test.c	/^static unsigned long gib_size = 1;$/;"	v	typeref:typename:unsigned long	file:
+global_finish	bench.c	/^static void global_finish() {$/;"	f	typeref:typename:void	file:
+global_init	bench.c	/^static void global_init(int n_threads) {$/;"	f	typeref:typename:void	file:
+harris_free_node	hash-list.c	/^void harris_free_node(node_t *p_node) {$/;"	f	typeref:typename:void
+harris_hash_list_add	hash-list.c	/^int harris_hash_list_add(hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+harris_hash_list_contains	hash-list.c	/^int harris_hash_list_contains(hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+harris_hash_list_remove	hash-list.c	/^int harris_hash_list_remove(hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+harris_list_add	hash-list.c	/^int harris_list_add(list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+harris_list_contains	hash-list.c	/^int harris_list_contains(list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+harris_list_remove	hash-list.c	/^int harris_list_remove(list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+harris_list_search	hash-list.c	/^node_t *harris_list_search(list_t *p_list, val_t val, node_t **left_node) {$/;"	f	typeref:typename:node_t *
+harris_new_hash_list	hash-list.c	/^hash_list_t *harris_new_hash_list(int n_buckets)$/;"	f	typeref:typename:hash_list_t *
+harris_new_node	hash-list.c	/^node_t *harris_new_node() {$/;"	f	typeref:typename:node_t *
+hash	zipf/test.c	/^static struct flist_head *hash;$/;"	v	typeref:struct:flist_head *	file:
+hash-list-mvrlu.o	Makefile	/^hash-list-mvrlu.o: hash-list.c$/;"	t
+hash-list-version.o	Makefile	/^hash-list-version.o: hash-list.c$/;"	t
+hash-list.o	Makefile	/^hash-list.o: hash-list.c$/;"	t
+hash_bits	zipf/test.c	/^static unsigned long hash_bits = 24;$/;"	v	typeref:typename:unsigned long	file:
+hash_insert	zipf/test.c	/^static void hash_insert(struct node *n, unsigned long long val)$/;"	f	typeref:typename:void	file:
+hash_list	types.h	/^typedef struct hash_list {$/;"	s
+hash_list_add	bench.c	/^static int hash_list_add(thread_data_t *d, int key) {$/;"	f	typeref:typename:int	file:
+hash_list_contains	bench.c	/^static int hash_list_contains(thread_data_t *d, int key) {$/;"	f	typeref:typename:int	file:
+hash_list_init	bench.c	/^static void hash_list_init(hash_list_t **pp, int n_buckets) {$/;"	f	typeref:typename:void	file:
+hash_list_print	hash-list.c	/^void hash_list_print(hash_list_t *p_hash_list)$/;"	f	typeref:typename:void
+hash_list_remove	bench.c	/^static int hash_list_remove(thread_data_t *d, int key) {$/;"	f	typeref:typename:int	file:
+hash_list_size	hash-list.c	/^int hash_list_size(hash_list_t *p_hash_list)$/;"	f	typeref:typename:int
+hash_list_t	types.h	/^} hash_list_t;$/;"	t	typeref:struct:hash_list
+hash_long	zipf/hash.h	/^static inline unsigned long hash_long(unsigned long val, unsigned int bits)$/;"	f	typeref:typename:unsigned long
+hash_lookup	zipf/test.c	/^static struct node *hash_lookup(unsigned long long val)$/;"	f	typeref:struct:node *	file:
+hash_ptr	zipf/hash.h	/^static inline unsigned long hash_ptr(void *ptr, unsigned int bits)$/;"	f	typeref:typename:unsigned long
+hash_size	zipf/test.c	/^static unsigned long hash_size = 1 << 24;$/;"	v	typeref:typename:unsigned long	file:
+hashv	zipf/test.c	/^static unsigned int hashv(unsigned long long val)$/;"	f	typeref:typename:unsigned int	file:
+hazard_ptrs.o	Makefile	/^hazard_ptrs.o: hazard_ptrs.c$/;"	t
+hits	zipf/test.c	/^	unsigned long hits;$/;"	m	struct:node	typeref:typename:unsigned long	file:
+hp_harris_hash_list_add	hash-list.c	/^int hp_harris_hash_list_add(hp_thread_t *p_hp_td, hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+hp_harris_hash_list_contains	hash-list.c	/^int hp_harris_hash_list_contains(hp_thread_t *p_hp_td, hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+hp_harris_hash_list_remove	hash-list.c	/^int hp_harris_hash_list_remove(hp_thread_t *p_hp_td, hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+hp_harris_list_add	hash-list.c	/^int hp_harris_list_add(hp_thread_t *p_hp_td, list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+hp_harris_list_contains	hash-list.c	/^int hp_harris_list_contains(hp_thread_t *p_hp_td, list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+hp_harris_list_remove	hash-list.c	/^int hp_harris_list_remove(hp_thread_t *p_hp_td, list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+hp_harris_list_search	hash-list.c	/^node_t *hp_harris_list_search(hp_thread_t *p_hp_td, list_t *p_list, val_t val, node_t **left_nod/;"	f	typeref:typename:node_t *
+hp_harris_new_hash_list	hash-list.c	/^hash_list_t *hp_harris_new_hash_list(int n_buckets)$/;"	f	typeref:typename:hash_list_t *
+hp_harris_new_node	hash-list.c	/^node_t *hp_harris_new_node() {$/;"	f	typeref:typename:node_t *
+hp_record_t	hazard_ptrs.h	/^} hp_record_t;$/;"	t	typeref:struct:_hp_record_t
+hp_records	hazard_ptrs.h	/^	hp_record_t hp_records[HP_MAX_RECORDS];$/;"	m	struct:_hp_thread_t	typeref:typename:hp_record_t[]
+hp_td	bench.c	/^	hp_thread_t hp_td;$/;"	m	struct:thread_data	typeref:typename:hp_thread_t	file:
+hp_thread_t	hazard_ptrs.h	/^} hp_thread_t ; $/;"	t	typeref:struct:_hp_thread_t
+i	new-urcu.c	/^__thread int i; $/;"	v	typeref:typename:__thread int
+ids	rlu.h	/^	long ids[RLU_MAX_NESTED_WRITER_LOCKS];$/;"	m	struct:writer_locks	typeref:typename:long[]
+in_critical	qsbr.h	/^	int in_critical;$/;"	m	struct:qsbr_pthread_data	typeref:typename:int
+initURCU	new-urcu.h	/^static inline void initURCU(int num_threads)$/;"	f	typeref:typename:void
+init_rand	zipf/rand.c	/^void init_rand(struct frand_state *state, int use64)$/;"	f	typeref:typename:void
+init_rand_seed	zipf/rand.c	/^void init_rand_seed(struct frand_state *state, unsigned int seed, int use64)$/;"	f	typeref:typename:void
+initial	bench.c	/^	int initial;$/;"	m	struct:thread_data	typeref:typename:int	file:
+intptr_t	rlu.h	/^typedef long intptr_t; \/\/ Hack for kernel that does not have intptr_t$/;"	t	typeref:typename:long
+is_check_locks	rlu.h	/^	char is_check_locks;$/;"	m	struct:rlu_thread_data	typeref:typename:char
+is_marked_ref	hash-list.c	/^static inline int is_marked_ref(long i) {$/;"	f	typeref:typename:int	file:
+is_no_quiescence	rlu.h	/^	volatile long is_no_quiescence;$/;"	m	struct:rlu_thread_data	typeref:typename:volatile long
+is_steal	rlu.h	/^	char is_steal;$/;"	m	struct:rlu_thread_data	typeref:typename:char
+is_sync	rlu.h	/^	volatile long is_sync;$/;"	m	struct:rlu_thread_data	typeref:typename:volatile long
+is_wait	rlu.h	/^	volatile unsigned char is_wait;$/;"	m	struct:wait_entry	typeref:typename:volatile unsigned char
+is_write_detected	rlu.h	/^	char is_write_detected;$/;"	m	struct:rlu_thread_data	typeref:typename:char
+jhash	zipf/hash.h	/^static inline uint32_t jhash(const void *key, uint32_t length, uint32_t initval)$/;"	f	typeref:typename:uint32_t
+likely	rlu.c	/^# define likely(/;"	d	file:
+list	types.h	/^typedef struct list {$/;"	s
+list	zipf/test.c	/^	struct flist_head list;$/;"	m	struct:node	typeref:struct:flist_head	file:
+list_global_exit	list_vlist.c	/^void list_global_exit(void *list)$/;"	f	typeref:typename:void
+list_print	hash-list.c	/^void list_print(list_t *p_list)$/;"	f	typeref:typename:void
+list_size	hash-list.c	/^int list_size(list_t *p_list)$/;"	f	typeref:typename:int
+list_t	types.h	/^} list_t;$/;"	t	typeref:struct:list
+list_thread_init	list_vlist.c	/^int list_thread_init(vlist_pthread_data_t *vlist_data, vlist_pthread_data_t **sync_data, int nr_/;"	f	typeref:typename:int
+local_commit_version	rlu.h	/^	volatile long local_commit_version;$/;"	m	struct:rlu_thread_data	typeref:typename:volatile long
+local_version	rlu.h	/^	volatile long local_version;$/;"	m	struct:rlu_thread_data	typeref:typename:volatile long
+main	bench.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	zipf/test.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main_seed	bench.c	/^static unsigned short main_seed[3];$/;"	v	typeref:typename:unsigned short[3]	file:
+malloc	rlu.c	/^# define malloc(/;"	d	file:
+max	zipf/minmax.h	/^#define max(/;"	d
+max_write_sets	rlu.h	/^	int max_write_sets;$/;"	m	struct:rlu_thread_data	typeref:typename:int
+min	zipf/minmax.h	/^#define min(/;"	d
+min_not_zero	zipf/minmax.h	/^#define min_not_zero(/;"	d
+mutex	bench.c	/^  pthread_mutex_t mutex;$/;"	m	struct:barrier	typeref:typename:pthread_mutex_t	file:
+n_aborts	rlu.c	/^	volatile long n_aborts;$/;"	m	struct:rlu_data	typeref:typename:volatile long	file:
+n_aborts	rlu.h	/^	long n_aborts;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+n_buckets	types.h	/^	int n_buckets;$/;"	m	struct:hash_list	typeref:typename:int
+n_finish	rlu.c	/^	volatile long n_finish;$/;"	m	struct:rlu_data	typeref:typename:volatile long	file:
+n_finish	rlu.h	/^	long n_finish;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+n_hp_records	hazard_ptrs.h	/^	long n_hp_records;$/;"	m	struct:_hp_thread_t	typeref:typename:long
+n_pure_readers	rlu.c	/^	volatile long n_pure_readers;$/;"	m	struct:rlu_data	typeref:typename:volatile long	file:
+n_pure_readers	rlu.h	/^	long n_pure_readers;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+n_starts	rlu.c	/^	volatile long n_starts;$/;"	m	struct:rlu_data	typeref:typename:volatile long	file:
+n_starts	rlu.h	/^	long n_starts;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+n_steals	rlu.c	/^	volatile long n_steals;$/;"	m	struct:rlu_data	typeref:typename:volatile long	file:
+n_steals	rlu.h	/^	long n_steals;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+n_sync_and_writeback	rlu.c	/^	volatile long n_sync_and_writeback;$/;"	m	struct:rlu_data	typeref:typename:volatile long	file:
+n_sync_and_writeback	rlu.h	/^	long n_sync_and_writeback;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+n_sync_requests	rlu.c	/^	volatile long n_sync_requests;$/;"	m	struct:rlu_data	typeref:typename:volatile long	file:
+n_sync_requests	rlu.h	/^	long n_sync_requests;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+n_writeback_q_iters	rlu.c	/^	volatile long n_writeback_q_iters;$/;"	m	struct:rlu_data	typeref:typename:volatile long	file:
+n_writeback_q_iters	rlu.h	/^	long n_writeback_q_iters;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+n_writer_sync_waits	rlu.h	/^	long n_writer_sync_waits;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+n_writer_writeback	rlu.c	/^	volatile long n_writer_writeback;$/;"	m	struct:rlu_data	typeref:typename:volatile long	file:
+n_writer_writeback	rlu.h	/^	long n_writer_writeback;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+n_writers	rlu.c	/^	volatile long n_writers;$/;"	m	struct:rlu_data	typeref:typename:volatile long	file:
+n_writers	rlu.h	/^	long n_writers;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+nb_add	bench.c	/^	unsigned long nb_add;$/;"	m	struct:thread_data	typeref:typename:unsigned long	file:
+nb_contains	bench.c	/^	unsigned long nb_contains;$/;"	m	struct:thread_data	typeref:typename:unsigned long	file:
+nb_found	bench.c	/^	unsigned long nb_found;$/;"	m	struct:thread_data	typeref:typename:unsigned long	file:
+nb_remove	bench.c	/^	unsigned long nb_remove;$/;"	m	struct:thread_data	typeref:typename:unsigned long	file:
+new-urcu.o	Makefile	/^new-urcu.o: new-urcu.c$/;"	t
+new_rec	list_vlist.h	/^	vlist_record_t *new_rec;$/;"	m	struct:vlist_pthread_data	typeref:typename:vlist_record_t *
+next	types.h	/^	struct node *next;$/;"	m	struct:vlist_slot	typeref:struct:node *
+next	zipf/flist.h	/^	struct flist_head *next, *prev;$/;"	m	struct:flist_head	typeref:struct:flist_head *
+node	types.h	/^typedef struct node {$/;"	s
+node	zipf/test.c	/^struct node {$/;"	s	file:
+node_cmp	zipf/test.c	/^static int node_cmp(const void *p1, const void *p2)$/;"	f	typeref:typename:int	file:
+node_t	types.h	/^} node_t;$/;"	t	typeref:struct:node
+nodes	types.h	/^	struct node *nodes[VLIST_ENTRIES_PER_TASK];$/;"	m	struct:vlist_record	typeref:struct:node * []
+nontx_rlu_list_print	hash-list.c	/^void nontx_rlu_list_print(rlu_thread_data_t *self, list_t *p_list) {$/;"	f	typeref:typename:void
+nranges	zipf/test.c	/^	unsigned int nranges;$/;"	m	struct:output_sum	typeref:typename:unsigned int	file:
+nranges	zipf/zipf.h	/^	uint64_t nranges;$/;"	m	struct:zipf_state	typeref:typename:uint64_t
+num_of_objs	rlu.h	/^	unsigned int num_of_objs;$/;"	m	struct:obj_list	typeref:typename:unsigned int
+numa-config.h	Makefile	/^numa-config.h:$/;"	t
+obj_list	rlu.h	/^typedef struct obj_list {$/;"	s
+obj_list_t	rlu.h	/^} obj_list_t;$/;"	t	typeref:struct:obj_list
+obj_size	rlu.h	/^	volatile obj_size_t obj_size;$/;"	m	struct:rlu_ws_obj_header	typeref:typename:volatile obj_size_t
+obj_size_t	rlu.h	/^typedef size_t obj_size_t;$/;"	t	typeref:typename:size_t
+obj_write_set	rlu.h	/^	volatile obj_list_t obj_write_set[RLU_MAX_WRITE_SETS];$/;"	m	struct:rlu_thread_data	typeref:typename:volatile obj_list_t[]
+op_cnt	bench.c	/^	int op_cnt;$/;"	m	struct:thread_data	typeref:typename:int	file:
+output	zipf/test.c	/^	double output;$/;"	m	struct:output_sum	typeref:typename:double	file:
+output_csv	zipf/test.c	/^static void output_csv(struct node *nodes, unsigned long nnodes)$/;"	f	typeref:typename:void	file:
+output_normal	zipf/test.c	/^static void output_normal(struct node *nodes, unsigned long nnodes,$/;"	f	typeref:typename:void	file:
+output_nranges	zipf/test.c	/^static unsigned long output_nranges = DEF_NR_OUTPUT;$/;"	v	typeref:typename:unsigned long	file:
+output_sum	zipf/test.c	/^struct output_sum {$/;"	s	file:
+output_type	zipf/test.c	/^static int output_type = OUTPUT_NORMAL;$/;"	v	typeref:typename:int	file:
+p	new-urcu.h	/^	char p[184];$/;"	m	struct:rcu_node_t	typeref:typename:char[184]
+p_cur	rlu.h	/^	volatile intptr_t *p_cur;$/;"	m	struct:obj_list	typeref:typename:volatile intptr_t *
+p_hash_list	bench.c	/^	hash_list_t *p_hash_list;$/;"	m	struct:thread_data	typeref:typename:hash_list_t *	file:
+p_head	types.h	/^	node_t *p_head;$/;"	m	struct:list	typeref:typename:node_t *
+p_hp_td	bench.c	/^	hp_thread_t *p_hp_td;$/;"	m	struct:thread_data	typeref:typename:hp_thread_t *	file:
+p_next	types.h	/^	struct node *p_next;$/;"	m	struct:node	typeref:struct:node *
+p_obj_actual	rlu.h	/^	volatile intptr_t *p_obj_actual;$/;"	m	struct:rlu_ws_obj_header	typeref:typename:volatile intptr_t *
+p_obj_copy	rlu.h	/^	volatile intptr_t *p_obj_copy;$/;"	m	struct:rlu_obj_header	typeref:typename:volatile intptr_t *
+p_rlu_td	bench.c	/^	rlu_thread_data_t *p_rlu_td;$/;"	m	struct:thread_data	typeref:typename:rlu_thread_data_t *	file:
+p_version_td	bench.c	/^        vlist_pthread_data_t *p_version_td;$/;"	m	struct:thread_data	typeref:typename:vlist_pthread_data_t *	file:
+padding	bench.c	/^	char padding[64];$/;"	m	struct:thread_data	typeref:typename:char[64]	file:
+padding	bench.c	/^static volatile long padding[50];$/;"	v	typeref:typename:volatile long[50]	file:
+padding_0	rlu.h	/^	long padding_0[RLU_DEFAULT_PADDING];$/;"	m	struct:rlu_thread_data	typeref:typename:long[]
+padding_1	rlu.h	/^	long padding_1[RLU_DEFAULT_PADDING];$/;"	m	struct:rlu_thread_data	typeref:typename:long[]
+padding_2	rlu.h	/^	long padding_2[RLU_DEFAULT_PADDING];$/;"	m	struct:rlu_thread_data	typeref:typename:long[]
+padding_3	rlu.h	/^	long padding_3[RLU_DEFAULT_PADDING];$/;"	m	struct:rlu_thread_data	typeref:typename:long[]
+padding_4	rlu.h	/^	long padding_4[RLU_DEFAULT_PADDING];$/;"	m	struct:rlu_thread_data	typeref:typename:long[]
+padding_5	rlu.h	/^	long padding_5[RLU_DEFAULT_PADDING];$/;"	m	struct:rlu_thread_data	typeref:typename:long[]
+padding_6	rlu.h	/^	long padding_6[RLU_DEFAULT_PADDING];$/;"	m	struct:rlu_thread_data	typeref:typename:long[]
+padding_7	rlu.h	/^	long padding_7[RLU_DEFAULT_PADDING];$/;"	m	struct:rlu_thread_data	typeref:typename:long[]
+pareto_init	zipf/zipf.c	/^void pareto_init(struct zipf_state *zs, unsigned long nranges, double h,$/;"	f	typeref:typename:void
+pareto_next	zipf/zipf.c	/^unsigned long long pareto_next(struct zipf_state *zs)$/;"	f	typeref:typename:unsigned long long
+pareto_pow	zipf/zipf.h	/^	double pareto_pow;$/;"	m	struct:zipf_state	typeref:typename:double
+percentage	zipf/test.c	/^static double percentage;$/;"	v	typeref:typename:double	file:
+prev	zipf/flist.h	/^	struct flist_head *next, *prev;$/;"	m	struct:flist_head	typeref:struct:flist_head *
+print_stats	bench.c	/^static void print_stats() {$/;"	f	typeref:typename:void	file:
+printf	rlu.c	/^# define printf(/;"	d	file:
+printf_err	rlu.c	/^# define printf_err(/;"	d	file:
+ptr	hazard_ptrs.h	/^	volatile int64_t *ptr;$/;"	m	struct:_hp_record_t	typeref:typename:volatile int64_t *
+pure_free_node	hash-list.c	/^void pure_free_node(node_t *p_node) {$/;"	f	typeref:typename:void
+pure_hash_list_add	hash-list.c	/^int pure_hash_list_add(hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+pure_hash_list_contains	hash-list.c	/^int pure_hash_list_contains(hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+pure_hash_list_remove	hash-list.c	/^int pure_hash_list_remove(hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+pure_list_add	hash-list.c	/^int pure_list_add(list_t *p_list, val_t val)$/;"	f	typeref:typename:int
+pure_list_contains	hash-list.c	/^int pure_list_contains(list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+pure_list_remove	hash-list.c	/^int pure_list_remove(list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+pure_new_hash_list	hash-list.c	/^hash_list_t *pure_new_hash_list(int n_buckets)$/;"	f	typeref:typename:hash_list_t *
+pure_new_list	hash-list.c	/^list_t *pure_new_list()$/;"	f	typeref:typename:list_t *
+pure_new_node	hash-list.c	/^node_t *pure_new_node() {$/;"	f	typeref:typename:node_t *
+q_threads	rlu.h	/^	wait_entry_t q_threads[RLU_MAX_THREADS];$/;"	m	struct:rlu_thread_data	typeref:typename:wait_entry_t[]
+qsbr_data	list_vlist.h	/^	qsbr_pthread_data_t *qsbr_data;$/;"	m	struct:vlist_pthread_data	typeref:typename:qsbr_pthread_data_t *
+qsbr_data_inst	list_vlist.h	/^        qsbr_pthread_data_t qsbr_data_inst;$/;"	m	struct:vlist_pthread_data	typeref:typename:qsbr_pthread_data_t
+qsbr_free	qsbr.c	/^static inline void qsbr_free(qsbr_pthread_data_t *qsbr_data, int epoch)$/;"	f	typeref:typename:void	file:
+qsbr_free_ptr	qsbr.c	/^void qsbr_free_ptr(void *ptr, qsbr_pthread_data_t *qsbr_data)$/;"	f	typeref:typename:void
+qsbr_init	qsbr.c	/^void qsbr_init(void)$/;"	f	typeref:typename:void
+qsbr_padding	qsbr.h	/^	long qsbr_padding[QSBR_PADDING];$/;"	m	struct:qsbr_pthread_data	typeref:typename:long[]
+qsbr_pthread_data	qsbr.h	/^typedef struct qsbr_pthread_data {$/;"	s
+qsbr_pthread_data_t	qsbr.h	/^} qsbr_pthread_data_t;$/;"	t	typeref:struct:qsbr_pthread_data
+qsbr_pthread_init	qsbr.c	/^void qsbr_pthread_init(qsbr_pthread_data_t *qsbr_data)$/;"	f	typeref:typename:void
+qsbr_quiescent_state	qsbr.c	/^void qsbr_quiescent_state(qsbr_pthread_data_t *qsbr_data)$/;"	f	typeref:typename:void
+qsbr_update_epoch	qsbr.c	/^static int qsbr_update_epoch()$/;"	f	typeref:typename:int	file:
+rand	zipf/zipf.h	/^	struct frand_state rand;$/;"	m	struct:zipf_state	typeref:struct:frand_state
+rand.o	Makefile	/^rand.o: zipf\/rand.c$/;"	t
+rand32_upto	zipf/rand.h	/^static inline uint32_t rand32_upto(struct frand_state *state, uint32_t end)$/;"	f	typeref:typename:uint32_t
+rand64_upto	zipf/rand.h	/^static inline uint64_t rand64_upto(struct frand_state *state, uint64_t end)$/;"	f	typeref:typename:uint64_t
+rand_between	zipf/rand.h	/^static inline uint64_t rand_between(struct frand_state *state, uint64_t start,$/;"	f	typeref:typename:uint64_t
+rand_init	bench.c	/^static inline void rand_init(unsigned short *seed)$/;"	f	typeref:typename:void	file:
+rand_max	zipf/rand.h	/^static inline uint64_t rand_max(struct frand_state *state)$/;"	f	typeref:typename:uint64_t
+rand_off	zipf/zipf.h	/^	uint64_t rand_off;$/;"	m	struct:zipf_state	typeref:typename:uint64_t
+rand_range	bench.c	/^static inline int rand_range(int n, unsigned short *seed)$/;"	f	typeref:typename:int	file:
+range	bench.c	/^	int range;$/;"	m	struct:thread_data	typeref:typename:int	file:
+rcu_free_node	hash-list.c	/^void rcu_free_node(node_t *p_node) {$/;"	f	typeref:typename:void
+rcu_hash_list_add	hash-list.c	/^int rcu_hash_list_add(hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+rcu_hash_list_contains	hash-list.c	/^int rcu_hash_list_contains(hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+rcu_hash_list_remove	hash-list.c	/^int rcu_hash_list_remove(hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+rcu_list_add	hash-list.c	/^int rcu_list_add(list_t *p_list, val_t val, int bucket) {$/;"	f	typeref:typename:int
+rcu_list_contains	hash-list.c	/^int rcu_list_contains(list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+rcu_list_remove	hash-list.c	/^int rcu_list_remove(list_t *p_list, val_t val, int bucket) {$/;"	f	typeref:typename:int
+rcu_new_hash_list	hash-list.c	/^hash_list_t *rcu_new_hash_list(int n_buckets)$/;"	f	typeref:typename:hash_list_t *
+rcu_new_node	hash-list.c	/^node_t *rcu_new_node() {$/;"	f	typeref:typename:node_t *
+rcu_node	new-urcu.h	/^} rcu_node;$/;"	t	typeref:struct:rcu_node_t
+rcu_node_t	new-urcu.h	/^typedef struct rcu_node_t {$/;"	s
+read_slot	list_vlist.c	/^static inline vlist_slot_t *read_slot(node_t *node, vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:vlist_slot_t *	file:
+read_slot_epoch	list_vlist.c	/^static inline unsigned long read_slot_epoch(vlist_slot_t *slot)$/;"	f	typeref:typename:unsigned long	file:
+rec	list_vlist.h	/^	vlist_record_t *rec;$/;"	m	struct:vlist_pthread_data	typeref:typename:vlist_record_t *
+rec	types.h	/^	struct vlist_record *rec;$/;"	m	struct:vlist_slot	typeref:struct:vlist_record *
+rec_next	types.h	/^	struct vlist_record *rec_next;$/;"	m	struct:vlist_record	typeref:struct:vlist_record *
+rlu.o	Makefile	/^rlu.o: rlu.c rlu.h$/;"	t
+rlu_abort	rlu.c	/^void rlu_abort(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void
+rlu_add_obj_copy_to_write_set	rlu.c	/^static void rlu_add_obj_copy_to_write_set(rlu_thread_data_t *self, intptr_t *p_obj, obj_size_t o/;"	f	typeref:typename:void	file:
+rlu_add_writer_lock	rlu.c	/^static void rlu_add_writer_lock(rlu_thread_data_t *self, long writer_lock_id) {$/;"	f	typeref:typename:void	file:
+rlu_add_ws_obj_header_to_write_set	rlu.c	/^static intptr_t *rlu_add_ws_obj_header_to_write_set(rlu_thread_data_t *self, intptr_t *p_obj, ob/;"	f	typeref:typename:intptr_t *	file:
+rlu_alloc	rlu.c	/^intptr_t *rlu_alloc(obj_size_t obj_size) {$/;"	f	typeref:typename:intptr_t *
+rlu_assert_in_section	rlu.c	/^static void rlu_assert_in_section(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void	file:
+rlu_assign_pointer	rlu.c	/^void rlu_assign_pointer(intptr_t **p_ptr, intptr_t *p_obj) {$/;"	f	typeref:typename:void
+rlu_cmp_ptrs	rlu.c	/^int rlu_cmp_ptrs(intptr_t *p_obj_1, intptr_t *p_obj_2) {$/;"	f	typeref:typename:int
+rlu_commit_write_set	rlu.c	/^static void rlu_commit_write_set(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void	file:
+rlu_data	rlu.c	/^typedef struct rlu_data {$/;"	s	file:
+rlu_data_t	rlu.c	/^} rlu_data_t;$/;"	t	typeref:struct:rlu_data	file:
+rlu_deref_slow_path	rlu.c	/^intptr_t *rlu_deref_slow_path(rlu_thread_data_t *self, intptr_t *p_obj) {$/;"	f	typeref:typename:intptr_t *
+rlu_finish	rlu.c	/^void rlu_finish(void) { }$/;"	f	typeref:typename:void
+rlu_free	rlu.c	/^void rlu_free(rlu_thread_data_t *self, intptr_t *p_obj) {$/;"	f	typeref:typename:void
+rlu_hash_list_add	hash-list.c	/^int rlu_hash_list_add(rlu_thread_data_t *self, hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+rlu_hash_list_contains	hash-list.c	/^int rlu_hash_list_contains(rlu_thread_data_t *self, volatile hash_list_t *p_hash_list, val_t val/;"	f	typeref:typename:int
+rlu_hash_list_remove	hash-list.c	/^int rlu_hash_list_remove(rlu_thread_data_t *self, volatile hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+rlu_hash_list_size	hash-list.c	/^int rlu_hash_list_size(hash_list_t *p_hash_list)$/;"	f	typeref:typename:int
+rlu_init	rlu.c	/^void rlu_init(void) {$/;"	f	typeref:typename:void
+rlu_init_args	rlu.c	/^void rlu_init_args(int type, int ws) {$/;"	f	typeref:typename:void
+rlu_init_quiescence	rlu.c	/^static void rlu_init_quiescence(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void	file:
+rlu_likely	rlu.h	/^#define rlu_likely(/;"	d
+rlu_list_add	hash-list.c	/^int rlu_list_add(rlu_thread_data_t *self, list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+rlu_list_contains	hash-list.c	/^int rlu_list_contains(rlu_thread_data_t *self, volatile list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+rlu_list_print	hash-list.c	/^void rlu_list_print(rlu_thread_data_t *self, list_t *p_list) {$/;"	f	typeref:typename:void
+rlu_list_remove	hash-list.c	/^int rlu_list_remove(rlu_thread_data_t *self, volatile list_t *p_list, val_t val) {$/;"	f	typeref:typename:int
+rlu_list_size	hash-list.c	/^int rlu_list_size(list_t *p_list)$/;"	f	typeref:typename:int
+rlu_lock	rlu.c	/^void rlu_lock(rlu_thread_data_t *self, intptr_t **p_p_obj, unsigned int obj_size) {$/;"	f	typeref:typename:void
+rlu_new_hash_list	hash-list.c	/^hash_list_t *rlu_new_hash_list(rlu_thread_data_t *self, int n_buckets)$/;"	f	typeref:typename:hash_list_t *
+rlu_new_list	hash-list.c	/^list_t *rlu_new_list(rlu_thread_data_t *self)$/;"	f	typeref:typename:list_t *
+rlu_new_node	hash-list.c	/^node_t *rlu_new_node(rlu_thread_data_t *self) {$/;"	f	typeref:typename:node_t *
+rlu_obj_header	rlu.h	/^typedef struct rlu_obj_header {$/;"	s
+rlu_obj_header_t	rlu.h	/^} rlu_obj_header_t;$/;"	t	typeref:struct:rlu_obj_header
+rlu_print_stats	rlu.c	/^void rlu_print_stats(void) {$/;"	f	typeref:typename:void
+rlu_process_free	rlu.c	/^static void rlu_process_free(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void	file:
+rlu_reader_lock	rlu.c	/^void rlu_reader_lock(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void
+rlu_reader_unlock	rlu.c	/^int rlu_reader_unlock(rlu_thread_data_t *self) {$/;"	f	typeref:typename:int
+rlu_register_thread	rlu.c	/^static void rlu_register_thread(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void	file:
+rlu_release_writer_lock	rlu.c	/^static void rlu_release_writer_lock(rlu_thread_data_t *self, long writer_lock_id) {$/;"	f	typeref:typename:void	file:
+rlu_release_writer_locks	rlu.c	/^static void rlu_release_writer_locks(rlu_thread_data_t *self, int ws_id) {$/;"	f	typeref:typename:void	file:
+rlu_reset	rlu.c	/^static void rlu_reset(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void	file:
+rlu_reset_write_set	rlu.c	/^static void rlu_reset_write_set(rlu_thread_data_t *self, long ws_counter) {$/;"	f	typeref:typename:void	file:
+rlu_reset_writer_locks	rlu.c	/^static void rlu_reset_writer_locks(rlu_thread_data_t *self, long ws_id) {$/;"	f	typeref:typename:void	file:
+rlu_send_sync_request	rlu.c	/^static void rlu_send_sync_request(int other_th_id) {$/;"	f	typeref:typename:void	file:
+rlu_sync_and_writeback	rlu.c	/^static void rlu_sync_and_writeback(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void	file:
+rlu_sync_checkpoint	rlu.c	/^void rlu_sync_checkpoint(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void
+rlu_synchronize	rlu.c	/^static void rlu_synchronize(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void	file:
+rlu_td	bench.c	/^        rlu_thread_data_t rlu_td;$/;"	m	struct:thread_data	typeref:typename:rlu_thread_data_t	file:
+rlu_thread_data	rlu.h	/^typedef struct rlu_thread_data {$/;"	s
+rlu_thread_data_t	rlu.h	/^} rlu_thread_data_t;$/;"	t	typeref:struct:rlu_thread_data
+rlu_thread_finish	rlu.c	/^void rlu_thread_finish(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void
+rlu_thread_init	rlu.c	/^void rlu_thread_init(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void
+rlu_try_acquire_writer_lock	rlu.c	/^static int rlu_try_acquire_writer_lock(rlu_thread_data_t *self, long writer_lock_id) {$/;"	f	typeref:typename:int	file:
+rlu_try_lock	rlu.c	/^int rlu_try_lock(rlu_thread_data_t *self, intptr_t **p_p_obj, size_t obj_size) {$/;"	f	typeref:typename:int
+rlu_try_writer_lock	rlu.c	/^int rlu_try_writer_lock(rlu_thread_data_t *self, int writer_lock_id) {$/;"	f	typeref:typename:int
+rlu_unlock_objs	rlu.c	/^static void rlu_unlock_objs(rlu_thread_data_t *self, int ws_counter) {$/;"	f	typeref:typename:void	file:
+rlu_unregister_thread	rlu.c	/^static void rlu_unregister_thread(rlu_thread_data_t *self) {$/;"	f	typeref:typename:void	file:
+rlu_wait_for_quiescence	rlu.c	/^static long rlu_wait_for_quiescence(rlu_thread_data_t *self, unsigned long version_limit)$/;"	f	typeref:typename:long	file:
+rlu_writeback_write_set	rlu.c	/^static void rlu_writeback_write_set(rlu_thread_data_t *self, long ws_counter) {$/;"	f	typeref:typename:void	file:
+rlu_writeback_write_sets_and_unlock	rlu.c	/^static int rlu_writeback_write_sets_and_unlock(rlu_thread_data_t *self) {$/;"	f	typeref:typename:int	file:
+rlu_ws_obj_header	rlu.h	/^typedef struct rlu_ws_obj_header {$/;"	s
+rlu_ws_obj_header_t	rlu.h	/^} rlu_ws_obj_header_t;$/;"	t	typeref:struct:rlu_ws_obj_header
+rol32	zipf/hash.h	/^static inline uint32_t rol32(uint32_t word, uint32_t shift)$/;"	f	typeref:typename:uint32_t
+run_counter	rlu.h	/^	volatile unsigned long run_counter;$/;"	m	struct:rlu_thread_data	typeref:typename:volatile unsigned long
+run_counter	rlu.h	/^	volatile unsigned long run_counter;$/;"	m	struct:rlu_ws_obj_header	typeref:typename:volatile unsigned long
+run_counter	rlu.h	/^	volatile unsigned long run_counter;$/;"	m	struct:wait_entry	typeref:typename:volatile unsigned long
+s1	zipf/rand.h	/^	uint64_t s1, s2, s3, s4, s5;$/;"	m	struct:taus258_state	typeref:typename:uint64_t
+s1	zipf/rand.h	/^	unsigned int s1, s2, s3;$/;"	m	struct:taus88_state	typeref:typename:unsigned int
+s2	zipf/rand.h	/^	uint64_t s1, s2, s3, s4, s5;$/;"	m	struct:taus258_state	typeref:typename:uint64_t
+s2	zipf/rand.h	/^	unsigned int s1, s2, s3;$/;"	m	struct:taus88_state	typeref:typename:unsigned int
+s3	zipf/rand.h	/^	uint64_t s1, s2, s3, s4, s5;$/;"	m	struct:taus258_state	typeref:typename:uint64_t
+s3	zipf/rand.h	/^	unsigned int s1, s2, s3;$/;"	m	struct:taus88_state	typeref:typename:unsigned int
+s4	zipf/rand.h	/^	uint64_t s1, s2, s3, s4, s5;$/;"	m	struct:taus258_state	typeref:typename:uint64_t
+s5	zipf/rand.h	/^	uint64_t s1, s2, s3, s4, s5;$/;"	m	struct:taus258_state	typeref:typename:uint64_t
+saved_n_hp_records	hazard_ptrs.h	/^	long saved_n_hp_records;$/;"	m	struct:_hp_thread_t	typeref:typename:long
+seed	bench.c	/^	unsigned short seed[3];$/;"	m	struct:thread_data	typeref:typename:unsigned short[3]	file:
+set_bit	new-urcu.c	/^static inline void set_bit(int nr, volatile unsigned long *addr){$/;"	f	typeref:typename:void	file:
+set_bit	new-urcu.c	/^void set_bit(int nr, volatile unsigned long *addr)$/;"	f	typeref:typename:void	file:
+set_bits	new-urcu.c	/^void set_bits(unsigned long mask, volatile unsigned long *_p)$/;"	f	typeref:typename:void	file:
+set_committed_rec	list_vlist.c	/^void set_committed_rec(vlist_record_t *rec){$/;"	f	typeref:typename:void
+set_mark	hash-list.c	/^static inline long set_mark(long i) {$/;"	f	typeref:typename:long	file:
+shared_rand_init	zipf/zipf.c	/^static void shared_rand_init(struct zipf_state *zs, unsigned long nranges,$/;"	f	typeref:typename:void	file:
+size	rlu.h	/^	long size;$/;"	m	struct:writer_locks	typeref:typename:long
+slot_next	types.h	/^	struct vlist_slot *slot_next;$/;"	m	struct:vlist_slot	typeref:struct:vlist_slot *
+slots	types.h	/^	struct vlist_slot *slots[VLIST_ENTRIES_PER_TASK];$/;"	m	struct:vlist_record	typeref:struct:vlist_slot * []
+slots	types.h	/^        struct vlist_slot *slots;$/;"	m	struct:node	typeref:struct:vlist_slot *
+smp_swap	rlu.c	/^#define smp_swap(/;"	d	file:
+state32	zipf/rand.h	/^		struct taus88_state state32;$/;"	m	union:frand_state::__anon6d907ae8010a	typeref:struct:taus88_state
+state64	zipf/rand.h	/^		struct taus258_state state64;$/;"	m	union:frand_state::__anon6d907ae8010a	typeref:struct:taus258_state
+stop	bench.c	/^static volatile int stop;$/;"	v	typeref:typename:volatile int	file:
+t_begin	rlu.h	/^	ticks t_begin;$/;"	m	struct:rlu_thread_data	typeref:typename:ticks
+t_blocking_spent	rlu.c	/^	volatile ticks t_blocking_spent;$/;"	m	struct:rlu_data	typeref:typename:volatile ticks	file:
+t_blocking_spent	rlu.h	/^	ticks t_blocking_spent;$/;"	m	struct:rlu_thread_data	typeref:typename:ticks
+t_end	rlu.h	/^	ticks t_end;$/;"	m	struct:rlu_thread_data	typeref:typename:ticks
+t_writeback_spent	rlu.c	/^	volatile ticks t_writeback_spent;$/;"	m	struct:rlu_data	typeref:typename:volatile ticks	file:
+t_writeback_spent	rlu.h	/^	ticks t_writeback_spent;$/;"	m	struct:rlu_thread_data	typeref:typename:ticks
+taus258_state	zipf/rand.h	/^struct taus258_state {$/;"	s
+taus88_state	zipf/rand.h	/^struct taus88_state {$/;"	s
+test	bench.c	/^static void *test(void *data)$/;"	f	typeref:typename:void *	file:
+theta	zipf/zipf.h	/^	double theta;$/;"	m	struct:zipf_state	typeref:typename:double
+thread_data	bench.c	/^typedef struct thread_data {$/;"	s	file:
+thread_data_t	bench.c	/^} thread_data_t;$/;"	t	typeref:struct:thread_data	file:
+thread_finish	bench.c	/^static void thread_finish(thread_data_t *d) {$/;"	f	typeref:typename:void	file:
+thread_id	rlu.h	/^	volatile long thread_id;$/;"	m	struct:rlu_ws_obj_header	typeref:typename:volatile long
+thread_init	bench.c	/^static void thread_init(thread_data_t *d) {$/;"	f	typeref:typename:void	file:
+threads	new-urcu.c	/^int threads; $/;"	v	typeref:typename:int
+ticks	rlu.h	/^typedef unsigned long long ticks;$/;"	t	typeref:typename:unsigned long long
+time	new-urcu.h	/^    volatile long time; $/;"	m	struct:rcu_node_t	typeref:typename:volatile long
+true	zipf/types.h	/^#define true	/;"	d
+type	rlu.h	/^	int type;$/;"	m	struct:rlu_thread_data	typeref:typename:int
+uniq_id	bench.c	/^	long uniq_id;$/;"	m	struct:thread_data	typeref:typename:long	file:
+uniq_id	rlu.h	/^	long uniq_id;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+unlikely	rlu.c	/^# define unlikely(/;"	d	file:
+unset_mark	hash-list.c	/^static inline long unset_mark(long i) {$/;"	f	typeref:typename:long	file:
+update	bench.c	/^	int update;$/;"	m	struct:thread_data	typeref:typename:int	file:
+urcu_free	new-urcu.c	/^void urcu_free(void *ptr) {$/;"	f	typeref:typename:void
+urcu_init	new-urcu.c	/^void urcu_init(int num_threads){$/;"	f	typeref:typename:void
+urcu_read_lock	new-urcu.h	/^static inline void urcu_read_lock()$/;"	f	typeref:typename:void
+urcu_read_unlock	new-urcu.h	/^static inline void urcu_read_unlock()$/;"	f	typeref:typename:void
+urcu_reader_lock	new-urcu.c	/^void urcu_reader_lock(){$/;"	f	typeref:typename:void
+urcu_reader_unlock	new-urcu.c	/^void urcu_reader_unlock(){$/;"	f	typeref:typename:void
+urcu_register	new-urcu.c	/^void urcu_register(int id){$/;"	f	typeref:typename:void
+urcu_register	new-urcu.h	/^static inline void urcu_register(int id)$/;"	f	typeref:typename:void
+urcu_spin	new-urcu.c	/^pthread_spinlock_t urcu_spin[MAX_SPIN_LOCKS];$/;"	v	typeref:typename:pthread_spinlock_t[]
+urcu_synchronize	new-urcu.c	/^void urcu_synchronize(){$/;"	f	typeref:typename:void
+urcu_synchronize	new-urcu.h	/^static inline void urcu_synchronize()$/;"	f	typeref:typename:void
+urcu_table	new-urcu.c	/^rcu_node** urcu_table;$/;"	v	typeref:typename:rcu_node **
+urcu_unregister	new-urcu.c	/^void urcu_unregister(){$/;"	f	typeref:typename:void
+urcu_unregister	new-urcu.h	/^static inline void urcu_unregister()$/;"	f	typeref:typename:void
+urcu_writer_lock	new-urcu.c	/^void urcu_writer_lock(int lock_id){$/;"	f	typeref:typename:void
+urcu_writer_unlock	new-urcu.c	/^void urcu_writer_unlock(int lock_id){$/;"	f	typeref:typename:void
+use64	zipf/rand.h	/^	unsigned int use64;$/;"	m	struct:frand_state	typeref:typename:unsigned int
+val	types.h	/^	val_t val;$/;"	m	struct:node	typeref:typename:val_t
+val	zipf/test.c	/^	unsigned long long val;$/;"	m	struct:node	typeref:typename:unsigned long long	file:
+val_t	types.h	/^typedef int val_t;$/;"	t	typeref:typename:int
+version.o	Makefile	/^version.o: list_vlist.c qsbr.c$/;"	t
+version_hash_list_add	hash-list.c	/^int version_hash_list_add(vlist_pthread_data_t *self, hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+version_hash_list_contains	hash-list.c	/^int version_hash_list_contains(vlist_pthread_data_t *self, hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+version_hash_list_remove	hash-list.c	/^int version_hash_list_remove(vlist_pthread_data_t *self, hash_list_t *p_hash_list, val_t val)$/;"	f	typeref:typename:int
+version_list_add	hash-list.c	/^int version_list_add(vlist_pthread_data_t *vlist_data, list_t *list, val_t key)$/;"	f	typeref:typename:int
+version_list_contains	hash-list.c	/^int version_list_contains(vlist_pthread_data_t *vlist_data, list_t *list, val_t key) {$/;"	f	typeref:typename:int
+version_list_remove	hash-list.c	/^int version_list_remove(vlist_pthread_data_t *vlist_data, list_t *list, val_t key)$/;"	f	typeref:typename:int
+version_new_hash_list	hash-list.c	/^hash_list_t *version_new_hash_list(int n_buckets)$/;"	f	typeref:typename:hash_list_t *
+version_new_list	hash-list.c	/^list_t *version_new_list()$/;"	f	typeref:typename:list_t *
+version_td	bench.c	/^        vlist_pthread_data_t version_td;$/;"	m	struct:thread_data	typeref:typename:vlist_pthread_data_t	file:
+vlist_free_later	list_vlist.c	/^void vlist_free_later(void *ptr, vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:void
+vlist_free_node_later	list_vlist.c	/^void vlist_free_node_later(node_t *node, vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:void
+vlist_free_slots_later	list_vlist.c	/^static void vlist_free_slots_later(vlist_slot_t *slot, vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:void	file:
+vlist_get_next	list_vlist.c	/^node_t *vlist_get_next(node_t *node, vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:node_t *
+vlist_maybe_quiescent	list_vlist.c	/^void vlist_maybe_quiescent(vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:void
+vlist_new_node	list_vlist.c	/^node_t *vlist_new_node()$/;"	f	typeref:typename:node_t *
+vlist_pthread_data	list_vlist.h	/^typedef struct vlist_pthread_data {$/;"	s
+vlist_pthread_data_t	list_vlist.h	/^} vlist_pthread_data_t;$/;"	t	typeref:struct:vlist_pthread_data
+vlist_read_cs_enter	list_vlist.c	/^void vlist_read_cs_enter(vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:void
+vlist_read_cs_exit	list_vlist.c	/^void vlist_read_cs_exit(vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:void
+vlist_record	types.h	/^typedef struct vlist_record {$/;"	s
+vlist_record_t	types.h	/^} vlist_record_t;$/;"	t	typeref:struct:vlist_record
+vlist_set_read_epoch	list_vlist.c	/^void vlist_set_read_epoch(vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:void
+vlist_slot	types.h	/^typedef struct vlist_slot {$/;"	s
+vlist_slot_t	types.h	/^} vlist_slot_t;$/;"	t	typeref:struct:vlist_slot
+vlist_write_cs_enter	list_vlist.c	/^void vlist_write_cs_enter(vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:void
+vlist_write_cs_exit	list_vlist.c	/^int vlist_write_cs_exit(vlist_pthread_data_t *vlist_data)$/;"	f	typeref:typename:int
+wait_entry	rlu.h	/^typedef struct wait_entry {$/;"	s
+wait_entry_t	rlu.h	/^} wait_entry_t;$/;"	t	typeref:struct:wait_entry
+writer_locks	rlu.h	/^	volatile writer_locks_t writer_locks;$/;"	m	struct:obj_list	typeref:typename:volatile writer_locks_t
+writer_locks	rlu.h	/^typedef struct writer_locks {$/;"	s
+writer_locks_t	rlu.h	/^} writer_locks_t;$/;"	t	typeref:struct:writer_locks
+writer_version	rlu.h	/^	volatile long writer_version;$/;"	m	struct:rlu_thread_data	typeref:typename:volatile long
+ws_cur_id	rlu.h	/^	long ws_cur_id;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+ws_head_counter	rlu.h	/^	long ws_head_counter;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+ws_tail_counter	rlu.h	/^	long ws_tail_counter;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+ws_wb_counter	rlu.h	/^	long ws_wb_counter;$/;"	m	struct:rlu_thread_data	typeref:typename:long
+zeta2	zipf/zipf.h	/^	double zeta2;$/;"	m	struct:zipf_state	typeref:typename:double
+zetan	zipf/zipf.h	/^	double zetan;$/;"	m	struct:zipf_state	typeref:typename:double
+zipf	bench.c	/^	int zipf;$/;"	m	struct:thread_data	typeref:typename:int	file:
+zipf.o	Makefile	/^zipf.o: zipf\/zipf.c$/;"	t
+zipf_disable_hash	zipf/zipf.c	/^void zipf_disable_hash(struct zipf_state *zs)$/;"	f	typeref:typename:void
+zipf_dist_val	bench.c	/^	double zipf_dist_val;$/;"	m	struct:thread_data	typeref:typename:double	file:
+zipf_init	zipf/zipf.c	/^void zipf_init(struct zipf_state *zs, unsigned long nranges, double theta,$/;"	f	typeref:typename:void
+zipf_next	zipf/zipf.c	/^unsigned long long zipf_next(struct zipf_state *zs)$/;"	f	typeref:typename:unsigned long long
+zipf_state	zipf/zipf.h	/^struct zipf_state {$/;"	s
+zipf_update	zipf/zipf.c	/^static void zipf_update(struct zipf_state *zs)$/;"	f	typeref:typename:void	file:
